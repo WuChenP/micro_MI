@@ -1,0 +1,90 @@
+2025-10-09 18:42:46.073842 INFO::Writing function arguments to log file
+2025-10-09 18:42:46.076733 DEBUG::Function arguments
+2025-10-09 18:42:46.077758 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria_temp.tsv
+2025-10-09 18:42:46.078726 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/metadata_temp.tsv
+2025-10-09 18:42:46.079637 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria
+2025-10-09 18:42:46.080576 DEBUG::Min Abundance: 0.000000
+2025-10-09 18:42:46.081461 DEBUG::Min Prevalence: 0.100000
+2025-10-09 18:42:46.082576 DEBUG::Normalization: TSS
+2025-10-09 18:42:46.083836 DEBUG::Transform: LOG
+2025-10-09 18:42:46.084845 DEBUG::Analysis method: LM
+2025-10-09 18:42:46.086043 DEBUG::Max significance: 0.050000
+2025-10-09 18:42:46.087103 DEBUG::Random effects:
+2025-10-09 18:42:46.088086 DEBUG::Fixed effects: Group
+2025-10-09 18:42:46.089049 DEBUG::Correction method: BH
+2025-10-09 18:42:46.090506 DEBUG::Standardize: TRUE
+2025-10-09 18:42:46.091659 DEBUG::Cores: 1
+2025-10-09 18:42:46.092661 INFO::Verifying options selected are valid
+2025-10-09 18:42:46.094619 INFO::Determining format of input files
+2025-10-09 18:42:46.096696 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-09 18:42:46.100601 DEBUG::Transformed data so samples are rows
+2025-10-09 18:42:46.102101 DEBUG::A total of 85 samples were found in both the data and metadata
+2025-10-09 18:42:46.103267 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-09 18:42:46.105268 INFO::Formula for fixed effects: expr ~  Group
+2025-10-09 18:42:46.107636 INFO::Filter data based on min abundance and min prevalence
+2025-10-09 18:42:46.110237 INFO::Total samples in data: 85
+2025-10-09 18:42:46.112282 INFO::Min samples required with min abundance for a feature not to be filtered: 8.500000
+2025-10-09 18:42:46.11538 INFO::Total filtered features: 0
+2025-10-09 18:42:46.11759 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-10-09 18:42:46.121454 INFO::Total filtered features with variance filtering: 0
+2025-10-09 18:42:46.123707 INFO::Filtered feature names from variance filtering:
+2025-10-09 18:42:46.125816 INFO::Running selected normalization method: TSS
+2025-10-09 18:42:46.129068 INFO::Applying z-score to standardize continuous metadata
+2025-10-09 18:42:46.133797 INFO::Running selected transform method: LOG
+2025-10-09 18:42:46.137152 INFO::Running selected analysis method: LM
+2025-10-09 18:42:46.139313 INFO::Fitting model to feature number 1, Acidaminococcaceae
+2025-10-09 18:42:46.143923 INFO::Fitting model to feature number 2, Actinomycetaceae
+2025-10-09 18:42:46.149398 INFO::Fitting model to feature number 3, Akkermansiaceae
+2025-10-09 18:42:46.155046 INFO::Fitting model to feature number 4, Atopobiaceae
+2025-10-09 18:42:46.160043 INFO::Fitting model to feature number 5, Bacillales_unclassified
+2025-10-09 18:42:46.165065 INFO::Fitting model to feature number 6, Bacteroidaceae
+2025-10-09 18:42:46.16978 INFO::Fitting model to feature number 7, Barnesiellaceae
+2025-10-09 18:42:46.175017 INFO::Fitting model to feature number 8, Bifidobacteriaceae
+2025-10-09 18:42:46.180051 INFO::Fitting model to feature number 9, Christensenellaceae
+2025-10-09 18:42:46.185142 INFO::Fitting model to feature number 10, Clostridiaceae
+2025-10-09 18:42:46.189758 INFO::Fitting model to feature number 11, Clostridiales_Family_XIII_Incertae_Sedis
+2025-10-09 18:42:46.193991 INFO::Fitting model to feature number 12, Clostridiales_unclassified
+2025-10-09 18:42:46.19863 INFO::Fitting model to feature number 13, Coriobacteriaceae
+2025-10-09 18:42:46.202718 INFO::Fitting model to feature number 14, Corynebacteriaceae
+2025-10-09 18:42:46.20655 INFO::Fitting model to feature number 15, Desulfovibrionaceae
+2025-10-09 18:42:46.210609 INFO::Fitting model to feature number 16, Eggerthellaceae
+2025-10-09 18:42:46.214544 INFO::Fitting model to feature number 17, Enterobacteriaceae
+2025-10-09 18:42:46.218844 INFO::Fitting model to feature number 18, Enterococcaceae
+2025-10-09 18:42:46.222983 INFO::Fitting model to feature number 19, Erysipelotrichaceae
+2025-10-09 18:42:46.226802 INFO::Fitting model to feature number 20, Eubacteriaceae
+2025-10-09 18:42:46.230677 INFO::Fitting model to feature number 21, Firmicutes_unclassified
+2025-10-09 18:42:46.234754 INFO::Fitting model to feature number 22, Lachnospiraceae
+2025-10-09 18:42:46.238826 INFO::Fitting model to feature number 23, Lactobacillaceae
+2025-10-09 18:42:46.242665 INFO::Fitting model to feature number 24, Leuconostocaceae
+2025-10-09 18:42:46.246768 INFO::Fitting model to feature number 25, Micrococcaceae
+2025-10-09 18:42:46.250822 INFO::Fitting model to feature number 26, Odoribacteraceae
+2025-10-09 18:42:46.255039 INFO::Fitting model to feature number 27, Oscillospiraceae
+2025-10-09 18:42:46.259523 INFO::Fitting model to feature number 28, Oxalobacteraceae
+2025-10-09 18:42:46.263715 INFO::Fitting model to feature number 29, Pasteurellaceae
+2025-10-09 18:42:46.267452 INFO::Fitting model to feature number 30, Peptoniphilaceae
+2025-10-09 18:42:46.272108 INFO::Fitting model to feature number 31, Peptostreptococcaceae
+2025-10-09 18:42:46.275791 INFO::Fitting model to feature number 32, Prevotellaceae
+2025-10-09 18:42:46.279698 INFO::Fitting model to feature number 33, Proteobacteria_unclassified
+2025-10-09 18:42:46.283316 INFO::Fitting model to feature number 34, Rikenellaceae
+2025-10-09 18:42:46.287712 INFO::Fitting model to feature number 35, Ruminococcaceae
+2025-10-09 18:42:46.29221 INFO::Fitting model to feature number 36, Selenomonadaceae
+2025-10-09 18:42:46.29668 INFO::Fitting model to feature number 37, Siphoviridae
+2025-10-09 18:42:46.301046 INFO::Fitting model to feature number 38, Streptococcaceae
+2025-10-09 18:42:46.318095 INFO::Fitting model to feature number 39, Sutterellaceae
+2025-10-09 18:42:46.326435 INFO::Fitting model to feature number 40, Synergistaceae
+2025-10-09 18:42:46.332603 INFO::Fitting model to feature number 41, Tannerellaceae
+2025-10-09 18:42:46.337773 INFO::Fitting model to feature number 42, Veillonellaceae
+2025-10-09 18:42:46.347857 INFO::Counting total values for each feature
+2025-10-09 18:42:46.351904 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/features/filtered_data.tsv
+2025-10-09 18:42:46.370386 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/features/filtered_data_norm.tsv
+2025-10-09 18:42:46.38462 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/features/filtered_data_norm_transformed.tsv
+2025-10-09 18:42:46.402792 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/fits/residuals.rds
+2025-10-09 18:42:46.407538 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/fits/fitted.rds
+2025-10-09 18:42:46.410768 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/all_results.tsv
+2025-10-09 18:42:46.414801 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/significant_results.tsv
+2025-10-09 18:42:46.418254 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/heatmap.pdf
+2025-10-09 18:42:46.421125 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria
+2025-10-09 18:42:46.424297 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-10-09 18:42:46.426315 INFO::Plotting data for metadata number 1, Group
+2025-10-09 18:42:46.431131 INFO::Creating boxplot for categorical data, Group vs Oxalobacteraceae
+2025-10-09 18:42:46.76822 INFO::Creating boxplot for categorical data, Group vs Leuconostocaceae

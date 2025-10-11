@@ -1,0 +1,3 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval	Trend	MicrobeClass
+Oxalobacteraceae	Group	MI	3.31286511931674	0.527490704364309	85	30	1.47665230883658e-08	6.20193969711365e-07	Up	bacteria
+Leuconostocaceae	Group	MI	-4.15773675389648	0.810638510294371	85	39	1.87707901849752e-06	3.9418659388448e-05	Down	bacteria

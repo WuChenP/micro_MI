@@ -1,0 +1,385 @@
+2025-10-09 17:11:45.209031 INFO::Writing function arguments to log file
+2025-10-09 17:11:45.210988 DEBUG::Function arguments
+2025-10-09 17:11:45.212283 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea_temp.tsv
+2025-10-09 17:11:45.213247 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//metadata_temp.tsv
+2025-10-09 17:11:45.214105 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea
+2025-10-09 17:11:45.215052 DEBUG::Min Abundance: 0.000000
+2025-10-09 17:11:45.215905 DEBUG::Min Prevalence: 0.100000
+2025-10-09 17:11:45.216745 DEBUG::Normalization: TSS
+2025-10-09 17:11:45.217811 DEBUG::Transform: LOG
+2025-10-09 17:11:45.218665 DEBUG::Analysis method: LM
+2025-10-09 17:11:45.219493 DEBUG::Max significance: 0.050000
+2025-10-09 17:11:45.220319 DEBUG::Random effects:
+2025-10-09 17:11:45.221261 DEBUG::Fixed effects: Group
+2025-10-09 17:11:45.222151 DEBUG::Correction method: BH
+2025-10-09 17:11:45.223005 DEBUG::Standardize: TRUE
+2025-10-09 17:11:45.22384 DEBUG::Cores: 1
+2025-10-09 17:11:45.22472 INFO::Verifying options selected are valid
+2025-10-09 17:11:45.226505 INFO::Determining format of input files
+2025-10-09 17:11:45.228255 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-09 17:11:45.231412 DEBUG::Transformed data so samples are rows
+2025-10-09 17:11:45.23803 DEBUG::A total of 85 samples were found in both the data and metadata
+2025-10-09 17:11:45.23907 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-09 17:11:45.242308 INFO::Formula for fixed effects: expr ~  Group
+2025-10-09 17:11:45.244411 INFO::Filter data based on min abundance and min prevalence
+2025-10-09 17:11:45.246179 INFO::Total samples in data: 85
+2025-10-09 17:11:45.247764 INFO::Min samples required with min abundance for a feature not to be filtered: 8.500000
+2025-10-09 17:11:45.253225 INFO::Total filtered features: 0
+2025-10-09 17:11:45.255151 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-10-09 17:11:45.262484 INFO::Total filtered features with variance filtering: 0
+2025-10-09 17:11:45.264522 INFO::Filtered feature names from variance filtering:
+2025-10-09 17:11:45.266296 INFO::Running selected normalization method: TSS
+2025-10-09 17:11:45.272978 INFO::Applying z-score to standardize continuous metadata
+2025-10-09 17:11:45.277966 INFO::Running selected transform method: LOG
+2025-10-09 17:11:45.286034 INFO::Running selected analysis method: LM
+2025-10-09 17:11:45.288345 INFO::Fitting model to feature number 1, k__Archaea
+2025-10-09 17:11:45.29207 INFO::Fitting model to feature number 2, k__Archaea.p__Methanobacteriota
+2025-10-09 17:11:45.29559 INFO::Fitting model to feature number 3, k__Archaea.p__Methanobacteriota.c__Methanobacteria
+2025-10-09 17:11:45.299064 INFO::Fitting model to feature number 4, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales
+2025-10-09 17:11:45.303178 INFO::Fitting model to feature number 5, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae
+2025-10-09 17:11:45.307347 INFO::Fitting model to feature number 6, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A
+2025-10-09 17:11:45.311572 INFO::Fitting model to feature number 7, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp900766745
+2025-10-09 17:11:45.315636 INFO::Fitting model to feature number 8, k__Archaea.p__Thermoplasmatota
+2025-10-09 17:11:45.319731 INFO::Fitting model to feature number 9, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata
+2025-10-09 17:11:45.323584 INFO::Fitting model to feature number 10, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales
+2025-10-09 17:11:45.327327 INFO::Fitting model to feature number 11, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomassiliicoccaceae
+2025-10-09 17:11:45.331072 INFO::Fitting model to feature number 12, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomassiliicoccaceae.g__Methanomassiliicoccus_A
+2025-10-09 17:11:45.334942 INFO::Fitting model to feature number 13, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomassiliicoccaceae.g__Methanomassiliicoccus_A.s__Methanomassiliicoccus_A_intestinalis
+2025-10-09 17:11:45.338803 INFO::Fitting model to feature number 14, k__Archaea.p__Asgardarchaeota
+2025-10-09 17:11:45.342507 INFO::Fitting model to feature number 15, k__Archaea.p__Nanoarchaeota
+2025-10-09 17:11:45.346021 INFO::Fitting model to feature number 16, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia
+2025-10-09 17:11:45.349739 INFO::Fitting model to feature number 17, k__Archaea.p__Halobacteriota
+2025-10-09 17:11:45.353237 INFO::Fitting model to feature number 18, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia
+2025-10-09 17:11:45.356918 INFO::Fitting model to feature number 19, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4
+2025-10-09 17:11:45.360358 INFO::Fitting model to feature number 20, k__Archaea.p__Thermoproteota
+2025-10-09 17:11:45.364001 INFO::Fitting model to feature number 21, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01
+2025-10-09 17:11:45.367345 INFO::Fitting model to feature number 22, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales
+2025-10-09 17:11:45.429123 INFO::Fitting model to feature number 23, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17
+2025-10-09 17:11:45.433301 INFO::Fitting model to feature number 24, k__Archaea.p__Halobacteriota.c__Methanosarcinia
+2025-10-09 17:11:45.437222 INFO::Fitting model to feature number 25, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales
+2025-10-09 17:11:45.440694 INFO::Fitting model to feature number 26, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanosarcinaceae
+2025-10-09 17:11:45.444052 INFO::Fitting model to feature number 27, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales
+2025-10-09 17:11:45.447698 INFO::Fitting model to feature number 28, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17.f__GW2011.AR18
+2025-10-09 17:11:45.451891 INFO::Fitting model to feature number 29, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17.f__GW2011.AR18.g__JAGWAD01
+2025-10-09 17:11:45.455779 INFO::Fitting model to feature number 30, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17.f__GW2011.AR18.g__JAGWAD01.s__JAGWAD01_sp018302105
+2025-10-09 17:11:45.459484 INFO::Fitting model to feature number 31, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanosphaera
+2025-10-09 17:11:45.463276 INFO::Fitting model to feature number 32, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia
+2025-10-09 17:11:45.467898 INFO::Fitting model to feature number 33, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460
+2025-10-09 17:11:45.471505 INFO::Fitting model to feature number 34, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomethylophilaceae
+2025-10-09 17:11:45.475078 INFO::Fitting model to feature number 35, k__Archaea.p__Thermoproteota.c__Nitrososphaeria
+2025-10-09 17:11:45.479061 INFO::Fitting model to feature number 36, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales
+2025-10-09 17:11:45.48287 INFO::Fitting model to feature number 37, k__Archaea.p__Halobacteriota.c__Methanomicrobia
+2025-10-09 17:11:45.486391 INFO::Fitting model to feature number 38, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales
+2025-10-09 17:11:45.490189 INFO::Fitting model to feature number 39, k__Archaea.p__Thermoproteota.c__Bathyarchaeia
+2025-10-09 17:11:45.493927 INFO::Fitting model to feature number 40, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanosarcinaceae.g__Methanosarcina
+2025-10-09 17:11:45.49797 INFO::Fitting model to feature number 41, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomethylophilaceae.g__UBA71
+2025-10-09 17:11:45.501567 INFO::Fitting model to feature number 42, k__Archaea.p__Iainarchaeota
+2025-10-09 17:11:45.504932 INFO::Fitting model to feature number 43, k__Archaea.p__Iainarchaeota.c__Iainarchaeia
+2025-10-09 17:11:45.508908 INFO::Fitting model to feature number 44, k__Archaea.p__Iainarchaeota.c__Iainarchaeia.o__Iainarchaeales
+2025-10-09 17:11:45.512733 INFO::Fitting model to feature number 45, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__B26.1
+2025-10-09 17:11:45.516291 INFO::Fitting model to feature number 46, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__B26.1.f__UBA233
+2025-10-09 17:11:45.519617 INFO::Fitting model to feature number 47, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__Loki.b32
+2025-10-09 17:11:45.523065 INFO::Fitting model to feature number 48, k__Archaea.p__Asgardarchaeota.c__Hermodarchaeia
+2025-10-09 17:11:45.5273 INFO::Fitting model to feature number 49, k__Archaea.p__Asgardarchaeota.c__Hermodarchaeia.o__Hermodarchaeales
+2025-10-09 17:11:45.530618 INFO::Fitting model to feature number 50, k__Archaea.p__Asgardarchaeota.c__Hermodarchaeia.o__Hermodarchaeales.f__Hermodarchaeaceae
+2025-10-09 17:11:45.533821 INFO::Fitting model to feature number 51, k__Archaea.p__Asgardarchaeota.c__Hermodarchaeia.o__Hermodarchaeales.f__Hermodarchaeaceae.g__Hermodarchaeum
+2025-10-09 17:11:45.536992 INFO::Fitting model to feature number 52, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__Kariarchaeaceae
+2025-10-09 17:11:45.540461 INFO::Fitting model to feature number 53, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__B26.1.f__UBA233.g__PALSA.986
+2025-10-09 17:11:45.543782 INFO::Fitting model to feature number 54, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanosphaera.s__Methanosphaera_stadtmanae
+2025-10-09 17:11:45.547088 INFO::Fitting model to feature number 55, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__SOKP01
+2025-10-09 17:11:45.550215 INFO::Fitting model to feature number 56, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter
+2025-10-09 17:11:45.553593 INFO::Fitting model to feature number 57, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__UBA460
+2025-10-09 17:11:45.557842 INFO::Fitting model to feature number 58, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__UBA460.g__UBA460
+2025-10-09 17:11:45.561802 INFO::Fitting model to feature number 59, k__Archaea.p__Methanobacteriota_B
+2025-10-09 17:11:45.565067 INFO::Fitting model to feature number 60, k__Archaea.p__Methanobacteriota_B.c__Thermococci
+2025-10-09 17:11:45.568452 INFO::Fitting model to feature number 61, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrosopumilaceae
+2025-10-09 17:11:45.572506 INFO::Fitting model to feature number 62, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrosopumilaceae.g__Nitrosarchaeum
+2025-10-09 17:11:45.575897 INFO::Fitting model to feature number 63, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1
+2025-10-09 17:11:45.579156 INFO::Fitting model to feature number 64, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__MK.D1
+2025-10-09 17:11:45.582652 INFO::Fitting model to feature number 65, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__MK.D1.g__Prometheoarchaeum
+2025-10-09 17:11:45.585815 INFO::Fitting model to feature number 66, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales
+2025-10-09 17:11:45.589284 INFO::Fitting model to feature number 67, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__HEL.GB.A
+2025-10-09 17:11:45.592453 INFO::Fitting model to feature number 68, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__HEL.GB.A.g__JABXJT01
+2025-10-09 17:11:45.595816 INFO::Fitting model to feature number 69, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanosphaera.s__Methanosphaera_sp900322125
+2025-10-09 17:11:45.599133 INFO::Fitting model to feature number 70, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp902785855
+2025-10-09 17:11:45.602725 INFO::Fitting model to feature number 71, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__UBA57
+2025-10-09 17:11:45.606276 INFO::Fitting model to feature number 72, k__Archaea.p__Altiarchaeota
+2025-10-09 17:11:45.609674 INFO::Fitting model to feature number 73, k__Archaea.p__Altiarchaeota.c__Altiarchaeia
+2025-10-09 17:11:45.612797 INFO::Fitting model to feature number 74, k__Archaea.p__Altiarchaeota.c__Altiarchaeia.o__IMC4
+2025-10-09 17:11:45.616022 INFO::Fitting model to feature number 75, k__Archaea.p__Thermoproteota.c__Thermoprotei_A
+2025-10-09 17:11:45.619264 INFO::Fitting model to feature number 76, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales
+2025-10-09 17:11:45.622617 INFO::Fitting model to feature number 77, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomethylophilaceae.g__UBA71.s__UBA71_sp006954465
+2025-10-09 17:11:45.625742 INFO::Fitting model to feature number 78, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomethylophilaceae.g__UBA71.s__UBA71_sp905187815
+2025-10-09 17:11:45.628847 INFO::Fitting model to feature number 79, k__Archaea.p__Aenigmatarchaeota
+2025-10-09 17:11:45.631961 INFO::Fitting model to feature number 80, k__Archaea.p__Aenigmatarchaeota.c__Aenigmatarchaeia
+2025-10-09 17:11:45.63587 INFO::Fitting model to feature number 81, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanosarcinaceae.g__Methanolobus
+2025-10-09 17:11:45.639064 INFO::Fitting model to feature number 82, k__Archaea.p__Asgardarchaeota.c__Thorarchaeia
+2025-10-09 17:11:45.642112 INFO::Fitting model to feature number 83, k__Archaea.p__Asgardarchaeota.c__Thorarchaeia.o__Thorarchaeales
+2025-10-09 17:11:45.645128 INFO::Fitting model to feature number 84, k__Archaea.p__Asgardarchaeota.c__Thorarchaeia.o__Thorarchaeales.f__Thorarchaeaceae
+2025-10-09 17:11:45.648423 INFO::Fitting model to feature number 85, k__Archaea.p__Halobacteriota.c__Halobacteria
+2025-10-09 17:11:45.652192 INFO::Fitting model to feature number 86, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales
+2025-10-09 17:11:45.655393 INFO::Fitting model to feature number 87, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp900314695
+2025-10-09 17:11:45.658565 INFO::Fitting model to feature number 88, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__6H3.1
+2025-10-09 17:11:45.661927 INFO::Fitting model to feature number 89, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_gottschalkii
+2025-10-09 17:11:45.665183 INFO::Fitting model to feature number 90, k__Archaea.p__Methanobacteriota.c__Methanococci
+2025-10-09 17:11:45.668643 INFO::Fitting model to feature number 91, k__Archaea.p__Methanobacteriota.c__Methanococci.o__Methanococcales
+2025-10-09 17:11:45.671795 INFO::Fitting model to feature number 92, k__Archaea.p__Methanobacteriota.c__Methanococci.o__Methanococcales.f__Methanococcaceae
+2025-10-09 17:11:45.675099 INFO::Fitting model to feature number 93, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanocorpusculaceae
+2025-10-09 17:11:45.678343 INFO::Fitting model to feature number 94, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanocorpusculaceae.g__Methanocorpusculum
+2025-10-09 17:11:45.681938 INFO::Fitting model to feature number 95, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__LW40.45
+2025-10-09 17:11:45.685311 INFO::Fitting model to feature number 96, k__Archaea.p__Methanobacteriota_B.c__Thermococci.o__Methanofastidiosales
+2025-10-09 17:11:45.68873 INFO::Fitting model to feature number 97, k__Archaea.p__Methanobacteriota_B.c__Thermococci.o__Methanofastidiosales.f__Methanofastidiosaceae
+2025-10-09 17:11:45.691996 INFO::Fitting model to feature number 98, k__Archaea.p__Methanobacteriota_B.c__Thermococci.o__Methanofastidiosales.f__Methanofastidiosaceae.g__Methanofastidiosum
+2025-10-09 17:11:45.695083 INFO::Fitting model to feature number 99, k__Archaea.p__Methanobacteriota_B.c__Thermococci.o__Methanofastidiosales.f__Methanofastidiosaceae.g__Methanofastidiosum.s__Methanofastidiosum_sp013178285
+2025-10-09 17:11:45.698622 INFO::Fitting model to feature number 100, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_smithii
+2025-10-09 17:11:45.702093 INFO::Fitting model to feature number 101, k__Archaea.p__Thermoplasmatota.c__JAEHCK01
+2025-10-09 17:11:45.705313 INFO::Fitting model to feature number 102, k__Archaea.p__Thermoplasmatota.c__JAEHCK01.o__JAEHCK01
+2025-10-09 17:11:45.708546 INFO::Fitting model to feature number 103, k__Archaea.p__Thermoplasmatota.c__Poseidoniia
+2025-10-09 17:11:45.711725 INFO::Fitting model to feature number 104, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomassiliicoccaceae.g__Methanomassiliicoccus_A.s__Methanomassiliicoccus_A_sp905203995
+2025-10-09 17:11:45.715272 INFO::Fitting model to feature number 105, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanoregulaceae
+2025-10-09 17:11:45.71859 INFO::Fitting model to feature number 106, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_C
+2025-10-09 17:11:45.721882 INFO::Fitting model to feature number 107, k__Archaea.p__Aenigmatarchaeota.c__Aenigmatarchaeia.o__CG10238.14
+2025-10-09 17:11:45.725112 INFO::Fitting model to feature number 108, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__ARS49
+2025-10-09 17:11:45.728675 INFO::Fitting model to feature number 109, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__JABGXB01
+2025-10-09 17:11:45.731985 INFO::Fitting model to feature number 110, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__JABGXB01.g__JABGXB01
+2025-10-09 17:11:45.73525 INFO::Fitting model to feature number 111, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__JABGXB01.g__JABGXB01.s__JABGXB01_sp018675975
+2025-10-09 17:11:45.7385 INFO::Fitting model to feature number 112, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__TEKIR.21
+2025-10-09 17:11:45.741926 INFO::Fitting model to feature number 113, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__TEKIR.21.s__TEKIR.21_sp004524425
+2025-10-09 17:11:45.745288 INFO::Fitting model to feature number 114, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haloferacaceae
+2025-10-09 17:11:45.748963 INFO::Fitting model to feature number 115, k__Archaea.p__Methanobacteriota_B.c__Thermococci.o__Thermococcales
+2025-10-09 17:11:45.752457 INFO::Fitting model to feature number 116, k__Archaea.p__Methanobacteriota_B.c__Thermococci.o__Thermococcales.f__Thermococcaceae
+2025-10-09 17:11:45.756105 INFO::Fitting model to feature number 117, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__GW2011.AR4
+2025-10-09 17:11:45.759506 INFO::Fitting model to feature number 118, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__GW2011.AR4.g__GCA.2688775
+2025-10-09 17:11:45.763 INFO::Fitting model to feature number 119, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp902764455
+2025-10-09 17:11:45.7665 INFO::Fitting model to feature number 120, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_woesei
+2025-10-09 17:11:45.770289 INFO::Fitting model to feature number 121, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Thermoplasmatales
+2025-10-09 17:11:45.773675 INFO::Fitting model to feature number 122, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Thermoplasmatales.f__Thermoplasmataceae
+2025-10-09 17:11:45.777222 INFO::Fitting model to feature number 123, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Desulfurococcaceae
+2025-10-09 17:11:45.780763 INFO::Fitting model to feature number 124, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__UBA460.g__UBA460.s__UBA460_sp018238545
+2025-10-09 17:11:45.784593 INFO::Fitting model to feature number 125, k__Archaea.p__Thermoproteota.c__Nitrososphaeria_A
+2025-10-09 17:11:45.788215 INFO::Fitting model to feature number 126, k__Archaea.p__Thermoproteota.c__Nitrososphaeria_A.o__Caldarchaeales
+2025-10-09 17:11:45.791726 INFO::Fitting model to feature number 127, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__Kariarchaeaceae.g__LC.2
+2025-10-09 17:11:45.79613 INFO::Fitting model to feature number 128, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__Kariarchaeaceae.g__LC.2.s__LC.2_sp001940725
+2025-10-09 17:11:45.800343 INFO::Fitting model to feature number 129, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobacterium_B
+2025-10-09 17:11:45.80393 INFO::Fitting model to feature number 130, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__Loki.b32.s__Loki.b32_sp019057865
+2025-10-09 17:11:45.807301 INFO::Fitting model to feature number 131, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp017407115
+2025-10-09 17:11:45.810936 INFO::Fitting model to feature number 132, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_B
+2025-10-09 17:11:45.814679 INFO::Fitting model to feature number 133, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__MGIII
+2025-10-09 17:11:45.818154 INFO::Fitting model to feature number 134, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__MGIII.f__CG.Epi1
+2025-10-09 17:11:45.821516 INFO::Fitting model to feature number 135, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__MGIII.f__CG.Epi1.g__CG.Epi1
+2025-10-09 17:11:45.825194 INFO::Fitting model to feature number 136, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomethylophilaceae.g__Methanomethylophilus
+2025-10-09 17:11:45.828963 INFO::Fitting model to feature number 137, k__Archaea.p__Aenigmatarchaeota.c__Aenigmatarchaeia.o__GW2011.AR5
+2025-10-09 17:11:45.832419 INFO::Fitting model to feature number 138, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__HEL.GB.A.g__JABXJT01.s__JABXJT01_sp016840125
+2025-10-09 17:11:45.835898 INFO::Fitting model to feature number 139, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanoculleaceae
+2025-10-09 17:11:45.83935 INFO::Fitting model to feature number 140, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanomicrobiaceae
+2025-10-09 17:11:45.843172 INFO::Fitting model to feature number 141, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanoregulaceae.g__Methanoregula
+2025-10-09 17:11:45.846618 INFO::Fitting model to feature number 142, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobacterium_D
+2025-10-09 17:11:45.850033 INFO::Fitting model to feature number 143, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_oralis
+2025-10-09 17:11:45.853522 INFO::Fitting model to feature number 144, k__Archaea.p__Thermoplasmatota.c__E2
+2025-10-09 17:11:45.857396 INFO::Fitting model to feature number 145, k__Archaea.p__Thermoplasmatota.c__E2.o__DHVEG.1
+2025-10-09 17:11:45.860864 INFO::Fitting model to feature number 146, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__RBG.16.68.12
+2025-10-09 17:11:45.864269 INFO::Fitting model to feature number 147, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrososphaeraceae
+2025-10-09 17:11:45.867641 INFO::Fitting model to feature number 148, k__Archaea.p__Thermoproteota.c__Thermoprotei
+2025-10-09 17:11:45.871185 INFO::Fitting model to feature number 149, k__Archaea.p__Thermoproteota.c__Thermoprotei.o__Thermofilales
+2025-10-09 17:11:45.874638 INFO::Fitting model to feature number 150, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__AMARA.1
+2025-10-09 17:11:45.877963 INFO::Fitting model to feature number 151, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__AMARA.1.g__AMARA.1
+2025-10-09 17:11:45.881207 INFO::Fitting model to feature number 152, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Natrialbaceae
+2025-10-09 17:11:45.884727 INFO::Fitting model to feature number 153, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales
+2025-10-09 17:11:45.888264 INFO::Fitting model to feature number 154, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales.f__Thalassarchaeaceae
+2025-10-09 17:11:45.891817 INFO::Fitting model to feature number 155, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrosopumilaceae.g__Nitrosarchaeum.s__Nitrosarchaeum_sp002737445
+2025-10-09 17:11:45.895106 INFO::Fitting model to feature number 156, k__Archaea.p__Aenigmatarchaeota.c__Aenigmatarchaeia.o__Aenigmatarchaeales
+2025-10-09 17:11:45.898606 INFO::Fitting model to feature number 157, k__Archaea.p__Aenigmatarchaeota.c__Aenigmatarchaeia.o__GW2011.AR5.f__GW2011.AR5
+2025-10-09 17:11:45.901866 INFO::Fitting model to feature number 158, k__Archaea.p__Altiarchaeota.c__Altiarchaeia.o__Altiarchaeales
+2025-10-09 17:11:45.905218 INFO::Fitting model to feature number 159, k__Archaea.p__Altiarchaeota.c__Altiarchaeia.o__Altiarchaeales.f__Altiarchaeaceae
+2025-10-09 17:11:45.908599 INFO::Fitting model to feature number 160, k__Archaea.p__Altiarchaeota.c__Altiarchaeia.o__Altiarchaeales.f__Altiarchaeaceae.g__Altiarchaeum
+2025-10-09 17:11:45.912096 INFO::Fitting model to feature number 161, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__Hodarchaeales
+2025-10-09 17:11:45.915825 INFO::Fitting model to feature number 162, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__Hodarchaeales.f__Hodarchaeaceae
+2025-10-09 17:11:45.920115 INFO::Fitting model to feature number 163, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__Hodarchaeales.f__Hodarchaeaceae.g__Hodarchaeum
+2025-10-09 17:11:45.923835 INFO::Fitting model to feature number 164, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__Hodarchaeales.f__S146.22
+2025-10-09 17:11:45.92836 INFO::Fitting model to feature number 165, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__Hodarchaeales.f__S146.22.g__S146.22
+2025-10-09 17:11:45.93218 INFO::Fitting model to feature number 166, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__Hodarchaeales.f__S146.22.g__S146.22.s__S146.22_sp015520535
+2025-10-09 17:11:45.9359 INFO::Fitting model to feature number 167, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__JABLTI01
+2025-10-09 17:11:45.940443 INFO::Fitting model to feature number 168, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__JABLTI01.f__JABLTI01
+2025-10-09 17:11:45.945018 INFO::Fitting model to feature number 169, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__JABLTI01.f__JABLTI01.g__JABLTI01
+2025-10-09 17:11:45.948674 INFO::Fitting model to feature number 170, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__UBA460.g__PR6
+2025-10-09 17:11:45.952275 INFO::Fitting model to feature number 171, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__UBA460.g__PR6.s__PR6_sp021513715
+2025-10-09 17:11:45.955983 INFO::Fitting model to feature number 172, k__Archaea.p__Asgardarchaeota.c__Heimdallarchaeia.o__UBA460.f__UBA460.g__UBA460.s__UBA460_sp016840095
+2025-10-09 17:11:45.959844 INFO::Fitting model to feature number 173, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__FT1.020
+2025-10-09 17:11:45.963351 INFO::Fitting model to feature number 174, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__JAFGOA01
+2025-10-09 17:11:45.967015 INFO::Fitting model to feature number 175, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__JAFGOA01.s__JAFGOA01_sp016926735
+2025-10-09 17:11:45.970797 INFO::Fitting model to feature number 176, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__Loki.b32.s__Loki.b32_sp005223125
+2025-10-09 17:11:45.97473 INFO::Fitting model to feature number 177, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__Loki.b32.s__Loki.b32_sp016839655
+2025-10-09 17:11:45.979599 INFO::Fitting model to feature number 178, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__Loki.b32.s__Loki.b32_sp016839845
+2025-10-09 17:11:45.984709 INFO::Fitting model to feature number 179, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__Loki.b32.s__Loki.b32_sp019057975
+2025-10-09 17:11:45.989094 INFO::Fitting model to feature number 180, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__Loki.b32.s__Loki.b32_sp019058425
+2025-10-09 17:11:45.993157 INFO::Fitting model to feature number 181, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__LW40.45.s__LW40.45_sp019058445
+2025-10-09 17:11:45.996778 INFO::Fitting model to feature number 182, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__LW60.42
+2025-10-09 17:11:46.003746 INFO::Fitting model to feature number 183, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__LW60.42.s__LW60.42_sp019058515
+2025-10-09 17:11:46.008213 INFO::Fitting model to feature number 184, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__SDNM01
+2025-10-09 17:11:46.012832 INFO::Fitting model to feature number 185, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__SOKP01.s__SOKP01_sp011364975
+2025-10-09 17:11:46.017809 INFO::Fitting model to feature number 186, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__SOKP01.s__SOKP01_sp018238625
+2025-10-09 17:11:46.021969 INFO::Fitting model to feature number 187, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__TEKIR.8
+2025-10-09 17:11:46.025971 INFO::Fitting model to feature number 188, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__TEKIR.8.s__TEKIR.8_sp008080765
+2025-10-09 17:11:46.03078 INFO::Fitting model to feature number 189, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__TEKIR.8.s__TEKIR.8_sp014730165
+2025-10-09 17:11:46.036864 INFO::Fitting model to feature number 190, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__TEKIR.8.s__TEKIR.8_sp016839555
+2025-10-09 17:11:46.04931 INFO::Fitting model to feature number 191, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__WJKD01
+2025-10-09 17:11:46.055902 INFO::Fitting model to feature number 192, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__CR.4.f__SOKP01.g__WJKD01.s__WJKD01_sp014729315
+2025-10-09 17:11:46.061491 INFO::Fitting model to feature number 193, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__HEL.GB.A.g__HEL.GB.A
+2025-10-09 17:11:46.066246 INFO::Fitting model to feature number 194, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__HEL.GB.A.g__HEL.GB.A.s__HEL.GB.A_sp005191415
+2025-10-09 17:11:46.070603 INFO::Fitting model to feature number 195, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__JABXJV01
+2025-10-09 17:11:46.075195 INFO::Fitting model to feature number 196, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__JABXJV01.g__JABXJV01
+2025-10-09 17:11:46.081155 INFO::Fitting model to feature number 197, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__JABXJV01.g__JABXJV01.s__JABXJV01_sp013375355
+2025-10-09 17:11:46.085855 INFO::Fitting model to feature number 198, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__RDOG01
+2025-10-09 17:11:46.090434 INFO::Fitting model to feature number 199, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__RDOG01.g__RDOG01
+2025-10-09 17:11:46.095107 INFO::Fitting model to feature number 200, k__Archaea.p__Asgardarchaeota.c__Lokiarchaeia.o__Helarchaeales.f__RDOG01.g__RDOG01.s__RDOG01_sp011365055
+2025-10-09 17:11:46.099659 INFO::Fitting model to feature number 201, k__Archaea.p__Asgardarchaeota.c__Thorarchaeia.o__Thorarchaeales.f__Thorarchaeaceae.g__MP8T.1
+2025-10-09 17:11:46.103876 INFO::Fitting model to feature number 202, k__Archaea.p__EX4484.52
+2025-10-09 17:11:46.108978 INFO::Fitting model to feature number 203, k__Archaea.p__EX4484.52.c__EX4484.52
+2025-10-09 17:11:46.116037 INFO::Fitting model to feature number 204, k__Archaea.p__EX4484.52.c__EX4484.52.o__EX4484.52
+2025-10-09 17:11:46.124508 INFO::Fitting model to feature number 205, k__Archaea.p__Halobacteriota.c__Archaeoglobi
+2025-10-09 17:11:46.131972 INFO::Fitting model to feature number 206, k__Archaea.p__Halobacteriota.c__Archaeoglobi.o__Archaeoglobales
+2025-10-09 17:11:46.137749 INFO::Fitting model to feature number 207, k__Archaea.p__Halobacteriota.c__Archaeoglobi.o__Archaeoglobales.f__Archaeoglobaceae
+2025-10-09 17:11:46.1426 INFO::Fitting model to feature number 208, k__Archaea.p__Halobacteriota.c__Archaeoglobi.o__Archaeoglobales.f__JdFR.42
+2025-10-09 17:11:46.148266 INFO::Fitting model to feature number 209, k__Archaea.p__Halobacteriota.c__Archaeoglobi.o__Archaeoglobales.f__JdFR.42.g__JdFR.42
+2025-10-09 17:11:46.152941 INFO::Fitting model to feature number 210, k__Archaea.p__Halobacteriota.c__Archaeoglobi.o__Archaeoglobales.f__JdFR.42.g__JdFR.42.s__JdFR.42_sp002010305
+2025-10-09 17:11:46.157735 INFO::Fitting model to feature number 211, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haladaptataceae
+2025-10-09 17:11:46.162073 INFO::Fitting model to feature number 212, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haladaptataceae.g__Halorussus
+2025-10-09 17:11:46.16713 INFO::Fitting model to feature number 213, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haloarculaceae
+2025-10-09 17:11:46.266661 INFO::Fitting model to feature number 214, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haloarculaceae.g__Haloarcula
+2025-10-09 17:11:46.27258 INFO::Fitting model to feature number 215, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haloarculaceae.g__Haloarcula.s__Haloarcula_hispanica
+2025-10-09 17:11:46.277398 INFO::Fitting model to feature number 216, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Halobacteriaceae
+2025-10-09 17:11:46.282165 INFO::Fitting model to feature number 217, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Halobacteriaceae.g__Halobacterium
+2025-10-09 17:11:46.287765 INFO::Fitting model to feature number 218, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haloferacaceae.g__Haloferax
+2025-10-09 17:11:46.295036 INFO::Fitting model to feature number 219, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haloferacaceae.g__Haloferax.s__Haloferax_massiliensis
+2025-10-09 17:11:46.30125 INFO::Fitting model to feature number 220, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Haloferacaceae.g__Halorubrum
+2025-10-09 17:11:46.30666 INFO::Fitting model to feature number 221, k__Archaea.p__Halobacteriota.c__Halobacteria.o__Halobacteriales.f__Natrialbaceae.g__Natrinema
+2025-10-09 17:11:46.311333 INFO::Fitting model to feature number 222, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanoculleaceae.g__Methanoculleus
+2025-10-09 17:11:46.316026 INFO::Fitting model to feature number 223, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanoculleaceae.g__Methanoculleus.s__Methanoculleus_sp012511245
+2025-10-09 17:11:46.321618 INFO::Fitting model to feature number 224, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanoregulaceae.g__Methanoregula.s__Methanoregula_sp002508495
+2025-10-09 17:11:46.326801 INFO::Fitting model to feature number 225, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanospirillaceae
+2025-10-09 17:11:46.33132 INFO::Fitting model to feature number 226, k__Archaea.p__Halobacteriota.c__Methanomicrobia.o__Methanomicrobiales.f__Methanospirillaceae.g__Methanospirillum
+2025-10-09 17:11:46.337055 INFO::Fitting model to feature number 227, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanocomedenaceae
+2025-10-09 17:11:46.353855 INFO::Fitting model to feature number 228, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanoperedenaceae
+2025-10-09 17:11:46.360729 INFO::Fitting model to feature number 229, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanoperedenaceae.g__Methanoperedens
+2025-10-09 17:11:46.365828 INFO::Fitting model to feature number 230, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanosarcinaceae.g__Methanococcoides
+2025-10-09 17:11:46.372007 INFO::Fitting model to feature number 231, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanosarcinales.f__Methanosarcinaceae.g__Methanosarcina.s__Methanosarcina_mazei
+2025-10-09 17:11:46.378223 INFO::Fitting model to feature number 232, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanotrichales
+2025-10-09 17:11:46.384924 INFO::Fitting model to feature number 233, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanotrichales.f__Methanotrichaceae
+2025-10-09 17:11:46.389545 INFO::Fitting model to feature number 234, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanotrichales.f__Methanotrichaceae.g__Methanothrix
+2025-10-09 17:11:46.394079 INFO::Fitting model to feature number 235, k__Archaea.p__Halobacteriota.c__Methanosarcinia.o__Methanotrichales.f__Methanotrichaceae.g__Methanothrix_A
+2025-10-09 17:11:46.39904 INFO::Fitting model to feature number 236, k__Archaea.p__Halobacteriota.c__Syntropharchaeia
+2025-10-09 17:11:46.403898 INFO::Fitting model to feature number 237, k__Archaea.p__Halobacteriota.c__Syntropharchaeia.o__ANME.1
+2025-10-09 17:11:46.408352 INFO::Fitting model to feature number 238, k__Archaea.p__Halobacteriota.c__Syntropharchaeia.o__ANME.1.f__ANME.1
+2025-10-09 17:11:46.413146 INFO::Fitting model to feature number 239, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__JAHKLT01
+2025-10-09 17:11:46.41765 INFO::Fitting model to feature number 240, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__JAHKLT01.s__JAHKLT01_sp020854915
+2025-10-09 17:11:46.422551 INFO::Fitting model to feature number 241, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobacterium
+2025-10-09 17:11:46.428114 INFO::Fitting model to feature number 242, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobacterium_A
+2025-10-09 17:11:46.442929 INFO::Fitting model to feature number 243, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_millerae_B
+2025-10-09 17:11:46.449698 INFO::Fitting model to feature number 244, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_smithii_A
+2025-10-09 17:11:46.455365 INFO::Fitting model to feature number 245, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp900317865
+2025-10-09 17:11:46.460623 INFO::Fitting model to feature number 246, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp900319535
+2025-10-09 17:11:46.468874 INFO::Fitting model to feature number 247, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp900769095
+2025-10-09 17:11:46.473486 INFO::Fitting model to feature number 248, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp902770715
+2025-10-09 17:11:46.478722 INFO::Fitting model to feature number 249, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp902789505
+2025-10-09 17:11:46.482989 INFO::Fitting model to feature number 250, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_A.s__Methanobrevibacter_A_sp934746965
+2025-10-09 17:11:46.487309 INFO::Fitting model to feature number 251, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter_B.s__Methanobrevibacter_B_sp900314605
+2025-10-09 17:11:46.492526 INFO::Fitting model to feature number 252, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter.s__Methanobrevibacter_ruminantium_A
+2025-10-09 17:11:46.497795 INFO::Fitting model to feature number 253, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter.s__Methanobrevibacter_sp017646885
+2025-10-09 17:11:46.502065 INFO::Fitting model to feature number 254, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter.s__Methanobrevibacter_sp017652345
+2025-10-09 17:11:46.506211 INFO::Fitting model to feature number 255, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanobrevibacter.s__Methanobrevibacter_sp900314635
+2025-10-09 17:11:46.510435 INFO::Fitting model to feature number 256, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanosphaera.s__Methanosphaera_cuniculi
+2025-10-09 17:11:46.516231 INFO::Fitting model to feature number 257, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__Methanosphaera.s__Methanosphaera_stadtmanae_B
+2025-10-09 17:11:46.521391 INFO::Fitting model to feature number 258, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__UBA349
+2025-10-09 17:11:46.531006 INFO::Fitting model to feature number 259, k__Archaea.p__Methanobacteriota.c__Methanobacteria.o__Methanobacteriales.f__Methanobacteriaceae.g__UBA588
+2025-10-09 17:11:46.536844 INFO::Fitting model to feature number 260, k__Archaea.p__Methanobacteriota.c__Methanococci.o__Methanococcales.f__Methanocaldococcaceae
+2025-10-09 17:11:46.5421 INFO::Fitting model to feature number 261, k__Archaea.p__Methanobacteriota.c__Methanococci.o__Methanococcales.f__Methanocaldococcaceae.g__Methanocaldococcus
+2025-10-09 17:11:46.546746 INFO::Fitting model to feature number 262, k__Archaea.p__Methanobacteriota.c__Methanococci.o__Methanococcales.f__Methanocaldococcaceae.g__Methanocaldococcus_A
+2025-10-09 17:11:46.552329 INFO::Fitting model to feature number 263, k__Archaea.p__Methanobacteriota.c__Methanococci.o__Methanococcales.f__Methanococcaceae.g__Methanococcus
+2025-10-09 17:11:46.557468 INFO::Fitting model to feature number 264, k__Archaea.p__Methanobacteriota.c__Methanococci.o__Methanococcales.f__Methanococcaceae.g__Methanofervidicoccus
+2025-10-09 17:11:46.562595 INFO::Fitting model to feature number 265, k__Archaea.p__Micrarchaeota
+2025-10-09 17:11:46.567306 INFO::Fitting model to feature number 266, k__Archaea.p__Micrarchaeota.c__Micrarchaeia
+2025-10-09 17:11:46.571996 INFO::Fitting model to feature number 267, k__Archaea.p__Micrarchaeota.c__Micrarchaeia.o__Anstonellales
+2025-10-09 17:11:46.576693 INFO::Fitting model to feature number 268, k__Archaea.p__Micrarchaeota.c__Micrarchaeia.o__Anstonellales.f__Bilamarchaeaceae
+2025-10-09 17:11:46.581688 INFO::Fitting model to feature number 269, k__Archaea.p__Micrarchaeota.c__Micrarchaeia.o__Micrarchaeales
+2025-10-09 17:11:46.586425 INFO::Fitting model to feature number 270, k__Archaea.p__Micrarchaeota.c__Micrarchaeia.o__Micrarchaeales.f__CABMGC01
+2025-10-09 17:11:46.590956 INFO::Fitting model to feature number 271, k__Archaea.p__Micrarchaeota.c__Micrarchaeia.o__Micrarchaeales.f__Micrarchaeaceae
+2025-10-09 17:11:46.59549 INFO::Fitting model to feature number 272, k__Archaea.p__Micrarchaeota.c__Micrarchaeia.o__Norongarragalinales
+2025-10-09 17:11:46.601581 INFO::Fitting model to feature number 273, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1.g__GW2011.AR13
+2025-10-09 17:11:46.615811 INFO::Fitting model to feature number 274, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1.g__GW2011.AR13.s__GW2011.AR13_sp9966u
+2025-10-09 17:11:46.621465 INFO::Fitting model to feature number 275, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1.g__JAAOYK01
+2025-10-09 17:11:46.626089 INFO::Fitting model to feature number 276, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1.g__JAAOYK01.s__JAAOYK01_sp018221305
+2025-10-09 17:11:46.631508 INFO::Fitting model to feature number 277, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1.g__JABIDS01
+2025-10-09 17:11:46.636426 INFO::Fitting model to feature number 278, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1.g__JABIDS01.s__JABIDS01_sp018651605
+2025-10-09 17:11:46.64108 INFO::Fitting model to feature number 279, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Pacearchaeales.f__GW2011.AR1.g__JAGVXH01
+2025-10-09 17:11:46.645642 INFO::Fitting model to feature number 280, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17.f__GW2011.AR17
+2025-10-09 17:11:46.650507 INFO::Fitting model to feature number 281, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17.f__UBA489
+2025-10-09 17:11:46.654861 INFO::Fitting model to feature number 282, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17.f__UBA489.g__JABIKK01
+2025-10-09 17:11:46.659114 INFO::Fitting model to feature number 283, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__SCGC.AAA011.G17.f__UBA489.g__JABIKK01.s__JABIKK01_sp018658955
+2025-10-09 17:11:46.66337 INFO::Fitting model to feature number 284, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__DSVV01
+2025-10-09 17:11:46.668644 INFO::Fitting model to feature number 285, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__GCA.2686295
+2025-10-09 17:11:46.672922 INFO::Fitting model to feature number 286, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__GCA.2686295.g__GCA.2686295
+2025-10-09 17:11:46.677618 INFO::Fitting model to feature number 287, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__GW2011.AR15
+2025-10-09 17:11:46.683548 INFO::Fitting model to feature number 288, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__GW2011.AR9
+2025-10-09 17:11:46.691051 INFO::Fitting model to feature number 289, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__GW2011.AR9.g__JABJOX01
+2025-10-09 17:11:46.695673 INFO::Fitting model to feature number 290, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__UBA10216
+2025-10-09 17:11:46.701544 INFO::Fitting model to feature number 291, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__UBA10216.g__JACPTG01
+2025-10-09 17:11:46.705824 INFO::Fitting model to feature number 292, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__UBA10216.g__JACPTG01.s__JACPTG01_sp016192905
+2025-10-09 17:11:46.710934 INFO::Fitting model to feature number 293, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__UBA583
+2025-10-09 17:11:46.715731 INFO::Fitting model to feature number 294, k__Archaea.p__Nanoarchaeota.c__Nanoarchaeia.o__Woesearchaeales.f__UBA583.g__UBA583
+2025-10-09 17:11:46.720183 INFO::Fitting model to feature number 295, k__Archaea.p__Thermoplasmatota.c__E2.o__DHVEG.1.f__DHVEG.1
+2025-10-09 17:11:46.724111 INFO::Fitting model to feature number 296, k__Archaea.p__Thermoplasmatota.c__E2.o__DHVEG.1.f__DHVEG.1.g__SM1.50
+2025-10-09 17:11:46.728265 INFO::Fitting model to feature number 297, k__Archaea.p__Thermoplasmatota.c__E2.o__UBA202
+2025-10-09 17:11:46.732165 INFO::Fitting model to feature number 298, k__Archaea.p__Thermoplasmatota.c__E2.o__UBA202.f__JdFR.43
+2025-10-09 17:11:46.735965 INFO::Fitting model to feature number 299, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales.f__Poseidoniaceae
+2025-10-09 17:11:46.739696 INFO::Fitting model to feature number 300, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales.f__Poseidoniaceae.g__MGIIa.I
+2025-10-09 17:11:46.743756 INFO::Fitting model to feature number 301, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales.f__Poseidoniaceae.g__MGIIa.K1
+2025-10-09 17:11:46.748006 INFO::Fitting model to feature number 302, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales.f__Poseidoniaceae.g__MGIIa.L1
+2025-10-09 17:11:46.752361 INFO::Fitting model to feature number 303, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales.f__Thalassarchaeaceae.g__MGIIb.O2
+2025-10-09 17:11:46.757202 INFO::Fitting model to feature number 304, k__Archaea.p__Thermoplasmatota.c__Poseidoniia.o__Poseidoniales.f__Thalassarchaeaceae.g__MGIIb.O3
+2025-10-09 17:11:46.770288 INFO::Fitting model to feature number 305, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__Methanomethylophilaceae.g__Methanomethylophilus.s__Methanomethylophilus_sp001481295
+2025-10-09 17:11:46.777412 INFO::Fitting model to feature number 306, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Methanomassiliicoccales.f__UBA472
+2025-10-09 17:11:46.782098 INFO::Fitting model to feature number 307, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__Thermoplasmatales.f__Thermoplasmataceae.g__Ferroplasma
+2025-10-09 17:11:46.78655 INFO::Fitting model to feature number 308, k__Archaea.p__Thermoplasmatota.c__Thermoplasmata.o__UBA184
+2025-10-09 17:11:46.791902 INFO::Fitting model to feature number 309, k__Archaea.p__Thermoplasmatota.c__UBA186
+2025-10-09 17:11:46.796949 INFO::Fitting model to feature number 310, k__Archaea.p__Thermoplasmatota.c__UBA186.o__UBA287
+2025-10-09 17:11:46.80189 INFO::Fitting model to feature number 311, k__Archaea.p__Thermoplasmatota.c__UBA186.o__UBA287.f__UBA287
+2025-10-09 17:11:46.806342 INFO::Fitting model to feature number 312, k__Archaea.p__Thermoplasmatota.c__UBA186.o__UBA287.f__UBA287.g__UBA287
+2025-10-09 17:11:46.811274 INFO::Fitting model to feature number 313, k__Archaea.p__Thermoplasmatota.c__UBA186.o__UBA287.f__UBA287.g__UBA287.s__UBA287_sp002495235
+2025-10-09 17:11:46.815688 INFO::Fitting model to feature number 314, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__B24
+2025-10-09 17:11:46.82 INFO::Fitting model to feature number 315, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__B24.f__B24
+2025-10-09 17:11:46.82543 INFO::Fitting model to feature number 316, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__B24.f__B24.g__DTBU01
+2025-10-09 17:11:46.830583 INFO::Fitting model to feature number 317, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__B24.f__B24.g__DTBU01.s__DTBU01_sp018396755
+2025-10-09 17:11:46.835026 INFO::Fitting model to feature number 318, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__TCS64
+2025-10-09 17:11:46.841174 INFO::Fitting model to feature number 319, k__Archaea.p__Thermoproteota.c__Bathyarchaeia.o__TCS64.f__TCS64
+2025-10-09 17:11:46.854289 INFO::Fitting model to feature number 320, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrosopumilaceae.g__Nitrosopelagicus
+2025-10-09 17:11:46.860595 INFO::Fitting model to feature number 321, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrosopumilaceae.g__Nitrosopumilus
+2025-10-09 17:11:46.864956 INFO::Fitting model to feature number 322, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrosopumilaceae.g__Nitrosotalea
+2025-10-09 17:11:46.869803 INFO::Fitting model to feature number 323, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrosopumilaceae.g__Nitrosotenuis
+2025-10-09 17:11:46.874976 INFO::Fitting model to feature number 324, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrososphaeraceae.g__Nitrosocosmicus
+2025-10-09 17:11:46.879616 INFO::Fitting model to feature number 325, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrososphaeraceae.g__TA.21
+2025-10-09 17:11:46.883799 INFO::Fitting model to feature number 326, k__Archaea.p__Thermoproteota.c__Nitrososphaeria.o__Nitrososphaerales.f__Nitrososphaeraceae.g__TA.21.s__TA.21_sp005877345
+2025-10-09 17:11:46.888044 INFO::Fitting model to feature number 327, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Acidilobaceae
+2025-10-09 17:11:46.892274 INFO::Fitting model to feature number 328, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Ignisphaeraceae
+2025-10-09 17:11:46.89647 INFO::Fitting model to feature number 329, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Ignisphaeraceae.g__Ignisphaera
+2025-10-09 17:11:46.900578 INFO::Fitting model to feature number 330, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Sulfolobaceae
+2025-10-09 17:11:46.904766 INFO::Fitting model to feature number 331, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Sulfolobaceae.g__Acidianus
+2025-10-09 17:11:46.909006 INFO::Fitting model to feature number 332, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Sulfolobaceae.g__Acidianus_B
+2025-10-09 17:11:46.91347 INFO::Fitting model to feature number 333, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Sulfolobaceae.g__Acidianus_B.s__Acidianus_B_brierleyi
+2025-10-09 17:11:46.920313 INFO::Fitting model to feature number 334, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Sulfolobaceae.g__Saccharolobus
+2025-10-09 17:11:46.927156 INFO::Fitting model to feature number 335, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Sulfolobaceae.g__Sulfuracidifex
+2025-10-09 17:11:46.933907 INFO::Fitting model to feature number 336, k__Archaea.p__Thermoproteota.c__Thermoprotei_A.o__Sulfolobales.f__Sulfolobaceae.g__Sulfuracidifex.s__Sulfuracidifex_tepidarius
+2025-10-09 17:11:46.939545 INFO::Fitting model to feature number 337, k__Archaea.p__Thermoproteota.c__Thermoprotei.o__Gearchaeales
+2025-10-09 17:11:46.944251 INFO::Fitting model to feature number 338, k__Archaea.p__Thermoproteota.c__Thermoprotei.o__Gearchaeales.f__Gearchaeaceae
+2025-10-09 17:11:46.94984 INFO::Fitting model to feature number 339, k__Archaea.p__Thermoproteota.c__Thermoprotei.o__Gearchaeales.f__Gearchaeaceae.g__DSFO01
+2025-10-09 17:11:46.955865 INFO::Fitting model to feature number 340, k__Archaea.p__Thermoproteota.c__Thermoprotei.o__Gearchaeales.f__Gearchaeaceae.g__DSFO01.s__DSFO01_sp021324265
+2025-10-09 17:11:46.96052 INFO::Fitting model to feature number 341, k__Archaea.p__Thermoproteota.c__Thermoprotei.o__Thermoproteales
+2025-10-09 17:11:46.995912 INFO::Counting total values for each feature
+2025-10-09 17:11:47.009939 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/features/filtered_data.tsv
+2025-10-09 17:11:47.074218 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/features/filtered_data_norm.tsv
+2025-10-09 17:11:47.140487 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/features/filtered_data_norm_transformed.tsv
+2025-10-09 17:11:47.219091 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/fits/residuals.rds
+2025-10-09 17:11:47.230634 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/fits/fitted.rds
+2025-10-09 17:11:47.235792 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/all_results.tsv
+2025-10-09 17:11:47.244238 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/significant_results.tsv
+2025-10-09 17:11:47.247131 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea/heatmap.pdf
+2025-10-09 17:11:47.250182 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU//archaea
