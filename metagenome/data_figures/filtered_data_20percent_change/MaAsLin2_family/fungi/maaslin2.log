@@ -1,0 +1,73 @@
+2025-10-11 22:38:46.600159 INFO::Writing function arguments to log file
+2025-10-11 22:38:46.602297 DEBUG::Function arguments
+2025-10-11 22:38:46.603255 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi_temp.tsv
+2025-10-11 22:38:46.604204 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/metadata_temp.tsv
+2025-10-11 22:38:46.605068 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi
+2025-10-11 22:38:46.606039 DEBUG::Min Abundance: 0.000000
+2025-10-11 22:38:46.606876 DEBUG::Min Prevalence: 0.100000
+2025-10-11 22:38:46.607829 DEBUG::Normalization: TSS
+2025-10-11 22:38:46.60867 DEBUG::Transform: LOG
+2025-10-11 22:38:46.609465 DEBUG::Analysis method: LM
+2025-10-11 22:38:46.61026 DEBUG::Max significance: 0.050000
+2025-10-11 22:38:46.611365 DEBUG::Random effects:
+2025-10-11 22:38:46.61246 DEBUG::Fixed effects: Group
+2025-10-11 22:38:46.613418 DEBUG::Correction method: BH
+2025-10-11 22:38:46.614553 DEBUG::Standardize: TRUE
+2025-10-11 22:38:46.615576 DEBUG::Cores: 1
+2025-10-11 22:38:46.61651 INFO::Verifying options selected are valid
+2025-10-11 22:38:46.618475 INFO::Determining format of input files
+2025-10-11 22:38:46.620425 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-11 22:38:46.622485 DEBUG::Transformed data so samples are rows
+2025-10-11 22:38:46.6235 DEBUG::A total of 85 samples were found in both the data and metadata
+2025-10-11 22:38:46.624229 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-11 22:38:46.625548 INFO::Formula for fixed effects: expr ~  Group
+2025-10-11 22:38:46.627819 INFO::Filter data based on min abundance and min prevalence
+2025-10-11 22:38:46.629879 INFO::Total samples in data: 85
+2025-10-11 22:38:46.631607 INFO::Min samples required with min abundance for a feature not to be filtered: 8.500000
+2025-10-11 22:38:46.634137 INFO::Total filtered features: 0
+2025-10-11 22:38:46.635876 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-10-11 22:38:46.637899 INFO::Total filtered features with variance filtering: 0
+2025-10-11 22:38:46.639558 INFO::Filtered feature names from variance filtering:
+2025-10-11 22:38:46.641291 INFO::Running selected normalization method: TSS
+2025-10-11 22:38:46.644054 INFO::Applying z-score to standardize continuous metadata
+2025-10-11 22:38:46.648626 INFO::Running selected transform method: LOG
+2025-10-11 22:38:46.651277 INFO::Running selected analysis method: LM
+2025-10-11 22:38:46.653126 INFO::Fitting model to feature number 1, Arthrodermataceae
+2025-10-11 22:38:46.657129 INFO::Fitting model to feature number 2, Aspergillaceae
+2025-10-11 22:38:46.661495 INFO::Fitting model to feature number 3, Ceratobasidiaceae
+2025-10-11 22:38:46.665881 INFO::Fitting model to feature number 4, Chaetomiaceae
+2025-10-11 22:38:46.669831 INFO::Fitting model to feature number 5, Cladosporiaceae
+2025-10-11 22:38:46.673241 INFO::Fitting model to feature number 6, Clavicipitaceae
+2025-10-11 22:38:46.677888 INFO::Fitting model to feature number 7, Cryptococcaceae
+2025-10-11 22:38:46.681688 INFO::Fitting model to feature number 8, Debaryomycetaceae
+2025-10-11 22:38:46.685112 INFO::Fitting model to feature number 9, Dipodascaceae
+2025-10-11 22:38:46.688817 INFO::Fitting model to feature number 10, Glomerellaceae
+2025-10-11 22:38:46.692901 INFO::Fitting model to feature number 11, Herpotrichiellaceae
+2025-10-11 22:38:46.696646 INFO::Fitting model to feature number 12, Malasseziaceae
+2025-10-11 22:38:46.700005 INFO::Fitting model to feature number 13, Marasmiaceae
+2025-10-11 22:38:46.703258 INFO::Fitting model to feature number 14, Mycosphaerellaceae
+2025-10-11 22:38:46.706655 INFO::Fitting model to feature number 15, Nectriaceae
+2025-10-11 22:38:46.710101 INFO::Fitting model to feature number 16, Ophiocordycipitaceae
+2025-10-11 22:38:46.713313 INFO::Fitting model to feature number 17, Ophiostomataceae
+2025-10-11 22:38:46.716808 INFO::Fitting model to feature number 18, Phaffomycetaceae
+2025-10-11 22:38:46.720014 INFO::Fitting model to feature number 19, Pichiaceae
+2025-10-11 22:38:46.723858 INFO::Fitting model to feature number 20, Pneumocystidaceae
+2025-10-11 22:38:46.727093 INFO::Fitting model to feature number 21, Pyriculariaceae
+2025-10-11 22:38:46.730333 INFO::Fitting model to feature number 22, Saccharomycetaceae
+2025-10-11 22:38:46.73341 INFO::Fitting model to feature number 23, Saccharomycodaceae
+2025-10-11 22:38:46.736641 INFO::Fitting model to feature number 24, Schizosaccharomycetaceae
+2025-10-11 22:38:46.740841 INFO::Fitting model to feature number 25, Sclerotiniaceae
+2025-10-11 22:38:46.744829 INFO::Fitting model to feature number 26, Sordariaceae
+2025-10-11 22:38:46.748008 INFO::Fitting model to feature number 27, Trichocomaceae
+2025-10-11 22:38:46.751189 INFO::Fitting model to feature number 28, Trichomonascaceae
+2025-10-11 22:38:46.754427 INFO::Fitting model to feature number 29, Ustilaginaceae
+2025-10-11 22:38:46.761139 INFO::Counting total values for each feature
+2025-10-11 22:38:46.764011 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/features/filtered_data.tsv
+2025-10-11 22:38:46.77182 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/features/filtered_data_norm.tsv
+2025-10-11 22:38:46.77965 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/features/filtered_data_norm_transformed.tsv
+2025-10-11 22:38:46.788679 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/fits/residuals.rds
+2025-10-11 22:38:46.794587 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/fits/fitted.rds
+2025-10-11 22:38:46.805197 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/all_results.tsv
+2025-10-11 22:38:46.810098 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/significant_results.tsv
+2025-10-11 22:38:46.812651 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/heatmap.pdf
+2025-10-11 22:38:46.815115 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi

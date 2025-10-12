@@ -3,11 +3,11 @@ library(ggplot2)
 library(dplyr)
 library(scales)  # 用于 rescale
 
-file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_OTU/four_microbes_with_abundance.xlsx"
+file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_OTU/four_microbes_with_abundance.xlsx"
 sheet_names <- getSheetNames(file)
 microbe_types <- c("archaea", "bacteria", "fungi", "virus")
 
-output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_OTU/volcano_plots/"
+output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_OTU/volcano_plots/"
 if(!dir.exists(output_dir)) dir.create(output_dir, recursive = TRUE)
 
 for (microbe in microbe_types) {

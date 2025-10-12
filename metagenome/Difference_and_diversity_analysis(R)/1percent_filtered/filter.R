@@ -1,7 +1,6 @@
 # ======================================================
 # 微生物相对丰度表 - 1% 流行率过滤 + CSV 输出
 # 清理 ID 列中的不可见字符
-# 删除病毒数据中以 HF 开头的行
 # ======================================================
 
 library(openxlsx)
@@ -15,7 +14,7 @@ files <- c(
 )
 
 # 输出文件夹
-out_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent"
+out_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change"
 if(!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
 # 流行率阈值（1%）
@@ -44,11 +43,6 @@ filter_prevalence_csv <- function(file, cutoff = 0.01, out_dir, microbe_type = N
   # 过滤低流行率物种
   keep <- prevalence >= cutoff
   df_filtered <- df[keep, ]
-  
-  # 如果是病毒，删除 ID 以 "HF" 开头的行
-  if (!is.null(microbe_type) && microbe_type == "virus") {
-    df_filtered <- df_filtered[!grepl("^HF", df_filtered$ID), ]
-  }
   
   # 构造输出 CSV 文件名
   fname <- basename(file)

@@ -1,0 +1,6 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval	log2FC	Trend	MicrobeClass
+k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Rountreeviridae	Group	MI	-2.45752373413893	0.456717640592047	85	80	6.72743515518359e-07	4.45184756142212e-05	-2.45752373413893	Down	virus
+k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Rountreeviridae.g__Andhravirus	Group	MI	-2.4257684520374	0.455390490338351	85	80	8.39971238004174e-07	4.45184756142212e-05	-2.4257684520374	Down	virus
+k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Rountreeviridae.g__Andhravirus.s__Staphylococcus_virus_Andhra	Group	MI	-2.4257684520374	0.455390490338351	85	80	8.39971238004174e-07	4.45184756142212e-05	-2.4257684520374	Down	virus
+k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Siphoviridae.g__Chivirus	Group	MI	-2.81476107504372	0.507761586738448	85	82	3.43004787119466e-07	4.45184756142212e-05	-2.81476107504372	Down	virus
+k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Siphoviridae.g__Chivirus.s__Salmonella_phage_TS13	Group	MI	-2.77069534185214	0.48906814154696	85	82	2.06030144124286e-07	4.45184756142212e-05	-2.77069534185214	Down	virus

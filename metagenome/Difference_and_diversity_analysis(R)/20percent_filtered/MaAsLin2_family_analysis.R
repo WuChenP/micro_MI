@@ -22,15 +22,15 @@ library(dplyr)
 # 2. 文件路径
 # ----------------------------
 files <- list(
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/family_data/virus_family_no_HF.xlsx",
-  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/family_data/archaea_family.xlsx",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/family_data/bacteria_family.xlsx",
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/family_data/fungi_family.xlsx"
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/family_data/virus_family_no_HF.xlsx",
+  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/family_data/archaea_family.xlsx",
+  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/family_data/bacteria_family.xlsx",
+  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/family_data/fungi_family.xlsx"
 )
-metadata_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/sample_metadata.xlsx"
+metadata_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/sample_metadata.xlsx"
 
 # 输出目录
-outdir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family"
+outdir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family"
 if (!dir.exists(outdir)) dir.create(outdir, recursive = TRUE)
 
 # ----------------------------

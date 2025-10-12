@@ -12,13 +12,13 @@ library(dplyr)
 # ----------------------------
 # 文件路径
 # ----------------------------
-result_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/ancombc2_results_OTU/四类微生物_ANCOMBC2_results.xlsx"
+result_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/ancombc2_results_OTU/四类微生物_ANCOMBC2_results.xlsx"
 
 otu_files <- list(
-  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_古菌_filtered_1percent.csv",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_细菌_filtered_1percent.csv",
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_真菌_filtered_1percent.csv",
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_病毒(新)_filtered_1percent.csv"
+  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_古菌_filtered_1percent.csv",
+  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_细菌_filtered_1percent.csv",
+  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_真菌_filtered_1percent.csv",
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_病毒(新)_filtered_1percent.csv"
 )
 
 # ----------------------------
@@ -45,11 +45,6 @@ for (microbe in names(otu_files)) {
     stop(paste0("❌ 文件缺少 ID 列: ", otu_files[[microbe]]))
   }
   
-  # 删除病毒中以 HF 开头的行
-  if (microbe == "virus") {
-    abund_df <- abund_df[!grepl("^HF", abund_df$ID), ]
-  }
-  
   # 将原始 ID 改为 taxon
   abund_df <- abund_df %>% rename(taxon = ID)
   
@@ -72,4 +67,3 @@ for (microbe in names(otu_files)) {
 # ----------------------------
 saveWorkbook(wb_out, result_file, overwrite = TRUE)
 cat("\n🎉 已更新原结果文件:\n", result_file, "\n")
-

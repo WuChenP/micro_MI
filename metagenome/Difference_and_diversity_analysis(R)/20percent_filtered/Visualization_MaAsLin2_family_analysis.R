@@ -11,14 +11,14 @@ library(ggplot2)
 # 文件路径
 # ----------------------------
 all_results_files <- list(
-  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/archaea/all_results.tsv",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/bacteria/all_results.tsv",
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/fungi/all_results.tsv",
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/virus/all_results.tsv"
+  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/archaea/all_results.tsv",
+  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/bacteria/all_results.tsv",
+  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/fungi/all_results.tsv",
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/all_results.tsv"
 )
 
 # 输出目录
-outdir_q <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_family/volcano_plots"
+outdir_q <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/volcano_plots"
 dir.create(outdir_q, recursive = TRUE, showWarnings = FALSE)
 
 # ----------------------------

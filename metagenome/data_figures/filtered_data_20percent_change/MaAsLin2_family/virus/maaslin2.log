@@ -1,0 +1,81 @@
+2025-10-11 22:38:44.073492 INFO::Writing function arguments to log file
+2025-10-11 22:38:44.077182 DEBUG::Function arguments
+2025-10-11 22:38:44.078245 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus_temp.tsv
+2025-10-11 22:38:44.079379 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/metadata_temp.tsv
+2025-10-11 22:38:44.080534 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus
+2025-10-11 22:38:44.081489 DEBUG::Min Abundance: 0.000000
+2025-10-11 22:38:44.082443 DEBUG::Min Prevalence: 0.100000
+2025-10-11 22:38:44.083509 DEBUG::Normalization: TSS
+2025-10-11 22:38:44.084626 DEBUG::Transform: LOG
+2025-10-11 22:38:44.085567 DEBUG::Analysis method: LM
+2025-10-11 22:38:44.086504 DEBUG::Max significance: 0.050000
+2025-10-11 22:38:44.08746 DEBUG::Random effects:
+2025-10-11 22:38:44.088415 DEBUG::Fixed effects: Group
+2025-10-11 22:38:44.089361 DEBUG::Correction method: BH
+2025-10-11 22:38:44.090308 DEBUG::Standardize: TRUE
+2025-10-11 22:38:44.091583 DEBUG::Cores: 1
+2025-10-11 22:38:44.092993 INFO::Verifying options selected are valid
+2025-10-11 22:38:44.095033 INFO::Determining format of input files
+2025-10-11 22:38:44.096961 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-11 22:38:44.100012 DEBUG::Transformed data so samples are rows
+2025-10-11 22:38:44.10148 DEBUG::A total of 85 samples were found in both the data and metadata
+2025-10-11 22:38:44.102549 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-11 22:38:44.104544 INFO::Formula for fixed effects: expr ~  Group
+2025-10-11 22:38:44.107072 INFO::Filter data based on min abundance and min prevalence
+2025-10-11 22:38:44.108889 INFO::Total samples in data: 85
+2025-10-11 22:38:44.110943 INFO::Min samples required with min abundance for a feature not to be filtered: 8.500000
+2025-10-11 22:38:44.114734 INFO::Total filtered features: 9
+2025-10-11 22:38:44.116918 INFO::Filtered feature names from abundance and prevalence filtering: Andersonviridae, Armatusviridae, Circoviridae, Colingsworthviridae, Duneviridae, Nixviridae, Umezonoviridae, Usuviridae, Zobellviridae
+2025-10-11 22:38:44.120137 INFO::Total filtered features with variance filtering: 0
+2025-10-11 22:38:44.122042 INFO::Filtered feature names from variance filtering:
+2025-10-11 22:38:44.123957 INFO::Running selected normalization method: TSS
+2025-10-11 22:38:44.127346 INFO::Applying z-score to standardize continuous metadata
+2025-10-11 22:38:44.13702 INFO::Running selected transform method: LOG
+2025-10-11 22:38:44.140483 INFO::Running selected analysis method: LM
+2025-10-11 22:38:44.143195 INFO::Fitting model to feature number 1, Ackermannviridae
+2025-10-11 22:38:44.150003 INFO::Fitting model to feature number 2, Aliceevansviridae
+2025-10-11 22:38:44.154886 INFO::Fitting model to feature number 3, Allomimiviridae
+2025-10-11 22:38:44.159779 INFO::Fitting model to feature number 4, Autographiviridae
+2025-10-11 22:38:44.169807 INFO::Fitting model to feature number 5, Casjensviridae
+2025-10-11 22:38:44.180701 INFO::Fitting model to feature number 6, Chaseviridae
+2025-10-11 22:38:44.189683 INFO::Fitting model to feature number 7, Crevaviridae
+2025-10-11 22:38:44.19472 INFO::Fitting model to feature number 8, Demerecviridae
+2025-10-11 22:38:44.199731 INFO::Fitting model to feature number 9, Draupnirviridae
+2025-10-11 22:38:44.204433 INFO::Fitting model to feature number 10, Drexlerviridae
+2025-10-11 22:38:44.209675 INFO::Fitting model to feature number 11, Epsomviridae
+2025-10-11 22:38:44.214817 INFO::Fitting model to feature number 12, Felixviridae
+2025-10-11 22:38:44.220155 INFO::Fitting model to feature number 13, Guelinviridae
+2025-10-11 22:38:44.225426 INFO::Fitting model to feature number 14, Helgolandviridae
+2025-10-11 22:38:44.23135 INFO::Fitting model to feature number 15, Herelleviridae
+2025-10-11 22:38:44.236765 INFO::Fitting model to feature number 16, Inoviridae
+2025-10-11 22:38:44.242389 INFO::Fitting model to feature number 17, Intestiviridae
+2025-10-11 22:38:44.247934 INFO::Fitting model to feature number 18, Konodaiviridae
+2025-10-11 22:38:44.253094 INFO::Fitting model to feature number 19, Kyanoviridae
+2025-10-11 22:38:44.258194 INFO::Fitting model to feature number 20, Lakviridae
+2025-10-11 22:38:44.263633 INFO::Fitting model to feature number 21, Mesyanzhinovviridae
+2025-10-11 22:38:44.268881 INFO::Fitting model to feature number 22, Microviridae
+2025-10-11 22:38:44.274073 INFO::Fitting model to feature number 23, Mimiviridae
+2025-10-11 22:38:44.278903 INFO::Fitting model to feature number 24, Orlajensenviridae
+2025-10-11 22:38:44.28385 INFO::Fitting model to feature number 25, Peduoviridae
+2025-10-11 22:38:44.289311 INFO::Fitting model to feature number 26, Phycodnaviridae
+2025-10-11 22:38:44.294201 INFO::Fitting model to feature number 27, Rountreeviridae
+2025-10-11 22:38:44.299381 INFO::Fitting model to feature number 28, Salasmaviridae
+2025-10-11 22:38:44.304729 INFO::Fitting model to feature number 29, Schitoviridae
+2025-10-11 22:38:44.310339 INFO::Fitting model to feature number 30, Speroviridae
+2025-10-11 22:38:44.317243 INFO::Fitting model to feature number 31, Steigviridae
+2025-10-11 22:38:44.323447 INFO::Fitting model to feature number 32, Straboviridae
+2025-10-11 22:38:44.329033 INFO::Fitting model to feature number 33, Suoliviridae
+2025-10-11 22:38:44.334382 INFO::Fitting model to feature number 34, Toyamaviridae
+2025-10-11 22:38:44.339218 INFO::Fitting model to feature number 35, Unclassified
+2025-10-11 22:38:44.344681 INFO::Fitting model to feature number 36, Vilmaviridae
+2025-10-11 22:38:44.349919 INFO::Fitting model to feature number 37, Zierdtviridae
+2025-10-11 22:38:44.363352 INFO::Counting total values for each feature
+2025-10-11 22:38:44.368601 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/features/filtered_data.tsv
+2025-10-11 22:38:44.377506 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/features/filtered_data_norm.tsv
+2025-10-11 22:38:44.388222 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/features/filtered_data_norm_transformed.tsv
+2025-10-11 22:38:44.401751 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/fits/residuals.rds
+2025-10-11 22:38:44.407253 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/fits/fitted.rds
+2025-10-11 22:38:44.420139 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/all_results.tsv
+2025-10-11 22:38:44.426937 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/significant_results.tsv
+2025-10-11 22:38:44.430975 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus/heatmap.pdf
+2025-10-11 22:38:44.434354 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_family/virus

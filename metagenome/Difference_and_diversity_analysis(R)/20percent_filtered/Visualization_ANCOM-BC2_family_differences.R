@@ -7,14 +7,14 @@ library(scales)  # 可选，用于颜色渐变
 # 文件路径列表
 # ----------------------------
 result_files <- list(
-  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_family/archaea_ANCOMBC2_results.xlsx",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_family/bacteria_ANCOMBC2_results.xlsx",
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_family/fungi_ANCOMBC2_results.xlsx",
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_family/virus_ANCOMBC2_results.xlsx"
+  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_family/archaea_ANCOMBC2_results.xlsx",
+  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_family/bacteria_ANCOMBC2_results.xlsx",
+  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_family/fungi_ANCOMBC2_results.xlsx",
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_family/virus_ANCOMBC2_results.xlsx"
 )
 
 # 输出 PDF 文件夹
-output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_family/volcano_plots/"
+output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_family/volcano_plots/"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # ----------------------------

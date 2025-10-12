@@ -1,0 +1,9 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+k__Bacteria.p__Proteobacteria.c__Betaproteobacteria.o__Burkholderiales.f__Oxalobacteraceae.g__Herbaspirillum	Group	MI	3.13121453308038	0.377560584984108	85	25	1.69249596786329e-12	2.73338098809921e-10
+k__Bacteria.p__Proteobacteria.c__Betaproteobacteria.o__Burkholderiales.f__Oxalobacteraceae.g__Herbaspirillum.s__Herbaspirillum_sp	Group	MI	3.13121453308038	0.377560584984108	85	25	1.69249596786329e-12	2.73338098809921e-10
+k__Bacteria.p__Proteobacteria.c__Betaproteobacteria.o__Burkholderiales.f__Oxalobacteraceae	Group	MI	3.3784102392188	0.60185688423884	85	30	2.56200926674688e-07	2.75842997719747e-05
+k__Bacteria.p__Firmicutes.c__Bacilli.o__Lactobacillales.f__Leuconostocaceae	Group	MI	-4.16806835534296	0.827230636965706	85	39	2.69800642055934e-06	0.000217864018460167
+k__Bacteria.p__Firmicutes.c__Bacilli.o__Lactobacillales.f__Leuconostocaceae.g__Weissella	Group	MI	-3.93452897211833	0.833188232891438	85	33	9.37240646207662e-06	0.000605457457450149
+k__Bacteria.p__Firmicutes.c__Bacilli.o__Lactobacillales.f__Leuconostocaceae.g__Weissella.s__Weissella_confusa	Group	MI	-2.29865024990378	0.596732389382556	85	23	0.000229746727712169	0.0123680321751718
+k__Bacteria.p__Firmicutes.c__Bacilli.o__Lactobacillales.f__Leuconostocaceae.g__Weissella.s__Weissella_cibaria	Group	MI	-2.76673486696869	0.740178747514092	85	22	0.000339864430512519	0.0156823158650777
+k__Bacteria.p__Firmicutes.c__Bacilli.o__Lactobacillales.f__Streptococcaceae.g__Streptococcus.s__Streptococcus_infantarius	Group	MI	-2.6038266803775	0.723135713239128	85	20	0.000538988871588403	0.0217616756903818

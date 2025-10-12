@@ -25,11 +25,11 @@ aggregate_to_family <- function(file_path){
 }
 
 # 处理三个微生物类文件
-archaea_family <- aggregate_to_family("E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/古菌_filtered_20percent.csv")
-bacteria_family <- aggregate_to_family("E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/细菌_filtered_20percent.csv")
-fungi_family   <- aggregate_to_family("E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/真菌_filtered_20percent.csv")
+archaea_family <- aggregate_to_family("E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/古菌_filtered_20percent.csv")
+bacteria_family <- aggregate_to_family("E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/细菌_filtered_20percent.csv")
+fungi_family   <- aggregate_to_family("E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/真菌_filtered_20percent.csv")
 
 # 分别保存为 XLSX 文件
-write.xlsx(archaea_family, "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/family_data/archaea_family.xlsx", rowNames = FALSE)
-write.xlsx(bacteria_family, "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/family_data/bacteria_family.xlsx", rowNames = FALSE)
-write.xlsx(fungi_family,   "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/family_data/fungi_family.xlsx",   rowNames = FALSE)
+write.xlsx(archaea_family, "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/family_data/archaea_family.xlsx", rowNames = FALSE)
+write.xlsx(bacteria_family, "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/family_data/bacteria_family.xlsx", rowNames = FALSE)
+write.xlsx(fungi_family,   "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/family_data/fungi_family.xlsx",   rowNames = FALSE)

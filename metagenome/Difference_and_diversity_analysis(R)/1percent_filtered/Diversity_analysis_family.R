@@ -14,14 +14,14 @@ library(patchwork) # 拼图
 # 文件路径
 # ----------------------------
 microbe_files <- list(
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/family_data/fungi_family.xlsx",
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/family_data/virus_family_no_HF.xlsx",
-  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/family_data/archaea_family.xlsx",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/family_data/bacteria_family.xlsx"
+  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/family_data/fungi_family.xlsx",
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/family_data/virus_family_no_HF.xlsx",
+  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/family_data/archaea_family.xlsx",
+  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/family_data/bacteria_family.xlsx"
 )
 
-meta_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/sample_metadata.xlsx"
-output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/diversity_plots_family/"
+meta_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/sample_metadata.xlsx"
+output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/diversity_plots_family/"
 
 # ----------------------------
 # 读取元数据

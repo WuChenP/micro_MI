@@ -22,7 +22,7 @@ library(stringr)
 # -------------------------
 # 1. 读取样本元数据
 # -------------------------
-meta_file <- "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent\\sample_metadata.xlsx"
+meta_file <- "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent_change\\sample_metadata.xlsx"
 meta <- read_excel(meta_file)
 meta <- as.data.frame(meta)
 rownames(meta) <- meta$SampleID
@@ -31,16 +31,16 @@ rownames(meta) <- meta$SampleID
 # 2. 丰度表路径列表
 # -------------------------
 microbe_files <- list(
-  bacteria = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent\\心梗组_细菌_filtered_1percent.csv",
-  archaea  = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent\\心梗组_古菌_filtered_1percent.csv",
-  fungi    = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent\\心梗组_真菌_filtered_1percent.csv",
-  virus    = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent\\心梗组_病毒(新)_filtered_1percent.csv"
+  bacteria = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent_change\\心梗组_细菌_filtered_1percent.csv",
+  archaea  = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent_change\\心梗组_古菌_filtered_1percent.csv",
+  fungi    = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent_change\\心梗组_真菌_filtered_1percent.csv",
+  virus    = "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent_change\\心梗组_病毒(新)_filtered_1percent.csv"
 )
 
 # -------------------------
 # 3. 输出目录
 # -------------------------
-out_dir <- "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent\\diversity_analysis_OTU"
+out_dir <- "E:\\Python\\MI_Analysis\\metagenome\\data_figures\\filtered_data_1percent_change\\diversity_analysis_OTU"
 if(!dir.exists(out_dir)) dir.create(out_dir, recursive=TRUE)
 
 # -------------------------

@@ -9,7 +9,7 @@ library(readr)
 # ----------------------------
 # 1. 路径设置
 # ----------------------------
-outdir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/MaAsLin2_OTU"
+outdir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/MaAsLin2_OTU"
 pdf_dir <- file.path(outdir, "volcano_grouped")
 dir.create(pdf_dir, recursive = TRUE, showWarnings = FALSE)
 

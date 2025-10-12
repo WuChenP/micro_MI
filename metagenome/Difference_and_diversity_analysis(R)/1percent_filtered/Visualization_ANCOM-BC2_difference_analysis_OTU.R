@@ -10,8 +10,8 @@ library(scales)  # 用于 alpha 调色
 # ----------------------------
 # 文件路径
 # ----------------------------
-input_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/ancombc2_results_OTU/四类微生物_ANCOMBC2_results.xlsx"
-output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/ancombc2_results_OTU/volcano_plots/"
+input_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/ancombc2_results_OTU/四类微生物_ANCOMBC2_results.xlsx"
+output_dir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/ancombc2_results_OTU/volcano_plots/"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 microbe_types <- c("archaea", "bacteria", "fungi", "virus")

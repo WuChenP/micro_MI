@@ -1,0 +1,182 @@
+2025-10-11 22:53:29.141396 INFO::Writing function arguments to log file
+2025-10-11 22:53:29.14336 DEBUG::Function arguments
+2025-10-11 22:53:29.144235 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea_temp.tsv
+2025-10-11 22:53:29.145053 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/metadata_temp.tsv
+2025-10-11 22:53:29.145931 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea
+2025-10-11 22:53:29.1468 DEBUG::Min Abundance: 0.000000
+2025-10-11 22:53:29.147844 DEBUG::Min Prevalence: 0.100000
+2025-10-11 22:53:29.148807 DEBUG::Normalization: TSS
+2025-10-11 22:53:29.149855 DEBUG::Transform: LOG
+2025-10-11 22:53:29.150758 DEBUG::Analysis method: LM
+2025-10-11 22:53:29.151608 DEBUG::Max significance: 0.050000
+2025-10-11 22:53:29.152477 DEBUG::Random effects:
+2025-10-11 22:53:29.15334 DEBUG::Fixed effects: Group
+2025-10-11 22:53:29.154135 DEBUG::Correction method: BH
+2025-10-11 22:53:29.155038 DEBUG::Standardize: TRUE
+2025-10-11 22:53:29.155944 DEBUG::Cores: 1
+2025-10-11 22:53:29.156834 INFO::Verifying options selected are valid
+2025-10-11 22:53:29.158531 INFO::Determining format of input files
+2025-10-11 22:53:29.160356 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-11 22:53:29.163489 DEBUG::Transformed data so samples are rows
+2025-10-11 22:53:29.165635 DEBUG::A total of 85 samples were found in both the data and metadata
+2025-10-11 22:53:29.166849 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-11 22:53:29.170233 INFO::Formula for fixed effects: expr ~  Group
+2025-10-11 22:53:29.172047 INFO::Filter data based on min abundance and min prevalence
+2025-10-11 22:53:29.175208 INFO::Total samples in data: 85
+2025-10-11 22:53:29.176753 INFO::Min samples required with min abundance for a feature not to be filtered: 8.500000
+2025-10-11 22:53:29.182078 INFO::Total filtered features: 224
+2025-10-11 22:53:29.18405 INFO::Filtered feature names from abundance and prevalence filtering: X0.14.0.20.30.16, X0.14.0.20.34.12, X1.14.0.10.31.34, X40CM.2.53.6, AG1, ARK.15, ARS1178, ARS21, Aciduliprofundaceae, B10.G16, B15.G16, B15.G2, B1Sed10.29, B20.G17, B25, B29.G15, B29.G17, B3.G16, B33.G15, B48.G16, B54.G15, B69.G16, B72.G16, B79.G9, B8.G13, B87.G9, B9.G17, BA1, BMS3B, BS150m.G63, Baldrarchaeaceae, Bog.38, CADDZS01, CAILAH01, CAINOH01, CAITNU01, CG08.08.20.14, CG1.02.47.40, CR.4, CSSed11.243R1, Caldarchaeaceae, DSZF01, DTDX01, DTGE01, DTGL01, DTIR01, DTMW01, DTNL01, DTNV01, DXJG01, EA.27, EX4484.135, EX4484.205, EX4484.217.1, EX4484.36, EX4484.52, EX4484.6, EX4572.44, FEN.987, Fervidicoccaceae, GCA.2685855, GCA.2687185, GCA.2687795, GCA.2687815, GCA.2688035, GCA.2688965, GW2011.AR10, HR02, Hadarchaeaceae, Huberarchaeaceae, Hydrothermarchaeaceae, J072, J096, J110, JAADFM01, JAAOZO01, JAAOZP01, JABIAG01, JACIVX01, JACIWG01, JACPBO01, JACPBV01, JACPGT01, JACPIF01, JACPIM01, JACPJC01, JACPRH01, JACQNH01, JACQNV01, JACQSR01, JACQSS01, JACRAC01, JACRGE01, JACRKL01, JACTUA01, JAFCBV01, JAFCCC01, JAFCCJ01, JAFCCW01, JAFCFN01, JAFCGA01, JAFCGI01, JAFCGM01, JAFCGN01, JAFGBZ01, JAFGLI01, JAFGOX01, JAFGPW01, JAFGSV01, JAFGUC01, JAGGXF01, JAGGXT01, JAGHAA01, JAGHAM01, JAGHAR01, JAGHBM01, JAGLGH01, JAGLSY01, JAGLXL01, JAGMCJ01, JAGTQN01, JAGVYF01, JAGVZH01, JAGVZT01, JAGWAF01, JAHENH01, JAHFHC01, JAHJTO01, JAHLMP01, JAHLMR01, JAHWIC01, JAHWIL01, JAHWKR01, JAIPIC01, JAJOKI01, JAJPHT01, JAJSAE01, JAMCUS01, JANJXX01, JDFR.13, JdFR.21, JdFR.45, Korarchaeaceae, MCBC01, Marsarchaeaceae, Methanocellaceae, Methanofollaceae, Methanonatronarchaeaceae, Methanopyraceae, Methanosphaerulaceae, Methanothermaceae, Methanothermobacteraceae, Methanothermobacteraceae_A, Methermicoccaceae, NM3, Naiadarchaeaceae, Nanoarchaeaceae, Nanosalinaceae, Natronoarchaeaceae, Nitrosocaldaceae, Norongarragalinaceae, PEVX01, PEZQ01, Pyrodictiaceae, QMVU01, QMZP01, QMZT01, QS.9.68.17, RBG.13.38.9, RBG.16.48.13, SCGC.AAA252.I15, SCSR01, SKGA01, SKIA01, SKSH01, SOIM01, SP79, SW.10.69.26, SW.7.71.33, SZ.28.30, SZUA.236, Salinarchaeaceae, Sifarchaeaceae, SpSt.1190, Syntropharchaeaceae, Sysuiplasmataceae, Thermoproteaceae, Tiddalikarchaeaceae, UBA10107, UBA10117, UBA10200, UBA10834, UBA11576, UBA11716, UBA119, UBA12030, UBA12382, UBA12501, UBA148, UBA183, UBA284, UBA525, UBA8480, UBA9212, UBA9642, UBA97, Undinarchaeaceae, VGJJ01, VGKX01, VGLX01, WALJ01, WALL01, WALN01, WANQ01, WAPJ01, WAQR01, WJJB01, WJKB01, WJKC01, WOR.SM1.SCG, WUQV01, Wukongarchaeaceae, YT1.039, YT1.057
+2025-10-11 22:53:29.188682 INFO::Total filtered features with variance filtering: 0
+2025-10-11 22:53:29.190508 INFO::Filtered feature names from variance filtering:
+2025-10-11 22:53:29.192013 INFO::Running selected normalization method: TSS
+2025-10-11 22:53:29.195269 INFO::Applying z-score to standardize continuous metadata
+2025-10-11 22:53:29.199296 INFO::Running selected transform method: LOG
+2025-10-11 22:53:29.203933 INFO::Running selected analysis method: LM
+2025-10-11 22:53:29.206017 INFO::Fitting model to feature number 1, X21.14.0.10.32.9
+2025-10-11 22:53:29.209718 INFO::Fitting model to feature number 2, AMARA.1
+2025-10-11 22:53:29.213617 INFO::Fitting model to feature number 3, ANME.1
+2025-10-11 22:53:29.217094 INFO::Fitting model to feature number 4, ARS1403
+2025-10-11 22:53:29.221185 INFO::Fitting model to feature number 5, ARS49
+2025-10-11 22:53:29.225032 INFO::Fitting model to feature number 6, Acidilobaceae
+2025-10-11 22:53:29.228904 INFO::Fitting model to feature number 7, Aenigmatarchaeaceae
+2025-10-11 22:53:29.232536 INFO::Fitting model to feature number 8, Altiarchaeaceae
+2025-10-11 22:53:29.237253 INFO::Fitting model to feature number 9, Anstonellaceae
+2025-10-11 22:53:29.242205 INFO::Fitting model to feature number 10, Archaeoglobaceae
+2025-10-11 22:53:29.246357 INFO::Fitting model to feature number 11, B18.G2
+2025-10-11 22:53:29.250419 INFO::Fitting model to feature number 12, B24
+2025-10-11 22:53:29.25513 INFO::Fitting model to feature number 13, B26.1
+2025-10-11 22:53:29.25914 INFO::Fitting model to feature number 14, B3.WOES
+2025-10-11 22:53:29.262946 INFO::Fitting model to feature number 15, BM511
+2025-10-11 22:53:29.266951 INFO::Fitting model to feature number 16, Bilamarchaeaceae
+2025-10-11 22:53:29.270977 INFO::Fitting model to feature number 17, Borrarchaeaceae
+2025-10-11 22:53:29.274647 INFO::Fitting model to feature number 18, CABMGC01
+2025-10-11 22:53:29.279358 INFO::Fitting model to feature number 19, CAIVOO01
+2025-10-11 22:53:29.283255 INFO::Fitting model to feature number 20, CG.Epi1
+2025-10-11 22:53:29.333129 INFO::Fitting model to feature number 21, CG1.02.33.12
+2025-10-11 22:53:29.337091 INFO::Fitting model to feature number 22, CG10238.14
+2025-10-11 22:53:29.340969 INFO::Fitting model to feature number 23, CSSED10.239
+2025-10-11 22:53:29.344453 INFO::Fitting model to feature number 24, DHVEG.1
+2025-10-11 22:53:29.348697 INFO::Fitting model to feature number 25, DSVV01
+2025-10-11 22:53:29.352206 INFO::Fitting model to feature number 26, Desulfurococcaceae
+2025-10-11 22:53:29.356267 INFO::Fitting model to feature number 27, GCA.001856825
+2025-10-11 22:53:29.359835 INFO::Fitting model to feature number 28, GCA.020350865
+2025-10-11 22:53:29.363652 INFO::Fitting model to feature number 29, GCA.020356005
+2025-10-11 22:53:29.367757 INFO::Fitting model to feature number 30, GCA.2686295
+2025-10-11 22:53:29.371963 INFO::Fitting model to feature number 31, GCA.2688095
+2025-10-11 22:53:29.383736 INFO::Fitting model to feature number 32, GLR71
+2025-10-11 22:53:29.394322 INFO::Fitting model to feature number 33, GW2011.AR1
+2025-10-11 22:53:29.400276 INFO::Fitting model to feature number 34, GW2011.AR15
+2025-10-11 22:53:29.406766 INFO::Fitting model to feature number 35, GW2011.AR17
+2025-10-11 22:53:29.410716 INFO::Fitting model to feature number 36, GW2011.AR18
+2025-10-11 22:53:29.414735 INFO::Fitting model to feature number 37, GW2011.AR20
+2025-10-11 22:53:29.418361 INFO::Fitting model to feature number 38, GW2011.AR4
+2025-10-11 22:53:29.422281 INFO::Fitting model to feature number 39, GW2011.AR5
+2025-10-11 22:53:29.426181 INFO::Fitting model to feature number 40, GW2011.AR9
+2025-10-11 22:53:29.430081 INFO::Fitting model to feature number 41, Gearchaeaceae
+2025-10-11 22:53:29.434287 INFO::Fitting model to feature number 42, HEL.GB.A
+2025-10-11 22:53:29.43863 INFO::Fitting model to feature number 43, HEL.GB.B
+2025-10-11 22:53:29.443531 INFO::Fitting model to feature number 44, Haladaptataceae
+2025-10-11 22:53:29.451161 INFO::Fitting model to feature number 45, Halalkalicoccaceae
+2025-10-11 22:53:29.455179 INFO::Fitting model to feature number 46, Haloarculaceae
+2025-10-11 22:53:29.460105 INFO::Fitting model to feature number 47, Halobacteriaceae
+2025-10-11 22:53:29.463953 INFO::Fitting model to feature number 48, Halococcaceae
+2025-10-11 22:53:29.46763 INFO::Fitting model to feature number 49, Haloferacaceae
+2025-10-11 22:53:29.471135 INFO::Fitting model to feature number 50, Hermodarchaeaceae
+2025-10-11 22:53:29.475807 INFO::Fitting model to feature number 51, Hodarchaeaceae
+2025-10-11 22:53:29.48006 INFO::Fitting model to feature number 52, Iainarchaeaceae
+2025-10-11 22:53:29.483793 INFO::Fitting model to feature number 53, Ignisphaeraceae
+2025-10-11 22:53:29.487282 INFO::Fitting model to feature number 54, JAADEF01
+2025-10-11 22:53:29.491531 INFO::Fitting model to feature number 55, JAAZKV01
+2025-10-11 22:53:29.495069 INFO::Fitting model to feature number 56, JABGXB01
+2025-10-11 22:53:29.498574 INFO::Fitting model to feature number 57, JABLTI01
+2025-10-11 22:53:29.502112 INFO::Fitting model to feature number 58, JABXJV01
+2025-10-11 22:53:29.505732 INFO::Fitting model to feature number 59, JACAEJ01
+2025-10-11 22:53:29.50902 INFO::Fitting model to feature number 60, JACPNG01
+2025-10-11 22:53:29.512387 INFO::Fitting model to feature number 61, JAEHCK01
+2025-10-11 22:53:29.515498 INFO::Fitting model to feature number 62, JAFCDX01
+2025-10-11 22:53:29.519174 INFO::Fitting model to feature number 63, JAGGVH01
+2025-10-11 22:53:29.522635 INFO::Fitting model to feature number 64, JAGVZF01
+2025-10-11 22:53:29.526052 INFO::Fitting model to feature number 65, JAHWHD01
+2025-10-11 22:53:29.529335 INFO::Fitting model to feature number 66, JALIDP01
+2025-10-11 22:53:29.532682 INFO::Fitting model to feature number 67, JdFR.42
+2025-10-11 22:53:29.536084 INFO::Fitting model to feature number 68, JdFR.43
+2025-10-11 22:53:29.53996 INFO::Fitting model to feature number 69, Jordarchaeaceae
+2025-10-11 22:53:29.543408 INFO::Fitting model to feature number 70, Kariarchaeaceae
+2025-10-11 22:53:29.546901 INFO::Fitting model to feature number 71, LC.3
+2025-10-11 22:53:29.550147 INFO::Fitting model to feature number 72, MK.D1
+2025-10-11 22:53:29.553888 INFO::Fitting model to feature number 73, Methanobacteriaceae
+2025-10-11 22:53:29.557214 INFO::Fitting model to feature number 74, Methanocaldococcaceae
+2025-10-11 22:53:29.560822 INFO::Fitting model to feature number 75, Methanococcaceae
+2025-10-11 22:53:29.564258 INFO::Fitting model to feature number 76, Methanocomedenaceae
+2025-10-11 22:53:29.567834 INFO::Fitting model to feature number 77, Methanocorpusculaceae
+2025-10-11 22:53:29.571894 INFO::Fitting model to feature number 78, Methanoculleaceae
+2025-10-11 22:53:29.575161 INFO::Fitting model to feature number 79, Methanofastidiosaceae
+2025-10-11 22:53:29.57831 INFO::Fitting model to feature number 80, Methanogasteraceae
+2025-10-11 22:53:29.582211 INFO::Fitting model to feature number 81, Methanoliparaceae
+2025-10-11 22:53:29.585925 INFO::Fitting model to feature number 82, Methanomassiliicoccaceae
+2025-10-11 22:53:29.589586 INFO::Fitting model to feature number 83, Methanomethylicaceae
+2025-10-11 22:53:29.593029 INFO::Fitting model to feature number 84, Methanomethylophilaceae
+2025-10-11 22:53:29.59625 INFO::Fitting model to feature number 85, Methanomicrobiaceae
+2025-10-11 22:53:29.599395 INFO::Fitting model to feature number 86, Methanoperedenaceae
+2025-10-11 22:53:29.602775 INFO::Fitting model to feature number 87, Methanoregulaceae
+2025-10-11 22:53:29.606368 INFO::Fitting model to feature number 88, Methanosarcinaceae
+2025-10-11 22:53:29.610144 INFO::Fitting model to feature number 89, Methanospirillaceae
+2025-10-11 22:53:29.614159 INFO::Fitting model to feature number 90, Methanotrichaceae
+2025-10-11 22:53:29.618949 INFO::Fitting model to feature number 91, Micrarchaeaceae
+2025-10-11 22:53:29.622959 INFO::Fitting model to feature number 92, NBVN01
+2025-10-11 22:53:29.626958 INFO::Fitting model to feature number 93, Nanopusillaceae
+2025-10-11 22:53:29.630365 INFO::Fitting model to feature number 94, Natrialbaceae
+2025-10-11 22:53:29.635207 INFO::Fitting model to feature number 95, Nitrosopumilaceae
+2025-10-11 22:53:29.639146 INFO::Fitting model to feature number 96, Nitrososphaeraceae
+2025-10-11 22:53:29.643756 INFO::Fitting model to feature number 97, Odinarchaeaceae
+2025-10-11 22:53:29.648326 INFO::Fitting model to feature number 98, PNOQ01
+2025-10-11 22:53:29.652511 INFO::Fitting model to feature number 99, PWKY01
+2025-10-11 22:53:29.656139 INFO::Fitting model to feature number 100, Parvarchaeaceae
+2025-10-11 22:53:29.660015 INFO::Fitting model to feature number 101, Poseidoniaceae
+2025-10-11 22:53:29.664584 INFO::Fitting model to feature number 102, QMZM01
+2025-10-11 22:53:29.669093 INFO::Fitting model to feature number 103, QMZS01
+2025-10-11 22:53:29.673653 INFO::Fitting model to feature number 104, RBG.16.68.12
+2025-10-11 22:53:29.67881 INFO::Fitting model to feature number 105, RDOG01
+2025-10-11 22:53:29.707052 INFO::Fitting model to feature number 106, S146.22
+2025-10-11 22:53:29.711113 INFO::Fitting model to feature number 107, SCGC.AAA011.G17
+2025-10-11 22:53:29.714545 INFO::Fitting model to feature number 108, SG8.5
+2025-10-11 22:53:29.718211 INFO::Fitting model to feature number 109, SM23.78
+2025-10-11 22:53:29.72184 INFO::Fitting model to feature number 110, SOJC01
+2025-10-11 22:53:29.727143 INFO::Fitting model to feature number 111, SOKP01
+2025-10-11 22:53:29.731894 INFO::Fitting model to feature number 112, SZUA.1535
+2025-10-11 22:53:29.735623 INFO::Fitting model to feature number 113, SpSt.28
+2025-10-11 22:53:29.739042 INFO::Fitting model to feature number 114, Sulfolobaceae
+2025-10-11 22:53:29.743654 INFO::Fitting model to feature number 115, TCS64
+2025-10-11 22:53:29.747192 INFO::Fitting model to feature number 116, Thalassarchaeaceae
+2025-10-11 22:53:29.751092 INFO::Fitting model to feature number 117, Thermocladiaceae
+2025-10-11 22:53:29.754581 INFO::Fitting model to feature number 118, Thermococcaceae
+2025-10-11 22:53:29.773796 INFO::Fitting model to feature number 119, Thermofilaceae
+2025-10-11 22:53:29.782497 INFO::Fitting model to feature number 120, Thermoplasmataceae
+2025-10-11 22:53:29.788327 INFO::Fitting model to feature number 121, Thorarchaeaceae
+2025-10-11 22:53:29.7923 INFO::Fitting model to feature number 122, UBA10216
+2025-10-11 22:53:29.79667 INFO::Fitting model to feature number 123, UBA164
+2025-10-11 22:53:29.802934 INFO::Fitting model to feature number 124, UBA184
+2025-10-11 22:53:29.808832 INFO::Fitting model to feature number 125, UBA213
+2025-10-11 22:53:29.813185 INFO::Fitting model to feature number 126, UBA233
+2025-10-11 22:53:29.816909 INFO::Fitting model to feature number 127, UBA287
+2025-10-11 22:53:29.820778 INFO::Fitting model to feature number 128, UBA460
+2025-10-11 22:53:29.824476 INFO::Fitting model to feature number 129, UBA472
+2025-10-11 22:53:29.827683 INFO::Fitting model to feature number 130, UBA489
+2025-10-11 22:53:29.830982 INFO::Fitting model to feature number 131, UBA57
+2025-10-11 22:53:29.834113 INFO::Fitting model to feature number 132, UBA583
+2025-10-11 22:53:29.83811 INFO::Fitting model to feature number 133, WJIZ01
+2025-10-11 22:53:29.843102 INFO::Fitting model to feature number 134, WJKL01
+2025-10-11 22:53:29.847507 INFO::Fitting model to feature number 135, WJKR01
+2025-10-11 22:53:29.851025 INFO::Fitting model to feature number 136, WJKV01
+2025-10-11 22:53:29.855323 INFO::Fitting model to feature number 137, WJKY01
+2025-10-11 22:53:29.859073 INFO::Fitting model to feature number 138, Wolframiiraptoraceae
+2025-10-11 22:53:29.874905 INFO::Counting total values for each feature
+2025-10-11 22:53:29.881817 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/features/filtered_data.tsv
+2025-10-11 22:53:29.904784 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/features/filtered_data_norm.tsv
+2025-10-11 22:53:29.961332 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/features/filtered_data_norm_transformed.tsv
+2025-10-11 22:53:30.029895 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/fits/residuals.rds
+2025-10-11 22:53:30.036644 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/fits/fitted.rds
+2025-10-11 22:53:30.040198 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/all_results.tsv
+2025-10-11 22:53:30.045969 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/significant_results.tsv
+2025-10-11 22:53:30.048732 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea/heatmap.pdf
+2025-10-11 22:53:30.051063 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_family/archaea
