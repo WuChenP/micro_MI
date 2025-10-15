@@ -33,24 +33,24 @@ rownames(metadata) <- metadata$SampleID  # 样本 ID 对应行名
 # 3. 循环分析四类微生物
 # ----------------------------
 for (microbe in names(microbe_files)) {
-  
+
   cat("正在分析:", microbe, "\n")
-  
+
   # 读取 family 水平表
   feature_data <- read.xlsx(microbe_files[[microbe]])
   rownames(feature_data) <- feature_data$Family
   feature_data_only <- feature_data[, -1]  # 删除 Family 列，只保留丰度
-  
+
   # 确保样本顺序一致
   common_samples <- intersect(colnames(feature_data_only), rownames(metadata))
   feature_data_filtered <- feature_data_only[, common_samples, drop = FALSE]
   metadata_filtered <- metadata[common_samples, , drop = FALSE]
-  
+
   # 构建 phyloseq 对象
   otu <- otu_table(as.matrix(feature_data_filtered), taxa_are_rows = TRUE)
   sam <- sample_data(metadata_filtered)
   ps_obj <- phyloseq(otu, sam)
-  
+
   # ----------------------------
   # 运行 ANCOM-BC2
   # ----------------------------
@@ -70,21 +70,21 @@ for (microbe in names(microbe_files)) {
     cat(paste0("ANCOM-BC2分析出错: ", microbe, " - ", e$message, "\n"))
     return(NULL)
   })
-  
+
   # ----------------------------
   # 合并结果并去掉无法计算的行，只保留 Family 列
   # ----------------------------
   if (!is.null(ancombc_res)) {
     res <- ancombc_res$res
-    
+
     # 合并原始表和 ANCOM-BC2 结果
     final_res <- merge(feature_data, res, by.x = "Family", by.y = "taxon", all.x = FALSE)
-    
+
     # 确保只保留原始 Family 列，删除重复的 taxon 列
     if ("taxon" %in% colnames(final_res)) {
       final_res$taxon <- NULL
     }
-    
+
     # ----------------------------
     # 保存为 Excel
     # ----------------------------
@@ -93,9 +93,9 @@ for (microbe in names(microbe_files)) {
     addWorksheet(wb, "Complete_Results")
     writeData(wb, "Complete_Results", final_res)
     saveWorkbook(wb, output_file, overwrite = TRUE)
-    
+
     cat(paste0("ANCOM-BC2过滤后结果已保存: ", output_file, "\n\n"))
-    
+
   } else {
     cat(paste0("ANCOM-BC2分析结果为空: ", microbe, "\n\n"))
   }

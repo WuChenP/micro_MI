@@ -1,6 +1,6 @@
 feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
-k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Rountreeviridae	Group	MI	-2.45752373413893	0.456717640592047	85	80	6.72743515518359e-07	4.45184756142212e-05
-k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Rountreeviridae.g__Andhravirus	Group	MI	-2.4257684520374	0.455390490338351	85	80	8.39971238004174e-07	4.45184756142212e-05
-k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Rountreeviridae.g__Andhravirus.s__Staphylococcus_virus_Andhra	Group	MI	-2.4257684520374	0.455390490338351	85	80	8.39971238004174e-07	4.45184756142212e-05
-k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Siphoviridae.g__Chivirus	Group	MI	-2.81476107504372	0.507761586738448	85	82	3.43004787119466e-07	4.45184756142212e-05
-k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Siphoviridae.g__Chivirus.s__Salmonella_phage_TS13	Group	MI	-2.77069534185214	0.48906814154696	85	82	2.06030144124286e-07	4.45184756142212e-05
+k__Viruses|p__Uroviricota|c__Caudoviricetes|o__Caudovirales|f__Rountreeviridae	Group	MI	-2.457523734	0.456717641	85	80	6.73E-07	4.45E-05
+k__Viruses|p__Uroviricota|c__Caudoviricetes|o__Caudovirales|f__Rountreeviridae|g__Andhravirus	Group	MI	-2.425768452	0.45539049	85	80	8.40E-07	4.45E-05
+k__Viruses|p__Uroviricota|c__Caudoviricetes|o__Caudovirales|f__Rountreeviridae|g__Andhravirus|s__Staphylococcus_virus_Andhra	Group	MI	-2.425768452	0.45539049	85	80	8.40E-07	4.45E-05
+k__Viruses|p__Uroviricota|c__Caudoviricetes|o__Caudovirales|f__Siphoviridae|g__Chivirus	Group	MI	-2.814761075	0.507761587	85	82	3.43E-07	4.45E-05
+k__Viruses|p__Uroviricota|c__Caudoviricetes|o__Caudovirales|f__Siphoviridae|g__Chivirus|s__Salmonella_phage_TS13	Group	MI	-2.770695342	0.489068142	85	82	2.06E-07	4.45E-05
