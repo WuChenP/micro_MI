@@ -1,9 +1,0 @@
-对于type类型的阈值：
-up: VIP>=1 & P_value<0.05 & FC>2
-down:VIP>=1 & P_value<0.05 &FC<0.5
-insig: else
-
-筛选结果：up：312    down：332    （合计644）  in：4064
-原始数据行数: 4708
-过滤后行数: 644
-删除了 4064 行insig数据
