@@ -27,7 +27,7 @@ if (!require("dplyr", quietly = TRUE)) {
 
 # 定义文件路径
 file_paths <- c(
-  virus = "E:/Python/MI_Analysis/origin_data/心梗组_病毒(新).xlsx",
+  virus = "E:/Python/MI_Analysis/origin_data/心梗组_病毒.xlsx",
   bacteria = "E:/Python/MI_Analysis/origin_data/心梗组_细菌.xlsx", 
   fungi = "E:/Python/MI_Analysis/origin_data/心梗组_真菌.xlsx",
   archaea = "E:/Python/MI_Analysis/origin_data/心梗组_古菌.xlsx"
@@ -98,7 +98,7 @@ prevalence_filter <- function(data, prevalence_threshold = 0.2) {
 }
 
 # 保存CSV数据
-save_filtered_data <- function(data, data_name, output_dir = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/") {
+save_filtered_data <- function(data, data_name, output_dir = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/") {
   if (is.null(data)) {
     cat(data_name, "数据为空，跳过保存\n")
     return(FALSE)

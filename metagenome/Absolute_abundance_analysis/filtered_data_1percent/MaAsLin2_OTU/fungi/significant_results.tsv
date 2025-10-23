@@ -1,0 +1,5 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_luchuensis	Group	MI	1.04726927562832	0.286167405330727	84	74	0.000445509235058605	0.0303666530409726
+k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_schenckii	Group	MI	1.17109496390973	0.331986648949269	84	71	0.00069015120547665	0.0303666530409726
+k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces.s__Kluyveromyces_lactis	Group	MI	0.992666002375424	0.304430914562601	84	64	0.00161970893727871	0.0356335966201316
+k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora.s__Neurospora_crassa	Group	MI	0.904493355178203	0.273166727590689	84	69	0.00138307542166074	0.0356335966201316

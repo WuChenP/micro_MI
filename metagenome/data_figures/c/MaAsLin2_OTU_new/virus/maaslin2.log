@@ -1,0 +1,59 @@
+2025-10-22 09:46:46.968598 INFO::Writing function arguments to log file
+2025-10-22 09:46:46.972096 DEBUG::Function arguments
+2025-10-22 09:46:46.973052 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus_temp.tsv
+2025-10-22 09:46:46.974554 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//metadata_temp.tsv
+2025-10-22 09:46:46.975696 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus
+2025-10-22 09:46:46.976654 DEBUG::Min Abundance: 0.000000
+2025-10-22 09:46:46.977583 DEBUG::Min Prevalence: 0.100000
+2025-10-22 09:46:46.978521 DEBUG::Normalization: TSS
+2025-10-22 09:46:46.979435 DEBUG::Transform: LOG
+2025-10-22 09:46:46.980434 DEBUG::Analysis method: LM
+2025-10-22 09:46:46.981491 DEBUG::Max significance: 0.050000
+2025-10-22 09:46:46.982619 DEBUG::Random effects:
+2025-10-22 09:46:46.983575 DEBUG::Fixed effects: Group
+2025-10-22 09:46:46.984504 DEBUG::Correction method: BH
+2025-10-22 09:46:46.985483 DEBUG::Standardize: TRUE
+2025-10-22 09:46:46.986572 DEBUG::Cores: 1
+2025-10-22 09:46:46.987495 INFO::Verifying options selected are valid
+2025-10-22 09:46:46.989834 INFO::Determining format of input files
+2025-10-22 09:46:46.991768 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-22 09:46:46.994476 DEBUG::Transformed data so samples are rows
+2025-10-22 09:46:46.995995 DEBUG::A total of 84 samples were found in both the data and metadata
+2025-10-22 09:46:46.996978 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-22 09:46:46.998665 INFO::Formula for fixed effects: expr ~  Group
+2025-10-22 09:46:47.001159 INFO::Filter data based on min abundance and min prevalence
+2025-10-22 09:46:47.003575 INFO::Total samples in data: 84
+2025-10-22 09:46:47.005497 INFO::Min samples required with min abundance for a feature not to be filtered: 8.400000
+2025-10-22 09:46:47.008189 INFO::Total filtered features: 0
+2025-10-22 09:46:47.010474 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-10-22 09:46:47.012845 INFO::Total filtered features with variance filtering: 0
+2025-10-22 09:46:47.014691 INFO::Filtered feature names from variance filtering:
+2025-10-22 09:46:47.016865 INFO::Running selected normalization method: TSS
+2025-10-22 09:46:47.019986 INFO::Applying z-score to standardize continuous metadata
+2025-10-22 09:46:47.031209 INFO::Running selected transform method: LOG
+2025-10-22 09:46:47.033764 INFO::Running selected analysis method: LM
+2025-10-22 09:46:47.036618 INFO::Fitting model to feature number 1, 衣原体纲..Chlamydiia.
+2025-10-22 09:46:47.043466 INFO::Fitting model to feature number 2, 芽孢杆菌纲..Bacilli.
+2025-10-22 09:46:47.048102 INFO::Fitting model to feature number 3, γ.变形菌纲..Gammaproteobacteria.
+2025-10-22 09:46:47.052959 INFO::Fitting model to feature number 4, 梭菌纲..Clostridia.
+2025-10-22 09:46:47.058242 INFO::Fitting model to feature number 5, 拟杆菌纲..Bacteroidia.
+2025-10-22 09:46:47.062958 INFO::Fitting model to feature number 6, 柔膜菌纲..Mollicutes.
+2025-10-22 09:46:47.067984 INFO::Fitting model to feature number 7, 放线菌纲..Actinomycetia.
+2025-10-22 09:46:47.072884 INFO::Fitting model to feature number 8, 黄杆菌纲..Flavobacteriia.
+2025-10-22 09:46:47.077313 INFO::Fitting model to feature number 9, α.变形菌纲..Alphaproteobacteria.
+2025-10-22 09:46:47.082044 INFO::Fitting model to feature number 10, β.变形菌纲..Betaproteobacteria.
+2025-10-22 09:46:47.087062 INFO::Fitting model to feature number 11, 丹毒丝菌纲..Erysipelotrichia.
+2025-10-22 09:46:47.091755 INFO::Fitting model to feature number 12, ε.变形菌纲..Epsilonproteobacteria.
+2025-10-22 09:46:47.096808 INFO::Fitting model to feature number 13, Negativicutes纲
+2025-10-22 09:46:47.102584 INFO::Fitting model to feature number 14, δ.变形菌纲..Deltaproteobacteria.
+2025-10-22 09:46:47.10839 INFO::Fitting model to feature number 15, 真细菌纲..Eubacteriia.
+2025-10-22 09:46:47.121414 INFO::Counting total values for each feature
+2025-10-22 09:46:47.125704 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/features/filtered_data.tsv
+2025-10-22 09:46:47.131484 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/features/filtered_data_norm.tsv
+2025-10-22 09:46:47.13854 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/features/filtered_data_norm_transformed.tsv
+2025-10-22 09:46:47.146318 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/fits/residuals.rds
+2025-10-22 09:46:47.15035 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/fits/fitted.rds
+2025-10-22 09:46:47.153396 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/all_results.tsv
+2025-10-22 09:46:47.157809 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/significant_results.tsv
+2025-10-22 09:46:47.16069 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus/heatmap.pdf
+2025-10-22 09:46:47.164276 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/c/MaAsLin2_OTU_new//virus

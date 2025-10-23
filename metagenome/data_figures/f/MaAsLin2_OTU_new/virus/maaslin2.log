@@ -1,0 +1,65 @@
+2025-10-22 12:32:03.944398 INFO::Writing function arguments to log file
+2025-10-22 12:32:03.94817 DEBUG::Function arguments
+2025-10-22 12:32:03.949403 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus_temp.tsv
+2025-10-22 12:32:03.950742 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//metadata_temp.tsv
+2025-10-22 12:32:03.951941 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus
+2025-10-22 12:32:03.953032 DEBUG::Min Abundance: 0.000000
+2025-10-22 12:32:03.954109 DEBUG::Min Prevalence: 0.100000
+2025-10-22 12:32:03.955295 DEBUG::Normalization: TSS
+2025-10-22 12:32:03.956504 DEBUG::Transform: LOG
+2025-10-22 12:32:03.957755 DEBUG::Analysis method: LM
+2025-10-22 12:32:03.958861 DEBUG::Max significance: 0.050000
+2025-10-22 12:32:03.960017 DEBUG::Random effects:
+2025-10-22 12:32:03.961436 DEBUG::Fixed effects: Group
+2025-10-22 12:32:03.962542 DEBUG::Correction method: BH
+2025-10-22 12:32:03.963667 DEBUG::Standardize: TRUE
+2025-10-22 12:32:03.964801 DEBUG::Cores: 1
+2025-10-22 12:32:03.96593 INFO::Verifying options selected are valid
+2025-10-22 12:32:03.968449 INFO::Determining format of input files
+2025-10-22 12:32:03.970969 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-22 12:32:03.973966 DEBUG::Transformed data so samples are rows
+2025-10-22 12:32:03.975519 DEBUG::A total of 84 samples were found in both the data and metadata
+2025-10-22 12:32:03.976711 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-22 12:32:03.978725 INFO::Formula for fixed effects: expr ~  Group
+2025-10-22 12:32:03.982349 INFO::Filter data based on min abundance and min prevalence
+2025-10-22 12:32:03.98509 INFO::Total samples in data: 84
+2025-10-22 12:32:03.98742 INFO::Min samples required with min abundance for a feature not to be filtered: 8.400000
+2025-10-22 12:32:03.990422 INFO::Total filtered features: 0
+2025-10-22 12:32:03.992766 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-10-22 12:32:03.995841 INFO::Total filtered features with variance filtering: 0
+2025-10-22 12:32:03.998301 INFO::Filtered feature names from variance filtering:
+2025-10-22 12:32:04.001109 INFO::Running selected normalization method: TSS
+2025-10-22 12:32:04.004563 INFO::Applying z-score to standardize continuous metadata
+2025-10-22 12:32:04.016526 INFO::Running selected transform method: LOG
+2025-10-22 12:32:04.019655 INFO::Running selected analysis method: LM
+2025-10-22 12:32:04.0229 INFO::Fitting model to feature number 1, 肠杆菌科..Enterobacteriaceae.
+2025-10-22 12:32:04.030169 INFO::Fitting model to feature number 2, 链球菌科..Streptococcaceae.
+2025-10-22 12:32:04.035388 INFO::Fitting model to feature number 3, 支原体科..Mycoplasmataceae.
+2025-10-22 12:32:04.040634 INFO::Fitting model to feature number 4, 梭菌科..Clostridiaceae.
+2025-10-22 12:32:04.046583 INFO::Fitting model to feature number 5, 乳杆菌科..Lactobacillaceae.
+2025-10-22 12:32:04.051574 INFO::Fitting model to feature number 6, 坦纳菌科..Tannerellaceae.
+2025-10-22 12:32:04.056415 INFO::Fitting model to feature number 7, 拟杆菌科..Bacteroidaceae.
+2025-10-22 12:32:04.06164 INFO::Fitting model to feature number 8, 肠球菌科..Enterococcaceae.
+2025-10-22 12:32:04.066458 INFO::Fitting model to feature number 9, 芽孢杆菌科..Bacillaceae.
+2025-10-22 12:32:04.071222 INFO::Fitting model to feature number 10, 毛螺菌科..Lachnospiraceae.
+2025-10-22 12:32:04.076188 INFO::Fitting model to feature number 11, 明串珠菌科..Leuconostocaceae.
+2025-10-22 12:32:04.082279 INFO::Fitting model to feature number 12, 葡萄球菌科..Staphylococcaceae.
+2025-10-22 12:32:04.087684 INFO::Fitting model to feature number 13, 瘤胃球菌科..Ruminococcaceae.
+2025-10-22 12:32:04.092383 INFO::Fitting model to feature number 14, 丙酸杆菌科..Propionibacteriaceae.
+2025-10-22 12:32:04.09757 INFO::Fitting model to feature number 15, 普雷沃菌科..Prevotellaceae.
+2025-10-22 12:32:04.102917 INFO::Fitting model to feature number 16, 双歧杆菌科..Bifidobacteriaceae.
+2025-10-22 12:32:04.107906 INFO::Fitting model to feature number 17, 韦荣球菌科..Veillonellaceae.
+2025-10-22 12:32:04.112884 INFO::Fitting model to feature number 18, 丹毒丝菌科..Erysipelotrichaceae.
+2025-10-22 12:32:04.117682 INFO::Fitting model to feature number 19, 柯林斯菌科..Coriobacteriaceae.
+2025-10-22 12:32:04.12299 INFO::Fitting model to feature number 20, 真杆菌科..Eubacteriaceae.
+2025-10-22 12:32:04.127848 INFO::Fitting model to feature number 21, 阿克曼氏菌科..Akkermansiaceae.
+2025-10-22 12:32:04.140021 INFO::Counting total values for each feature
+2025-10-22 12:32:04.144714 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/features/filtered_data.tsv
+2025-10-22 12:32:04.150166 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/features/filtered_data_norm.tsv
+2025-10-22 12:32:04.158161 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/features/filtered_data_norm_transformed.tsv
+2025-10-22 12:32:04.167895 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/fits/residuals.rds
+2025-10-22 12:32:04.172093 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/fits/fitted.rds
+2025-10-22 12:32:04.175341 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/all_results.tsv
+2025-10-22 12:32:04.179838 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/significant_results.tsv
+2025-10-22 12:32:04.183281 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus/heatmap.pdf
+2025-10-22 12:32:04.188092 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/f/MaAsLin2_OTU_new//virus

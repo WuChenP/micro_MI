@@ -1,0 +1,257 @@
+Diversity Analysis Statistical Results
+======================================
+
+Analysis Date: 2025-10-20 23:05:31 
+
+
+ === ARCHAEA === 
+Microbial type: archaea 
+Analysis time: 2025-10-20 23:05:32 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Shannon: p = 0.024 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.024
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.035 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.035
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.035 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.035
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Observed: p = 0.095 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.095
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p = 0.095 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.095
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p = 0.095 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.095
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p = 0.095 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.095
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+ACE: p = 0.095 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - EXTREME caution advised]
+  P-value: 0.095
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.050000
+R-squared: 0.033131
+Result: PERMANOVA: p = 0.050, R2 = 0.033
+Samples: Control (n=47), MI (n=37)
+
+
+ === BACTERIA === 
+Microbial type: bacteria 
+Analysis time: 2025-10-20 23:05:36 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Shannon: p = 0.399 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.399
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.430 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.430
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.430 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.430
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Observed: p = 0.438 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.438
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p = 0.438 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.438
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p = 0.438 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.438
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p = 0.438 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.438
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+ACE: p = 0.438 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - EXTREME caution advised]
+  P-value: 0.438
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.055000
+R-squared: 0.023023
+Result: PERMANOVA: p = 0.055, R2 = 0.023
+Samples: Control (n=47), MI (n=37)
+
+
+ === FUNGI === 
+Microbial type: fungi 
+Analysis time: 2025-10-20 23:05:39 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Shannon: p = 0.128 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.128
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.496 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.496
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.496 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.496
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Observed: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.007
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.007
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.007
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.007
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+ACE: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - EXTREME caution advised]
+  P-value: 0.007
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.234000
+R-squared: 0.016186
+Result: PERMANOVA: p = 0.234, R2 = 0.016
+Samples: Control (n=47), MI (n=37)
+
+
+ === VIRUS === 
+Microbial type: virus 
+Analysis time: 2025-10-20 23:05:42 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Shannon: p = 0.419 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.419
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.399 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.399
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.399 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.399
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Observed: p = 0.639 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.639
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p = 0.639 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.639
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p = 0.639 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.639
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p = 0.639 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.639
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+ACE: p = 0.639 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - EXTREME caution advised]
+  P-value: 0.639
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.001000
+R-squared: 0.055493
+Result: PERMANOVA: p < 0.01, R2 = 0.055
+Samples: Control (n=47), MI (n=37)
+

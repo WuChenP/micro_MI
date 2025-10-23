@@ -6,7 +6,7 @@ library(openxlsx)
 # =========================================================
 # 1. 读取元数据表
 # =========================================================
-metadata_path <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/sample_metadata.xlsx"
+metadata_path <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/sample_metadata.xlsx"
 metadata <- read.xlsx(metadata_path)
 
 # 标准化列名
@@ -19,14 +19,14 @@ cat("已读取样本元数据，共", nrow(metadata), "个样本。\n")
 # 2. 微生物丰度文件路径列表
 # =========================================================
 microbe_files <- list(
-  archaea = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/古菌_filtered_20percent.csv",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/细菌_filtered_20percent.csv",
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/真菌_filtered_20percent.csv",
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/病毒_filtered_20percent.csv"
+  archaea = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/古菌_filtered_20percent.csv",
+  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/细菌_filtered_20percent.csv",
+  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/真菌_filtered_20percent.csv",
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/病毒_filtered_20percent.csv"
 )
 
 # 输出文件路径
-output_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent_change/ancombc2_results_OTU/four_microbes_with_abundance.xlsx"
+output_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_20percent/ancombc2_results_OTU/four_microbes_with_abundance.xlsx"
 wb <- createWorkbook()
 
 # =========================================================

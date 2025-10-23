@@ -1,246 +1,261 @@
-2025-10-09 21:15:38.219844 INFO::Writing function arguments to log file
-2025-10-09 21:15:38.221395 DEBUG::Function arguments
-2025-10-09 21:15:38.222349 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi_temp.tsv
-2025-10-09 21:15:38.223264 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//metadata_temp.tsv
-2025-10-09 21:15:38.224198 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi
-2025-10-09 21:15:38.225181 DEBUG::Min Abundance: 0.000000
-2025-10-09 21:15:38.226143 DEBUG::Min Prevalence: 0.100000
-2025-10-09 21:15:38.227051 DEBUG::Normalization: TSS
-2025-10-09 21:15:38.228138 DEBUG::Transform: LOG
-2025-10-09 21:15:38.229107 DEBUG::Analysis method: LM
-2025-10-09 21:15:38.23006 DEBUG::Max significance: 0.050000
-2025-10-09 21:15:38.230995 DEBUG::Random effects:
-2025-10-09 21:15:38.231975 DEBUG::Fixed effects: Group
-2025-10-09 21:15:38.232917 DEBUG::Correction method: BH
-2025-10-09 21:15:38.233877 DEBUG::Standardize: TRUE
-2025-10-09 21:15:38.23482 DEBUG::Cores: 1
-2025-10-09 21:15:38.23576 INFO::Verifying options selected are valid
-2025-10-09 21:15:38.237464 INFO::Determining format of input files
-2025-10-09 21:15:38.239135 INFO::Input format is data samples as columns and metadata samples as rows
-2025-10-09 21:15:38.241864 DEBUG::Transformed data so samples are rows
-2025-10-09 21:15:38.246795 DEBUG::A total of 85 samples were found in both the data and metadata
-2025-10-09 21:15:38.247744 DEBUG::Reordering data/metadata to use same sample ordering
-2025-10-09 21:15:38.25013 INFO::Formula for fixed effects: expr ~  Group
-2025-10-09 21:15:38.251936 INFO::Filter data based on min abundance and min prevalence
-2025-10-09 21:15:38.253493 INFO::Total samples in data: 85
-2025-10-09 21:15:38.25503 INFO::Min samples required with min abundance for a feature not to be filtered: 8.500000
-2025-10-09 21:15:38.25866 INFO::Total filtered features: 11
-2025-10-09 21:15:38.260337 INFO::Filtered feature names from abundance and prevalence filtering: k__Fungi.p__Microsporidia, k__Fungi.p__Microsporidia.c__Cryptophyceae, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas.s__Cryptomonas_paramecium, k__Fungi.p__Microsporidia.c__Unclassified, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified.f__Unikaryonidae, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified.f__Unikaryonidae.g__Encephalitozoon, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified.f__Unikaryonidae.g__Encephalitozoon.s__Encephalitozoon_hellem
-2025-10-09 21:15:38.265031 INFO::Total filtered features with variance filtering: 0
-2025-10-09 21:15:38.266768 INFO::Filtered feature names from variance filtering:
-2025-10-09 21:15:38.268309 INFO::Running selected normalization method: TSS
-2025-10-09 21:15:38.272336 INFO::Applying z-score to standardize continuous metadata
-2025-10-09 21:15:38.276063 INFO::Running selected transform method: LOG
-2025-10-09 21:15:38.281485 INFO::Running selected analysis method: LM
-2025-10-09 21:15:38.283587 INFO::Fitting model to feature number 1, k__Fungi
-2025-10-09 21:15:38.287125 INFO::Fitting model to feature number 2, k__Fungi.p__Ascomycota
-2025-10-09 21:15:38.29049 INFO::Fitting model to feature number 3, k__Fungi.p__Ascomycota.c__Dothideomycetes
-2025-10-09 21:15:38.294182 INFO::Fitting model to feature number 4, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales
-2025-10-09 21:15:38.297586 INFO::Fitting model to feature number 5, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae
-2025-10-09 21:15:38.300962 INFO::Fitting model to feature number 6, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium
-2025-10-09 21:15:38.304649 INFO::Fitting model to feature number 7, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium.s__Cladosporium_cladosporioides
-2025-10-09 21:15:38.307992 INFO::Fitting model to feature number 8, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium.s__Cladosporium_cucumerinum
-2025-10-09 21:15:38.311287 INFO::Fitting model to feature number 9, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium.s__Cladosporium_tenuissimum
-2025-10-09 21:15:38.314729 INFO::Fitting model to feature number 10, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales
-2025-10-09 21:15:38.317916 INFO::Fitting model to feature number 11, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae
-2025-10-09 21:15:38.321136 INFO::Fitting model to feature number 12, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Cercospora
-2025-10-09 21:15:38.32486 INFO::Fitting model to feature number 13, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Cercospora.s__Cercospora_beticola
-2025-10-09 21:15:38.328095 INFO::Fitting model to feature number 14, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Zymoseptoria
-2025-10-09 21:15:38.331306 INFO::Fitting model to feature number 15, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Zymoseptoria.s__Zymoseptoria_tritici
-2025-10-09 21:15:38.334637 INFO::Fitting model to feature number 16, k__Fungi.p__Ascomycota.c__Eurotiomycetes
-2025-10-09 21:15:38.337772 INFO::Fitting model to feature number 17, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales
-2025-10-09 21:15:38.340908 INFO::Fitting model to feature number 18, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales.f__Herpotrichiellaceae
-2025-10-09 21:15:38.344262 INFO::Fitting model to feature number 19, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales.f__Herpotrichiellaceae.g__Fonsecaea
-2025-10-09 21:15:38.347359 INFO::Fitting model to feature number 20, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales.f__Herpotrichiellaceae.g__Fonsecaea.s__Fonsecaea_pedrosoi
-2025-10-09 21:15:38.350527 INFO::Fitting model to feature number 21, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales
-2025-10-09 21:15:38.354284 INFO::Fitting model to feature number 22, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae
-2025-10-09 21:15:38.358082 INFO::Fitting model to feature number 23, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus
-2025-10-09 21:15:38.361283 INFO::Fitting model to feature number 24, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_chevalieri
-2025-10-09 21:15:38.36464 INFO::Fitting model to feature number 25, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_flavus
-2025-10-09 21:15:38.367664 INFO::Fitting model to feature number 26, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_fumigatus
-2025-10-09 21:15:38.371444 INFO::Fitting model to feature number 27, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_luchuensis
-2025-10-09 21:15:38.374899 INFO::Fitting model to feature number 28, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_oryzae
-2025-10-09 21:15:38.378088 INFO::Fitting model to feature number 29, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_puulaauensis
-2025-10-09 21:15:38.381155 INFO::Fitting model to feature number 30, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae
-2025-10-09 21:15:38.384791 INFO::Fitting model to feature number 31, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae.g__Talaromyces
-2025-10-09 21:15:38.387851 INFO::Fitting model to feature number 32, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae.g__Talaromyces.s__Talaromyces_rugulosus
-2025-10-09 21:15:38.390951 INFO::Fitting model to feature number 33, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales
-2025-10-09 21:15:38.394251 INFO::Fitting model to feature number 34, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae
-2025-10-09 21:15:38.397311 INFO::Fitting model to feature number 35, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum
-2025-10-09 21:15:38.400582 INFO::Fitting model to feature number 36, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum.s__Microsporum_audouinii
-2025-10-09 21:15:38.404282 INFO::Fitting model to feature number 37, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum.s__Microsporum_canis
-2025-10-09 21:15:38.407368 INFO::Fitting model to feature number 38, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Trichophyton
-2025-10-09 21:15:38.410571 INFO::Fitting model to feature number 39, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Trichophyton.s__Trichophyton_rubrum
-2025-10-09 21:15:38.414035 INFO::Fitting model to feature number 40, k__Fungi.p__Ascomycota.c__Leotiomycetes
-2025-10-09 21:15:38.417319 INFO::Fitting model to feature number 41, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales
-2025-10-09 21:15:38.420496 INFO::Fitting model to feature number 42, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales.f__Sclerotiniaceae
-2025-10-09 21:15:38.423801 INFO::Fitting model to feature number 43, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales.f__Sclerotiniaceae.g__Botrytis
-2025-10-09 21:15:38.426892 INFO::Fitting model to feature number 44, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales.f__Sclerotiniaceae.g__Botrytis.s__Botrytis_cinerea
-2025-10-09 21:15:38.429917 INFO::Fitting model to feature number 45, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes
-2025-10-09 21:15:38.433667 INFO::Fitting model to feature number 46, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales
-2025-10-09 21:15:38.436837 INFO::Fitting model to feature number 47, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales.f__Pneumocystidaceae
-2025-10-09 21:15:38.439976 INFO::Fitting model to feature number 48, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales.f__Pneumocystidaceae.g__Pneumocystis
-2025-10-09 21:15:38.443282 INFO::Fitting model to feature number 49, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales.f__Pneumocystidaceae.g__Pneumocystis.s__Pneumocystis_carinii
-2025-10-09 21:15:38.44636 INFO::Fitting model to feature number 50, k__Fungi.p__Ascomycota.c__Saccharomycetes
-2025-10-09 21:15:38.450039 INFO::Fitting model to feature number 51, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales
-2025-10-09 21:15:38.453389 INFO::Fitting model to feature number 52, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae
-2025-10-09 21:15:38.456473 INFO::Fitting model to feature number 53, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida
-2025-10-09 21:15:38.45951 INFO::Fitting model to feature number 54, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_albicans
-2025-10-09 21:15:38.463487 INFO::Fitting model to feature number 55, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_dubliniensis
-2025-10-09 21:15:38.466645 INFO::Fitting model to feature number 56, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_orthopsilosis
-2025-10-09 21:15:38.469778 INFO::Fitting model to feature number 57, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_tropicalis
-2025-10-09 21:15:38.473028 INFO::Fitting model to feature number 58, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Debaryomyces
-2025-10-09 21:15:38.476085 INFO::Fitting model to feature number 59, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Debaryomyces.s__Debaryomyces_hansenii
-2025-10-09 21:15:38.479545 INFO::Fitting model to feature number 60, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Scheffersomyces
-2025-10-09 21:15:38.483024 INFO::Fitting model to feature number 61, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Scheffersomyces.s__Scheffersomyces_stipitis
-2025-10-09 21:15:38.486145 INFO::Fitting model to feature number 62, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Dipodascaceae
-2025-10-09 21:15:38.489204 INFO::Fitting model to feature number 63, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Dipodascaceae.g__Yarrowia
-2025-10-09 21:15:38.492422 INFO::Fitting model to feature number 64, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Dipodascaceae.g__Yarrowia.s__Yarrowia_lipolytica
-2025-10-09 21:15:38.495861 INFO::Fitting model to feature number 65, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Phaffomycetaceae
-2025-10-09 21:15:38.499375 INFO::Fitting model to feature number 66, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Phaffomycetaceae.g__Komagataella
-2025-10-09 21:15:38.502798 INFO::Fitting model to feature number 67, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Phaffomycetaceae.g__Komagataella.s__Komagataella_phaffii
-2025-10-09 21:15:38.505849 INFO::Fitting model to feature number 68, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae
-2025-10-09 21:15:38.50899 INFO::Fitting model to feature number 69, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Brettanomyces
-2025-10-09 21:15:38.512592 INFO::Fitting model to feature number 70, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Brettanomyces.s__Brettanomyces_bruxellensis
-2025-10-09 21:15:38.515743 INFO::Fitting model to feature number 71, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Brettanomyces.s__Brettanomyces_nanus
-2025-10-09 21:15:38.518805 INFO::Fitting model to feature number 72, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Ogataea
-2025-10-09 21:15:38.522022 INFO::Fitting model to feature number 73, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Ogataea.s__Ogataea_parapolymorpha
-2025-10-09 21:15:38.525406 INFO::Fitting model to feature number 74, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Pichia
-2025-10-09 21:15:38.528709 INFO::Fitting model to feature number 75, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Pichia.s__Pichia_kudriavzevii
-2025-10-09 21:15:38.532071 INFO::Fitting model to feature number 76, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae
-2025-10-09 21:15:38.535116 INFO::Fitting model to feature number 77, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium
-2025-10-09 21:15:38.538257 INFO::Fitting model to feature number 78, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium.s__Eremothecium_cymbalariae
-2025-10-09 21:15:38.541698 INFO::Fitting model to feature number 79, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium.s__Eremothecium_gossypii
-2025-10-09 21:15:38.544978 INFO::Fitting model to feature number 80, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium.s__Eremothecium_sinecaudum
-2025-10-09 21:15:38.548157 INFO::Fitting model to feature number 81, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania
-2025-10-09 21:15:38.551557 INFO::Fitting model to feature number 82, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania.s__Kazachstania_africana
-2025-10-09 21:15:38.554767 INFO::Fitting model to feature number 83, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania.s__Kazachstania_exigua
-2025-10-09 21:15:38.558079 INFO::Fitting model to feature number 84, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania.s__Kazachstania_naganishii
-2025-10-09 21:15:38.561369 INFO::Fitting model to feature number 85, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces
-2025-10-09 21:15:38.564752 INFO::Fitting model to feature number 86, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces.s__Kluyveromyces_lactis
-2025-10-09 21:15:38.567637 INFO::Fitting model to feature number 87, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces.s__Kluyveromyces_marxianus
-2025-10-09 21:15:38.570951 INFO::Fitting model to feature number 88, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Lachancea
-2025-10-09 21:15:38.575577 INFO::Fitting model to feature number 89, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Lachancea.s__Lachancea_kluyveri
-2025-10-09 21:15:38.57914 INFO::Fitting model to feature number 90, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Lachancea.s__Lachancea_thermotolerans
-2025-10-09 21:15:38.582363 INFO::Fitting model to feature number 91, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Nakaseomyces
-2025-10-09 21:15:38.585537 INFO::Fitting model to feature number 92, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Nakaseomyces.s__.Candida._glabrata
-2025-10-09 21:15:38.588936 INFO::Fitting model to feature number 93, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Naumovozyma
-2025-10-09 21:15:38.592567 INFO::Fitting model to feature number 94, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Naumovozyma.s__Naumovozyma_castellii
-2025-10-09 21:15:38.595695 INFO::Fitting model to feature number 95, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Naumovozyma.s__Naumovozyma_dairenensis
-2025-10-09 21:15:38.598852 INFO::Fitting model to feature number 96, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces
-2025-10-09 21:15:38.602114 INFO::Fitting model to feature number 97, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_bayanus
-2025-10-09 21:15:38.605949 INFO::Fitting model to feature number 98, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_boulardii_.nom._inval..
-2025-10-09 21:15:38.609162 INFO::Fitting model to feature number 99, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_cerevisiae
-2025-10-09 21:15:38.612532 INFO::Fitting model to feature number 100, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_eubayanus
-2025-10-09 21:15:38.615774 INFO::Fitting model to feature number 101, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_kudriavzevii
-2025-10-09 21:15:38.619089 INFO::Fitting model to feature number 102, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_paradoxus
-2025-10-09 21:15:38.622793 INFO::Fitting model to feature number 103, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_pastorianus
-2025-10-09 21:15:38.626148 INFO::Fitting model to feature number 104, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_uvarum
-2025-10-09 21:15:38.629297 INFO::Fitting model to feature number 105, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Tetrapisispora
-2025-10-09 21:15:38.632847 INFO::Fitting model to feature number 106, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Tetrapisispora.s__Tetrapisispora_blattae
-2025-10-09 21:15:38.636284 INFO::Fitting model to feature number 107, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Tetrapisispora.s__Tetrapisispora_phaffii
-2025-10-09 21:15:38.639659 INFO::Fitting model to feature number 108, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Torulaspora
-2025-10-09 21:15:38.643156 INFO::Fitting model to feature number 109, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Torulaspora.s__Torulaspora_delbrueckii
-2025-10-09 21:15:38.646329 INFO::Fitting model to feature number 110, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Torulaspora.s__Torulaspora_globosa
-2025-10-09 21:15:38.649601 INFO::Fitting model to feature number 111, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygosaccharomyces
-2025-10-09 21:15:38.653131 INFO::Fitting model to feature number 112, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygosaccharomyces.s__Zygosaccharomyces_rouxii
-2025-10-09 21:15:38.656403 INFO::Fitting model to feature number 113, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygotorulaspora
-2025-10-09 21:15:38.659591 INFO::Fitting model to feature number 114, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygotorulaspora.s__Zygotorulaspora_mrakii
-2025-10-09 21:15:38.663043 INFO::Fitting model to feature number 115, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycodaceae
-2025-10-09 21:15:38.666209 INFO::Fitting model to feature number 116, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycodaceae.g__Saccharomycodes
-2025-10-09 21:15:38.669956 INFO::Fitting model to feature number 117, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycodaceae.g__Saccharomycodes.s__Saccharomycodes_ludwigii
-2025-10-09 21:15:38.673428 INFO::Fitting model to feature number 118, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Trichomonascaceae
-2025-10-09 21:15:38.676598 INFO::Fitting model to feature number 119, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Trichomonascaceae.g__Sugiyamaella
-2025-10-09 21:15:38.679863 INFO::Fitting model to feature number 120, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Trichomonascaceae.g__Sugiyamaella.s__Sugiyamaella_lignohabitans
-2025-10-09 21:15:38.68374 INFO::Fitting model to feature number 121, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes
-2025-10-09 21:15:38.687186 INFO::Fitting model to feature number 122, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales
-2025-10-09 21:15:38.690616 INFO::Fitting model to feature number 123, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales.f__Schizosaccharomycetaceae
-2025-10-09 21:15:38.694241 INFO::Fitting model to feature number 124, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales.f__Schizosaccharomycetaceae.g__Schizosaccharomyces
-2025-10-09 21:15:38.697751 INFO::Fitting model to feature number 125, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales.f__Schizosaccharomycetaceae.g__Schizosaccharomyces.s__Schizosaccharomyces_pombe
-2025-10-09 21:15:38.701467 INFO::Fitting model to feature number 126, k__Fungi.p__Ascomycota.c__Sordariomycetes
-2025-10-09 21:15:38.705082 INFO::Fitting model to feature number 127, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales
-2025-10-09 21:15:38.708323 INFO::Fitting model to feature number 128, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales.f__Glomerellaceae
-2025-10-09 21:15:38.711581 INFO::Fitting model to feature number 129, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales.f__Glomerellaceae.g__Colletotrichum
-2025-10-09 21:15:38.715212 INFO::Fitting model to feature number 130, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales.f__Glomerellaceae.g__Colletotrichum.s__Colletotrichum_higginsianum
-2025-10-09 21:15:38.718508 INFO::Fitting model to feature number 131, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales
-2025-10-09 21:15:38.721762 INFO::Fitting model to feature number 132, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae
-2025-10-09 21:15:38.725269 INFO::Fitting model to feature number 133, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Pochonia
-2025-10-09 21:15:38.728656 INFO::Fitting model to feature number 134, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Pochonia.s__Pochonia_chlamydosporia
-2025-10-09 21:15:38.732265 INFO::Fitting model to feature number 135, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Ustilaginoidea
-2025-10-09 21:15:38.735816 INFO::Fitting model to feature number 136, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Ustilaginoidea.s__Ustilaginoidea_virens
-2025-10-09 21:15:38.739121 INFO::Fitting model to feature number 137, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae
-2025-10-09 21:15:38.742336 INFO::Fitting model to feature number 138, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium
-2025-10-09 21:15:38.746211 INFO::Fitting model to feature number 139, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_fujikuroi
-2025-10-09 21:15:38.749633 INFO::Fitting model to feature number 140, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_graminearum
-2025-10-09 21:15:38.75302 INFO::Fitting model to feature number 141, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_musae
-2025-10-09 21:15:38.756606 INFO::Fitting model to feature number 142, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_oxysporum
-2025-10-09 21:15:38.760138 INFO::Fitting model to feature number 143, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_poae
-2025-10-09 21:15:38.763625 INFO::Fitting model to feature number 144, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_venenatum
-2025-10-09 21:15:38.767307 INFO::Fitting model to feature number 145, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_verticillioides
-2025-10-09 21:15:38.770677 INFO::Fitting model to feature number 146, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Ophiocordycipitaceae
-2025-10-09 21:15:38.774093 INFO::Fitting model to feature number 147, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Ophiocordycipitaceae.g__Drechmeria
-2025-10-09 21:15:38.777672 INFO::Fitting model to feature number 148, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Ophiocordycipitaceae.g__Drechmeria.s__Drechmeria_coniospora
-2025-10-09 21:15:38.781361 INFO::Fitting model to feature number 149, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales
-2025-10-09 21:15:38.78497 INFO::Fitting model to feature number 150, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae
-2025-10-09 21:15:38.78888 INFO::Fitting model to feature number 151, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia
-2025-10-09 21:15:38.792578 INFO::Fitting model to feature number 152, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia.s__Pyricularia_grisea
-2025-10-09 21:15:38.796128 INFO::Fitting model to feature number 153, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia.s__Pyricularia_oryzae
-2025-10-09 21:15:38.799827 INFO::Fitting model to feature number 154, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia.s__Pyricularia_pennisetigena
-2025-10-09 21:15:38.803268 INFO::Fitting model to feature number 155, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales
-2025-10-09 21:15:38.806982 INFO::Fitting model to feature number 156, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae
-2025-10-09 21:15:38.810848 INFO::Fitting model to feature number 157, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix
-2025-10-09 21:15:38.814397 INFO::Fitting model to feature number 158, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_brasiliensis
-2025-10-09 21:15:38.81798 INFO::Fitting model to feature number 159, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_globosa
-2025-10-09 21:15:38.821746 INFO::Fitting model to feature number 160, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_schenckii
-2025-10-09 21:15:38.825322 INFO::Fitting model to feature number 161, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales
-2025-10-09 21:15:38.828735 INFO::Fitting model to feature number 162, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae
-2025-10-09 21:15:38.832534 INFO::Fitting model to feature number 163, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothelomyces
-2025-10-09 21:15:38.835991 INFO::Fitting model to feature number 164, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothelomyces.s__Thermothelomyces_thermophilus
-2025-10-09 21:15:38.839549 INFO::Fitting model to feature number 165, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothielavioides
-2025-10-09 21:15:38.843354 INFO::Fitting model to feature number 166, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothielavioides.s__Thermothielavioides_terrestris
-2025-10-09 21:15:38.846922 INFO::Fitting model to feature number 167, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae
-2025-10-09 21:15:38.85052 INFO::Fitting model to feature number 168, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora
-2025-10-09 21:15:38.854407 INFO::Fitting model to feature number 169, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora.s__Neurospora_crassa
-2025-10-09 21:15:38.857943 INFO::Fitting model to feature number 170, k__Fungi.p__Basidiomycota
-2025-10-09 21:15:38.861588 INFO::Fitting model to feature number 171, k__Fungi.p__Basidiomycota.c__Agaricomycetes
-2025-10-09 21:15:38.865517 INFO::Fitting model to feature number 172, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales
-2025-10-09 21:15:38.869266 INFO::Fitting model to feature number 173, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales.f__Marasmiaceae
-2025-10-09 21:15:38.872975 INFO::Fitting model to feature number 174, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales.f__Marasmiaceae.g__Marasmius
-2025-10-09 21:15:38.876778 INFO::Fitting model to feature number 175, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales.f__Marasmiaceae.g__Marasmius.s__Marasmius_oreades
-2025-10-09 21:15:38.880395 INFO::Fitting model to feature number 176, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales
-2025-10-09 21:15:38.884082 INFO::Fitting model to feature number 177, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales.f__Ceratobasidiaceae
-2025-10-09 21:15:38.8879 INFO::Fitting model to feature number 178, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales.f__Ceratobasidiaceae.g__Rhizoctonia
-2025-10-09 21:15:38.891437 INFO::Fitting model to feature number 179, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales.f__Ceratobasidiaceae.g__Rhizoctonia.s__Rhizoctonia_solani
-2025-10-09 21:15:38.895039 INFO::Fitting model to feature number 180, k__Fungi.p__Basidiomycota.c__Cryptophyceae
-2025-10-09 21:15:38.899026 INFO::Fitting model to feature number 181, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales
-2025-10-09 21:15:38.902592 INFO::Fitting model to feature number 182, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae
-2025-10-09 21:15:38.906044 INFO::Fitting model to feature number 183, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas
-2025-10-09 21:15:38.909656 INFO::Fitting model to feature number 184, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas.s__Cryptomonas_paramecium
-2025-10-09 21:15:38.913017 INFO::Fitting model to feature number 185, k__Fungi.p__Basidiomycota.c__Malasseziomycetes
-2025-10-09 21:15:38.916503 INFO::Fitting model to feature number 186, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales
-2025-10-09 21:15:38.920412 INFO::Fitting model to feature number 187, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales.f__Malasseziaceae
-2025-10-09 21:15:38.923809 INFO::Fitting model to feature number 188, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales.f__Malasseziaceae.g__Malassezia
-2025-10-09 21:15:38.927139 INFO::Fitting model to feature number 189, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales.f__Malasseziaceae.g__Malassezia.s__Malassezia_restricta
-2025-10-09 21:15:38.930752 INFO::Fitting model to feature number 190, k__Fungi.p__Basidiomycota.c__Tremellomycetes
-2025-10-09 21:15:38.934138 INFO::Fitting model to feature number 191, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales
-2025-10-09 21:15:38.937329 INFO::Fitting model to feature number 192, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae
-2025-10-09 21:15:38.940847 INFO::Fitting model to feature number 193, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae.g__Cryptococcus
-2025-10-09 21:15:38.944318 INFO::Fitting model to feature number 194, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae.g__Cryptococcus.s__Cryptococcus_gattii_VGI
-2025-10-09 21:15:38.948517 INFO::Fitting model to feature number 195, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae.g__Cryptococcus.s__Cryptococcus_neoformans
-2025-10-09 21:15:38.952466 INFO::Fitting model to feature number 196, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes
-2025-10-09 21:15:38.956052 INFO::Fitting model to feature number 197, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales
-2025-10-09 21:15:38.959618 INFO::Fitting model to feature number 198, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae
-2025-10-09 21:15:38.96489 INFO::Fitting model to feature number 199, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Sporisorium
-2025-10-09 21:15:38.969081 INFO::Fitting model to feature number 200, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Sporisorium.s__Sporisorium_graminicola
-2025-10-09 21:15:38.972643 INFO::Fitting model to feature number 201, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Ustilago
-2025-10-09 21:15:38.9763 INFO::Fitting model to feature number 202, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Ustilago.s__Ustilago_maydis
-2025-10-09 21:15:38.997656 INFO::Counting total values for each feature
-2025-10-09 21:15:39.006635 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/features/filtered_data.tsv
-2025-10-09 21:15:39.059869 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/features/filtered_data_norm.tsv
-2025-10-09 21:15:39.103827 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/features/filtered_data_norm_transformed.tsv
-2025-10-09 21:15:39.154336 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/fits/residuals.rds
-2025-10-09 21:15:39.162058 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/fits/fitted.rds
-2025-10-09 21:15:39.166791 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/all_results.tsv
-2025-10-09 21:15:39.17373 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/significant_results.tsv
-2025-10-09 21:15:39.176451 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/heatmap.pdf
-2025-10-09 21:15:39.17949 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi
+2025-10-21 00:36:02.873308 INFO::Writing function arguments to log file
+2025-10-21 00:36:02.875429 DEBUG::Function arguments
+2025-10-21 00:36:02.876425 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi_temp.tsv
+2025-10-21 00:36:02.877358 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//metadata_temp.tsv
+2025-10-21 00:36:02.878319 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi
+2025-10-21 00:36:02.879237 DEBUG::Min Abundance: 0.000000
+2025-10-21 00:36:02.880297 DEBUG::Min Prevalence: 0.100000
+2025-10-21 00:36:02.881264 DEBUG::Normalization: TSS
+2025-10-21 00:36:02.882314 DEBUG::Transform: LOG
+2025-10-21 00:36:02.883216 DEBUG::Analysis method: LM
+2025-10-21 00:36:02.884164 DEBUG::Max significance: 0.050000
+2025-10-21 00:36:02.885134 DEBUG::Random effects:
+2025-10-21 00:36:02.88605 DEBUG::Fixed effects: Group
+2025-10-21 00:36:02.887038 DEBUG::Correction method: BH
+2025-10-21 00:36:02.887924 DEBUG::Standardize: TRUE
+2025-10-21 00:36:02.8888 DEBUG::Cores: 1
+2025-10-21 00:36:02.889735 INFO::Verifying options selected are valid
+2025-10-21 00:36:02.891581 INFO::Determining format of input files
+2025-10-21 00:36:02.89349 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-21 00:36:02.896763 DEBUG::Transformed data so samples are rows
+2025-10-21 00:36:02.902468 DEBUG::A total of 84 samples were found in both the data and metadata
+2025-10-21 00:36:02.903562 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-21 00:36:02.906335 INFO::Formula for fixed effects: expr ~  Group
+2025-10-21 00:36:02.908465 INFO::Filter data based on min abundance and min prevalence
+2025-10-21 00:36:02.910221 INFO::Total samples in data: 84
+2025-10-21 00:36:02.911967 INFO::Min samples required with min abundance for a feature not to be filtered: 8.400000
+2025-10-21 00:36:02.916356 INFO::Total filtered features: 11
+2025-10-21 00:36:02.918267 INFO::Filtered feature names from abundance and prevalence filtering: k__Fungi.p__Microsporidia, k__Fungi.p__Microsporidia.c__Cryptophyceae, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas, k__Fungi.p__Microsporidia.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas.s__Cryptomonas_paramecium, k__Fungi.p__Microsporidia.c__Unclassified, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified.f__Unikaryonidae, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified.f__Unikaryonidae.g__Encephalitozoon, k__Fungi.p__Microsporidia.c__Unclassified.o__Unclassified.f__Unikaryonidae.g__Encephalitozoon.s__Encephalitozoon_hellem
+2025-10-21 00:36:02.924521 INFO::Total filtered features with variance filtering: 0
+2025-10-21 00:36:02.926987 INFO::Filtered feature names from variance filtering:
+2025-10-21 00:36:02.929253 INFO::Running selected normalization method: TSS
+2025-10-21 00:36:02.934295 INFO::Applying z-score to standardize continuous metadata
+2025-10-21 00:36:02.938537 INFO::Running selected transform method: LOG
+2025-10-21 00:36:02.943833 INFO::Running selected analysis method: LM
+2025-10-21 00:36:02.945857 INFO::Fitting model to feature number 1, k__Fungi
+2025-10-21 00:36:02.949803 INFO::Fitting model to feature number 2, k__Fungi.p__Ascomycota
+2025-10-21 00:36:02.953936 INFO::Fitting model to feature number 3, k__Fungi.p__Ascomycota.c__Dothideomycetes
+2025-10-21 00:36:02.957759 INFO::Fitting model to feature number 4, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales
+2025-10-21 00:36:02.960837 INFO::Fitting model to feature number 5, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae
+2025-10-21 00:36:02.964197 INFO::Fitting model to feature number 6, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium
+2025-10-21 00:36:02.969137 INFO::Fitting model to feature number 7, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium.s__Cladosporium_cladosporioides
+2025-10-21 00:36:02.97384 INFO::Fitting model to feature number 8, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium.s__Cladosporium_cucumerinum
+2025-10-21 00:36:02.978404 INFO::Fitting model to feature number 9, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Cladosporiales.f__Cladosporiaceae.g__Cladosporium.s__Cladosporium_tenuissimum
+2025-10-21 00:36:02.982545 INFO::Fitting model to feature number 10, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales
+2025-10-21 00:36:02.986238 INFO::Fitting model to feature number 11, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae
+2025-10-21 00:36:02.98985 INFO::Fitting model to feature number 12, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Cercospora
+2025-10-21 00:36:02.993742 INFO::Fitting model to feature number 13, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Cercospora.s__Cercospora_beticola
+2025-10-21 00:36:02.99777 INFO::Fitting model to feature number 14, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Zymoseptoria
+2025-10-21 00:36:03.001737 INFO::Fitting model to feature number 15, k__Fungi.p__Ascomycota.c__Dothideomycetes.o__Mycosphaerellales.f__Mycosphaerellaceae.g__Zymoseptoria.s__Zymoseptoria_tritici
+2025-10-21 00:36:03.005782 INFO::Fitting model to feature number 16, k__Fungi.p__Ascomycota.c__Eurotiomycetes
+2025-10-21 00:36:03.009513 INFO::Fitting model to feature number 17, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales
+2025-10-21 00:36:03.014234 INFO::Fitting model to feature number 18, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales.f__Herpotrichiellaceae
+2025-10-21 00:36:03.018658 INFO::Fitting model to feature number 19, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales.f__Herpotrichiellaceae.g__Fonsecaea
+2025-10-21 00:36:03.022392 INFO::Fitting model to feature number 20, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Chaetothyriales.f__Herpotrichiellaceae.g__Fonsecaea.s__Fonsecaea_pedrosoi
+2025-10-21 00:36:03.02648 INFO::Fitting model to feature number 21, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales
+2025-10-21 00:36:03.030559 INFO::Fitting model to feature number 22, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae
+2025-10-21 00:36:03.034073 INFO::Fitting model to feature number 23, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus
+2025-10-21 00:36:03.037372 INFO::Fitting model to feature number 24, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_chevalieri
+2025-10-21 00:36:03.040952 INFO::Fitting model to feature number 25, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_flavus
+2025-10-21 00:36:03.044767 INFO::Fitting model to feature number 26, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_fumigatus
+2025-10-21 00:36:03.04895 INFO::Fitting model to feature number 27, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_luchuensis
+2025-10-21 00:36:03.052739 INFO::Fitting model to feature number 28, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_oryzae
+2025-10-21 00:36:03.056954 INFO::Fitting model to feature number 29, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_puulaauensis
+2025-10-21 00:36:03.061206 INFO::Fitting model to feature number 30, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae
+2025-10-21 00:36:03.065466 INFO::Fitting model to feature number 31, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae.g__Talaromyces
+2025-10-21 00:36:03.069208 INFO::Fitting model to feature number 32, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae.g__Talaromyces.s__Talaromyces_rugulosus
+2025-10-21 00:36:03.072593 INFO::Fitting model to feature number 33, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales
+2025-10-21 00:36:03.076587 INFO::Fitting model to feature number 34, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae
+2025-10-21 00:36:03.080464 INFO::Fitting model to feature number 35, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum
+2025-10-21 00:36:03.08429 INFO::Fitting model to feature number 36, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum.s__Microsporum_audouinii
+2025-10-21 00:36:03.088479 INFO::Fitting model to feature number 37, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum.s__Microsporum_canis
+2025-10-21 00:36:03.092414 INFO::Fitting model to feature number 38, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Trichophyton
+2025-10-21 00:36:03.096171 INFO::Fitting model to feature number 39, k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Trichophyton.s__Trichophyton_rubrum
+2025-10-21 00:36:03.100261 INFO::Fitting model to feature number 40, k__Fungi.p__Ascomycota.c__Leotiomycetes
+2025-10-21 00:36:03.104529 INFO::Fitting model to feature number 41, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales
+2025-10-21 00:36:03.108914 INFO::Fitting model to feature number 42, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales.f__Sclerotiniaceae
+2025-10-21 00:36:03.113443 INFO::Fitting model to feature number 43, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales.f__Sclerotiniaceae.g__Botrytis
+2025-10-21 00:36:03.117591 INFO::Fitting model to feature number 44, k__Fungi.p__Ascomycota.c__Leotiomycetes.o__Helotiales.f__Sclerotiniaceae.g__Botrytis.s__Botrytis_cinerea
+2025-10-21 00:36:03.121652 INFO::Fitting model to feature number 45, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes
+2025-10-21 00:36:03.126311 INFO::Fitting model to feature number 46, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales
+2025-10-21 00:36:03.130565 INFO::Fitting model to feature number 47, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales.f__Pneumocystidaceae
+2025-10-21 00:36:03.134643 INFO::Fitting model to feature number 48, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales.f__Pneumocystidaceae.g__Pneumocystis
+2025-10-21 00:36:03.138981 INFO::Fitting model to feature number 49, k__Fungi.p__Ascomycota.c__Pneumocystidomycetes.o__Pneumocystidales.f__Pneumocystidaceae.g__Pneumocystis.s__Pneumocystis_carinii
+2025-10-21 00:36:03.14306 INFO::Fitting model to feature number 50, k__Fungi.p__Ascomycota.c__Saccharomycetes
+2025-10-21 00:36:03.150541 INFO::Fitting model to feature number 51, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales
+2025-10-21 00:36:03.160106 INFO::Fitting model to feature number 52, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae
+2025-10-21 00:36:03.166109 INFO::Fitting model to feature number 53, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida
+2025-10-21 00:36:03.171511 INFO::Fitting model to feature number 54, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_albicans
+2025-10-21 00:36:03.177595 INFO::Fitting model to feature number 55, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_dubliniensis
+2025-10-21 00:36:03.182762 INFO::Fitting model to feature number 56, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_orthopsilosis
+2025-10-21 00:36:03.187644 INFO::Fitting model to feature number 57, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Candida.s__Candida_tropicalis
+2025-10-21 00:36:03.19257 INFO::Fitting model to feature number 58, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Debaryomyces
+2025-10-21 00:36:03.196992 INFO::Fitting model to feature number 59, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Debaryomyces.s__Debaryomyces_hansenii
+2025-10-21 00:36:03.201394 INFO::Fitting model to feature number 60, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Scheffersomyces
+2025-10-21 00:36:03.206197 INFO::Fitting model to feature number 61, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Debaryomycetaceae.g__Scheffersomyces.s__Scheffersomyces_stipitis
+2025-10-21 00:36:03.211238 INFO::Fitting model to feature number 62, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Dipodascaceae
+2025-10-21 00:36:03.217772 INFO::Fitting model to feature number 63, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Dipodascaceae.g__Yarrowia
+2025-10-21 00:36:03.222944 INFO::Fitting model to feature number 64, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Dipodascaceae.g__Yarrowia.s__Yarrowia_lipolytica
+2025-10-21 00:36:03.227022 INFO::Fitting model to feature number 65, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Phaffomycetaceae
+2025-10-21 00:36:03.231202 INFO::Fitting model to feature number 66, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Phaffomycetaceae.g__Komagataella
+2025-10-21 00:36:03.236375 INFO::Fitting model to feature number 67, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Phaffomycetaceae.g__Komagataella.s__Komagataella_phaffii
+2025-10-21 00:36:03.240636 INFO::Fitting model to feature number 68, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae
+2025-10-21 00:36:03.244511 INFO::Fitting model to feature number 69, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Brettanomyces
+2025-10-21 00:36:03.248694 INFO::Fitting model to feature number 70, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Brettanomyces.s__Brettanomyces_bruxellensis
+2025-10-21 00:36:03.252756 INFO::Fitting model to feature number 71, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Brettanomyces.s__Brettanomyces_nanus
+2025-10-21 00:36:03.256729 INFO::Fitting model to feature number 72, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Ogataea
+2025-10-21 00:36:03.260882 INFO::Fitting model to feature number 73, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Ogataea.s__Ogataea_parapolymorpha
+2025-10-21 00:36:03.264832 INFO::Fitting model to feature number 74, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Pichia
+2025-10-21 00:36:03.268927 INFO::Fitting model to feature number 75, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Pichiaceae.g__Pichia.s__Pichia_kudriavzevii
+2025-10-21 00:36:03.273288 INFO::Fitting model to feature number 76, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae
+2025-10-21 00:36:03.277083 INFO::Fitting model to feature number 77, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium
+2025-10-21 00:36:03.281433 INFO::Fitting model to feature number 78, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium.s__Eremothecium_cymbalariae
+2025-10-21 00:36:03.28588 INFO::Fitting model to feature number 79, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium.s__Eremothecium_gossypii
+2025-10-21 00:36:03.289597 INFO::Fitting model to feature number 80, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Eremothecium.s__Eremothecium_sinecaudum
+2025-10-21 00:36:03.29353 INFO::Fitting model to feature number 81, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania
+2025-10-21 00:36:03.2985 INFO::Fitting model to feature number 82, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania.s__Kazachstania_africana
+2025-10-21 00:36:03.302494 INFO::Fitting model to feature number 83, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania.s__Kazachstania_exigua
+2025-10-21 00:36:03.306364 INFO::Fitting model to feature number 84, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kazachstania.s__Kazachstania_naganishii
+2025-10-21 00:36:03.310322 INFO::Fitting model to feature number 85, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces
+2025-10-21 00:36:03.314486 INFO::Fitting model to feature number 86, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces.s__Kluyveromyces_lactis
+2025-10-21 00:36:03.31837 INFO::Fitting model to feature number 87, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces.s__Kluyveromyces_marxianus
+2025-10-21 00:36:03.322386 INFO::Fitting model to feature number 88, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Lachancea
+2025-10-21 00:36:03.326248 INFO::Fitting model to feature number 89, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Lachancea.s__Lachancea_kluyveri
+2025-10-21 00:36:03.330202 INFO::Fitting model to feature number 90, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Lachancea.s__Lachancea_thermotolerans
+2025-10-21 00:36:03.334461 INFO::Fitting model to feature number 91, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Nakaseomyces
+2025-10-21 00:36:03.337908 INFO::Fitting model to feature number 92, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Nakaseomyces.s__.Candida._glabrata
+2025-10-21 00:36:03.34153 INFO::Fitting model to feature number 93, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Naumovozyma
+2025-10-21 00:36:03.34558 INFO::Fitting model to feature number 94, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Naumovozyma.s__Naumovozyma_castellii
+2025-10-21 00:36:03.349344 INFO::Fitting model to feature number 95, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Naumovozyma.s__Naumovozyma_dairenensis
+2025-10-21 00:36:03.35305 INFO::Fitting model to feature number 96, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces
+2025-10-21 00:36:03.356941 INFO::Fitting model to feature number 97, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_bayanus
+2025-10-21 00:36:03.361219 INFO::Fitting model to feature number 98, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_boulardii_.nom._inval..
+2025-10-21 00:36:03.36518 INFO::Fitting model to feature number 99, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_cerevisiae
+2025-10-21 00:36:03.36921 INFO::Fitting model to feature number 100, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_eubayanus
+2025-10-21 00:36:03.373035 INFO::Fitting model to feature number 101, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_kudriavzevii
+2025-10-21 00:36:03.37745 INFO::Fitting model to feature number 102, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_paradoxus
+2025-10-21 00:36:03.384377 INFO::Fitting model to feature number 103, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_pastorianus
+2025-10-21 00:36:03.39101 INFO::Fitting model to feature number 104, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Saccharomyces.s__Saccharomyces_uvarum
+2025-10-21 00:36:03.396529 INFO::Fitting model to feature number 105, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Tetrapisispora
+2025-10-21 00:36:03.401379 INFO::Fitting model to feature number 106, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Tetrapisispora.s__Tetrapisispora_blattae
+2025-10-21 00:36:03.405399 INFO::Fitting model to feature number 107, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Tetrapisispora.s__Tetrapisispora_phaffii
+2025-10-21 00:36:03.409349 INFO::Fitting model to feature number 108, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Torulaspora
+2025-10-21 00:36:03.413474 INFO::Fitting model to feature number 109, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Torulaspora.s__Torulaspora_delbrueckii
+2025-10-21 00:36:03.417247 INFO::Fitting model to feature number 110, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Torulaspora.s__Torulaspora_globosa
+2025-10-21 00:36:03.421244 INFO::Fitting model to feature number 111, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygosaccharomyces
+2025-10-21 00:36:03.425299 INFO::Fitting model to feature number 112, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygosaccharomyces.s__Zygosaccharomyces_rouxii
+2025-10-21 00:36:03.429017 INFO::Fitting model to feature number 113, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygotorulaspora
+2025-10-21 00:36:03.432991 INFO::Fitting model to feature number 114, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Zygotorulaspora.s__Zygotorulaspora_mrakii
+2025-10-21 00:36:03.437552 INFO::Fitting model to feature number 115, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycodaceae
+2025-10-21 00:36:03.443758 INFO::Fitting model to feature number 116, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycodaceae.g__Saccharomycodes
+2025-10-21 00:36:03.448536 INFO::Fitting model to feature number 117, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycodaceae.g__Saccharomycodes.s__Saccharomycodes_ludwigii
+2025-10-21 00:36:03.453212 INFO::Fitting model to feature number 118, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Trichomonascaceae
+2025-10-21 00:36:03.457283 INFO::Fitting model to feature number 119, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Trichomonascaceae.g__Sugiyamaella
+2025-10-21 00:36:03.46109 INFO::Fitting model to feature number 120, k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Trichomonascaceae.g__Sugiyamaella.s__Sugiyamaella_lignohabitans
+2025-10-21 00:36:03.465215 INFO::Fitting model to feature number 121, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes
+2025-10-21 00:36:03.469142 INFO::Fitting model to feature number 122, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales
+2025-10-21 00:36:03.472846 INFO::Fitting model to feature number 123, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales.f__Schizosaccharomycetaceae
+2025-10-21 00:36:03.476873 INFO::Fitting model to feature number 124, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales.f__Schizosaccharomycetaceae.g__Schizosaccharomyces
+2025-10-21 00:36:03.480653 INFO::Fitting model to feature number 125, k__Fungi.p__Ascomycota.c__Schizosaccharomycetes.o__Schizosaccharomycetales.f__Schizosaccharomycetaceae.g__Schizosaccharomyces.s__Schizosaccharomyces_pombe
+2025-10-21 00:36:03.484623 INFO::Fitting model to feature number 126, k__Fungi.p__Ascomycota.c__Sordariomycetes
+2025-10-21 00:36:03.488875 INFO::Fitting model to feature number 127, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales
+2025-10-21 00:36:03.492917 INFO::Fitting model to feature number 128, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales.f__Glomerellaceae
+2025-10-21 00:36:03.496892 INFO::Fitting model to feature number 129, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales.f__Glomerellaceae.g__Colletotrichum
+2025-10-21 00:36:03.501547 INFO::Fitting model to feature number 130, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Glomerellales.f__Glomerellaceae.g__Colletotrichum.s__Colletotrichum_higginsianum
+2025-10-21 00:36:03.505641 INFO::Fitting model to feature number 131, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales
+2025-10-21 00:36:03.509499 INFO::Fitting model to feature number 132, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae
+2025-10-21 00:36:03.513625 INFO::Fitting model to feature number 133, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Pochonia
+2025-10-21 00:36:03.517539 INFO::Fitting model to feature number 134, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Pochonia.s__Pochonia_chlamydosporia
+2025-10-21 00:36:03.521256 INFO::Fitting model to feature number 135, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Ustilaginoidea
+2025-10-21 00:36:03.525092 INFO::Fitting model to feature number 136, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Clavicipitaceae.g__Ustilaginoidea.s__Ustilaginoidea_virens
+2025-10-21 00:36:03.528862 INFO::Fitting model to feature number 137, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae
+2025-10-21 00:36:03.533094 INFO::Fitting model to feature number 138, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium
+2025-10-21 00:36:03.536962 INFO::Fitting model to feature number 139, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_fujikuroi
+2025-10-21 00:36:03.541091 INFO::Fitting model to feature number 140, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_graminearum
+2025-10-21 00:36:03.545482 INFO::Fitting model to feature number 141, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_musae
+2025-10-21 00:36:03.550075 INFO::Fitting model to feature number 142, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_oxysporum
+2025-10-21 00:36:03.553386 INFO::Fitting model to feature number 143, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_poae
+2025-10-21 00:36:03.55672 INFO::Fitting model to feature number 144, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_venenatum
+2025-10-21 00:36:03.560135 INFO::Fitting model to feature number 145, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Nectriaceae.g__Fusarium.s__Fusarium_verticillioides
+2025-10-21 00:36:03.563465 INFO::Fitting model to feature number 146, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Ophiocordycipitaceae
+2025-10-21 00:36:03.566574 INFO::Fitting model to feature number 147, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Ophiocordycipitaceae.g__Drechmeria
+2025-10-21 00:36:03.570092 INFO::Fitting model to feature number 148, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Hypocreales.f__Ophiocordycipitaceae.g__Drechmeria.s__Drechmeria_coniospora
+2025-10-21 00:36:03.573449 INFO::Fitting model to feature number 149, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales
+2025-10-21 00:36:03.577213 INFO::Fitting model to feature number 150, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae
+2025-10-21 00:36:03.580855 INFO::Fitting model to feature number 151, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia
+2025-10-21 00:36:03.584282 INFO::Fitting model to feature number 152, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia.s__Pyricularia_grisea
+2025-10-21 00:36:03.588591 INFO::Fitting model to feature number 153, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia.s__Pyricularia_oryzae
+2025-10-21 00:36:03.59326 INFO::Fitting model to feature number 154, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Magnaporthales.f__Pyriculariaceae.g__Pyricularia.s__Pyricularia_pennisetigena
+2025-10-21 00:36:03.597242 INFO::Fitting model to feature number 155, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales
+2025-10-21 00:36:03.601011 INFO::Fitting model to feature number 156, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae
+2025-10-21 00:36:03.604901 INFO::Fitting model to feature number 157, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix
+2025-10-21 00:36:03.608639 INFO::Fitting model to feature number 158, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_brasiliensis
+2025-10-21 00:36:03.612708 INFO::Fitting model to feature number 159, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_globosa
+2025-10-21 00:36:03.61691 INFO::Fitting model to feature number 160, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_schenckii
+2025-10-21 00:36:03.62074 INFO::Fitting model to feature number 161, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales
+2025-10-21 00:36:03.624852 INFO::Fitting model to feature number 162, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae
+2025-10-21 00:36:03.629192 INFO::Fitting model to feature number 163, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothelomyces
+2025-10-21 00:36:03.633171 INFO::Fitting model to feature number 164, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothelomyces.s__Thermothelomyces_thermophilus
+2025-10-21 00:36:03.637259 INFO::Fitting model to feature number 165, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothielavioides
+2025-10-21 00:36:03.641749 INFO::Fitting model to feature number 166, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Chaetomiaceae.g__Thermothielavioides.s__Thermothielavioides_terrestris
+2025-10-21 00:36:03.646071 INFO::Fitting model to feature number 167, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae
+2025-10-21 00:36:03.650604 INFO::Fitting model to feature number 168, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora
+2025-10-21 00:36:03.655054 INFO::Fitting model to feature number 169, k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora.s__Neurospora_crassa
+2025-10-21 00:36:03.659488 INFO::Fitting model to feature number 170, k__Fungi.p__Basidiomycota
+2025-10-21 00:36:03.663742 INFO::Fitting model to feature number 171, k__Fungi.p__Basidiomycota.c__Agaricomycetes
+2025-10-21 00:36:03.668281 INFO::Fitting model to feature number 172, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales
+2025-10-21 00:36:03.672758 INFO::Fitting model to feature number 173, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales.f__Marasmiaceae
+2025-10-21 00:36:03.677063 INFO::Fitting model to feature number 174, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales.f__Marasmiaceae.g__Marasmius
+2025-10-21 00:36:03.681413 INFO::Fitting model to feature number 175, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Agaricales.f__Marasmiaceae.g__Marasmius.s__Marasmius_oreades
+2025-10-21 00:36:03.685639 INFO::Fitting model to feature number 176, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales
+2025-10-21 00:36:03.690112 INFO::Fitting model to feature number 177, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales.f__Ceratobasidiaceae
+2025-10-21 00:36:03.694503 INFO::Fitting model to feature number 178, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales.f__Ceratobasidiaceae.g__Rhizoctonia
+2025-10-21 00:36:03.698673 INFO::Fitting model to feature number 179, k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Cantharellales.f__Ceratobasidiaceae.g__Rhizoctonia.s__Rhizoctonia_solani
+2025-10-21 00:36:03.703068 INFO::Fitting model to feature number 180, k__Fungi.p__Basidiomycota.c__Cryptophyceae
+2025-10-21 00:36:03.707688 INFO::Fitting model to feature number 181, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales
+2025-10-21 00:36:03.711744 INFO::Fitting model to feature number 182, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae
+2025-10-21 00:36:03.715745 INFO::Fitting model to feature number 183, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas
+2025-10-21 00:36:03.720602 INFO::Fitting model to feature number 184, k__Fungi.p__Basidiomycota.c__Cryptophyceae.o__Cryptomonadales.f__Cryptomonadaceae.g__Cryptomonas.s__Cryptomonas_paramecium
+2025-10-21 00:36:03.724826 INFO::Fitting model to feature number 185, k__Fungi.p__Basidiomycota.c__Malasseziomycetes
+2025-10-21 00:36:03.729048 INFO::Fitting model to feature number 186, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales
+2025-10-21 00:36:03.73351 INFO::Fitting model to feature number 187, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales.f__Malasseziaceae
+2025-10-21 00:36:03.737673 INFO::Fitting model to feature number 188, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales.f__Malasseziaceae.g__Malassezia
+2025-10-21 00:36:03.741656 INFO::Fitting model to feature number 189, k__Fungi.p__Basidiomycota.c__Malasseziomycetes.o__Malasseziales.f__Malasseziaceae.g__Malassezia.s__Malassezia_restricta
+2025-10-21 00:36:03.75445 INFO::Fitting model to feature number 190, k__Fungi.p__Basidiomycota.c__Tremellomycetes
+2025-10-21 00:36:03.762294 INFO::Fitting model to feature number 191, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales
+2025-10-21 00:36:03.767551 INFO::Fitting model to feature number 192, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae
+2025-10-21 00:36:03.772121 INFO::Fitting model to feature number 193, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae.g__Cryptococcus
+2025-10-21 00:36:03.775958 INFO::Fitting model to feature number 194, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae.g__Cryptococcus.s__Cryptococcus_gattii_VGI
+2025-10-21 00:36:03.779718 INFO::Fitting model to feature number 195, k__Fungi.p__Basidiomycota.c__Tremellomycetes.o__Tremellales.f__Cryptococcaceae.g__Cryptococcus.s__Cryptococcus_neoformans
+2025-10-21 00:36:03.783848 INFO::Fitting model to feature number 196, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes
+2025-10-21 00:36:03.787817 INFO::Fitting model to feature number 197, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales
+2025-10-21 00:36:03.791707 INFO::Fitting model to feature number 198, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae
+2025-10-21 00:36:03.795791 INFO::Fitting model to feature number 199, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Sporisorium
+2025-10-21 00:36:03.799788 INFO::Fitting model to feature number 200, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Sporisorium.s__Sporisorium_graminicola
+2025-10-21 00:36:03.803813 INFO::Fitting model to feature number 201, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Ustilago
+2025-10-21 00:36:03.808481 INFO::Fitting model to feature number 202, k__Fungi.p__Basidiomycota.c__Ustilaginomycetes.o__Ustilaginales.f__Ustilaginaceae.g__Ustilago.s__Ustilago_maydis
+2025-10-21 00:36:03.833687 INFO::Counting total values for each feature
+2025-10-21 00:36:03.844112 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/features/filtered_data.tsv
+2025-10-21 00:36:03.895468 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/features/filtered_data_norm.tsv
+2025-10-21 00:36:03.943644 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/features/filtered_data_norm_transformed.tsv
+2025-10-21 00:36:04.002078 WARNING::Deleting existing residuals file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/fits/residuals.rds
+2025-10-21 00:36:04.006235 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/fits/residuals.rds
+2025-10-21 00:36:04.014138 WARNING::Deleting existing fitted file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/fits/fitted.rds
+2025-10-21 00:36:04.017181 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/fits/fitted.rds
+2025-10-21 00:36:04.021445 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/all_results.tsv
+2025-10-21 00:36:04.028227 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/significant_results.tsv
+2025-10-21 00:36:04.031226 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi/heatmap.pdf
+2025-10-21 00:36:04.034318 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU//fungi
+2025-10-21 00:36:04.038991 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-10-21 00:36:04.040996 INFO::Plotting data for metadata number 1, Group
+2025-10-21 00:36:04.04449 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum
+2025-10-21 00:36:04.343874 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_luchuensis
+2025-10-21 00:36:04.575059 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces
+2025-10-21 00:36:04.863277 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales
+2025-10-21 00:36:05.097637 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae
+2025-10-21 00:36:05.349936 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_schenckii
+2025-10-21 00:36:05.647057 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae
+2025-10-21 00:36:05.885004 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora
+2025-10-21 00:36:06.168946 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora.s__Neurospora_crassa
+2025-10-21 00:36:06.402873 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces.s__Kluyveromyces_lactis
+2025-10-21 00:36:06.627615 INFO::Creating boxplot for categorical data, Group vs k__Fungi.p__Basidiomycota

@@ -1,0 +1,60 @@
+2025-10-18 09:47:58.738261 INFO::Writing function arguments to log file
+2025-10-18 09:47:58.73999 DEBUG::Function arguments
+2025-10-18 09:47:58.741114 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus_temp.tsv
+2025-10-18 09:47:58.741991 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/metadata_temp.tsv
+2025-10-18 09:47:58.742859 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus
+2025-10-18 09:47:58.74375 DEBUG::Min Abundance: 0.000000
+2025-10-18 09:47:58.744738 DEBUG::Min Prevalence: 0.100000
+2025-10-18 09:47:58.745756 DEBUG::Normalization: TSS
+2025-10-18 09:47:58.746695 DEBUG::Transform: LOG
+2025-10-18 09:47:58.747843 DEBUG::Analysis method: LM
+2025-10-18 09:47:58.749425 DEBUG::Max significance: 0.050000
+2025-10-18 09:47:58.750558 DEBUG::Random effects:
+2025-10-18 09:47:58.751492 DEBUG::Fixed effects: Group
+2025-10-18 09:47:58.752262 DEBUG::Correction method: BH
+2025-10-18 09:47:58.753416 DEBUG::Standardize: TRUE
+2025-10-18 09:47:58.754384 DEBUG::Cores: 1
+2025-10-18 09:47:58.755301 INFO::Verifying options selected are valid
+2025-10-18 09:47:58.756837 INFO::Determining format of input files
+2025-10-18 09:47:58.75845 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-18 09:47:58.760667 DEBUG::Transformed data so samples are rows
+2025-10-18 09:47:58.761709 DEBUG::A total of 84 samples were found in both the data and metadata
+2025-10-18 09:47:58.76249 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-18 09:47:58.763886 INFO::Formula for fixed effects: expr ~  Group
+2025-10-18 09:47:58.766523 INFO::Filter data based on min abundance and min prevalence
+2025-10-18 09:47:58.768855 INFO::Total samples in data: 84
+2025-10-18 09:47:58.771122 INFO::Min samples required with min abundance for a feature not to be filtered: 8.400000
+2025-10-18 09:47:58.773298 INFO::Total filtered features: 11
+2025-10-18 09:47:58.77596 INFO::Filtered feature names from abundance and prevalence filtering: Ackermannviridae, Baculoviridae, Bicaudaviridae, Coronaviridae, Drexlerviridae, Herpesviridae, Marseilleviridae, Microviridae, Peribunyaviridae, Poxviridae, Unclassified
+2025-10-18 09:47:58.778762 INFO::Total filtered features with variance filtering: 0
+2025-10-18 09:47:58.780644 INFO::Filtered feature names from variance filtering:
+2025-10-18 09:47:58.782884 INFO::Running selected normalization method: TSS
+2025-10-18 09:47:58.785759 INFO::Applying z-score to standardize continuous metadata
+2025-10-18 09:47:58.79018 INFO::Running selected transform method: LOG
+2025-10-18 09:47:58.792348 INFO::Running selected analysis method: LM
+2025-10-18 09:47:58.794346 INFO::Fitting model to feature number 1, Ascoviridae
+2025-10-18 09:47:58.798357 INFO::Fitting model to feature number 2, Autographiviridae
+2025-10-18 09:47:58.803915 INFO::Fitting model to feature number 3, Demerecviridae
+2025-10-18 09:47:58.807803 INFO::Fitting model to feature number 4, Herelleviridae
+2025-10-18 09:47:58.813288 INFO::Fitting model to feature number 5, Inoviridae
+2025-10-18 09:47:58.817896 INFO::Fitting model to feature number 6, Mimiviridae
+2025-10-18 09:47:58.822301 INFO::Fitting model to feature number 7, Myoviridae
+2025-10-18 09:47:58.826527 INFO::Fitting model to feature number 8, Phycodnaviridae
+2025-10-18 09:47:58.830679 INFO::Fitting model to feature number 9, Podoviridae
+2025-10-18 09:47:58.834845 INFO::Fitting model to feature number 10, Rountreeviridae
+2025-10-18 09:47:58.839269 INFO::Fitting model to feature number 11, Schitoviridae
+2025-10-18 09:47:58.843595 INFO::Fitting model to feature number 12, Siphoviridae
+2025-10-18 09:47:58.851326 INFO::Counting total values for each feature
+2025-10-18 09:47:58.854579 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/features/filtered_data.tsv
+2025-10-18 09:47:58.858504 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/features/filtered_data_norm.tsv
+2025-10-18 09:47:58.863853 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/features/filtered_data_norm_transformed.tsv
+2025-10-18 09:47:58.869671 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/fits/residuals.rds
+2025-10-18 09:47:58.87251 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/fits/fitted.rds
+2025-10-18 09:47:58.874731 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/all_results.tsv
+2025-10-18 09:47:58.877854 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/significant_results.tsv
+2025-10-18 09:47:58.880672 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus/heatmap.pdf
+2025-10-18 09:47:58.883187 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/MaAsLin2_family/virus
+2025-10-18 09:47:58.886059 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-10-18 09:47:58.887665 INFO::Plotting data for metadata number 1, Group
+2025-10-18 09:47:58.890433 INFO::Creating boxplot for categorical data, Group vs Rountreeviridae
+2025-10-18 09:47:59.12472 INFO::Creating boxplot for categorical data, Group vs Siphoviridae

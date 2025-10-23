@@ -1,14 +1,14 @@
 Family Level Diversity Analysis Statistical Results
 ==================================================
 
-Analysis Date: 2025-10-15 13:55:44 
+Analysis Date: 2025-10-19 13:33:04 
 
 Diversity Indices: Observed, Richness, Number, Shannon, Simpson, InvSimpson, Chao1, ACE
 Note: Chao1 and ACE based on converted data - interpret with caution
 
 
  === FUNGI (Family Level) === 
-Analysis time: 2025-10-15 13:55:45 
+Analysis time: 2025-10-19 13:33:05 
 
 ALPHA DIVERSITY RESULTS:
 ------------------------
@@ -57,14 +57,14 @@ Chao1: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on convert
 BETA DIVERSITY RESULTS:
 -----------------------
 Method: PERMANOVA (Bray-Curtis distance)
-P-value: 0.171000
+P-value: 0.165000
 R-squared: 0.017121
-Result: PERMANOVA: p = 0.171, R2 = 0.017
+Result: PERMANOVA: p = 0.165, R² = 0.017
 Samples: Control (n=47), MI (n=37)
 
 
  === VIRUS (Family Level) === 
-Analysis time: 2025-10-15 13:55:50 
+Analysis time: 2025-10-19 13:33:11 
 
 ALPHA DIVERSITY RESULTS:
 ------------------------
@@ -113,14 +113,14 @@ Chao1: p = 0.210 (Wilcoxon rank sum test) [Tied values present] [Based on conver
 BETA DIVERSITY RESULTS:
 -----------------------
 Method: PERMANOVA (Bray-Curtis distance)
-P-value: 0.314000
+P-value: 0.315000
 R-squared: 0.013686
-Result: PERMANOVA: p = 0.314, R2 = 0.014
+Result: PERMANOVA: p = 0.315, R² = 0.014
 Samples: Control (n=47), MI (n=37)
 
 
  === ARCHAEA (Family Level) === 
-Analysis time: 2025-10-15 13:55:54 
+Analysis time: 2025-10-19 13:33:14 
 
 ALPHA DIVERSITY RESULTS:
 ------------------------
@@ -169,14 +169,14 @@ Chao1: p = 0.023 (Wilcoxon rank sum test) [Tied values present] [Based on conver
 BETA DIVERSITY RESULTS:
 -----------------------
 Method: PERMANOVA (Bray-Curtis distance)
-P-value: 0.042000
+P-value: 0.044000
 R-squared: 0.029550
-Result: PERMANOVA: p = 0.042, R2 = 0.030
+Result: PERMANOVA: p = 0.044, R² = 0.030
 Samples: Control (n=47), MI (n=37)
 
 
  === BACTERIA (Family Level) === 
-Analysis time: 2025-10-15 13:55:58 
+Analysis time: 2025-10-19 13:33:18 
 
 ALPHA DIVERSITY RESULTS:
 ------------------------
@@ -225,8 +225,8 @@ Chao1: p = 0.745 (Wilcoxon rank sum test) [Tied values present] [Based on conver
 BETA DIVERSITY RESULTS:
 -----------------------
 Method: PERMANOVA (Bray-Curtis distance)
-P-value: 0.027000
+P-value: 0.033000
 R-squared: 0.027646
-Result: PERMANOVA: p = 0.027, R2 = 0.028
+Result: PERMANOVA: p = 0.033, R² = 0.028
 Samples: Control (n=47), MI (n=37)
 

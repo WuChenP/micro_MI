@@ -1,0 +1,3 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Siphoviridae.g__Chivirus.s__Salmonella_phage_TS13	Group	MI	-2.68796300931172	0.48381785755916	84	82	3.33958084897094e-07	5.44351678382263e-05
+k__Viruses.p__Uroviricota.c__Caudoviricetes.o__Caudovirales.f__Rountreeviridae.g__Andhravirus.s__Staphylococcus_virus_Andhra	Group	MI	-2.36271378223704	0.455541792670865	84	80	1.51658858074304e-06	0.000123601969330557

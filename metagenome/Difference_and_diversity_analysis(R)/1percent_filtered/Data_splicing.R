@@ -12,13 +12,13 @@ library(dplyr)
 # ----------------------------
 # 文件路径
 # ----------------------------
-result_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/ancombc2_results_OTU/四类微生物_ANCOMBC2_results.xlsx"
+result_file <- "E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/ancombc2_results_OTU/四类微生物_ANCOMBC2_results.xlsx"
 
 otu_files <- list(
-  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_古菌_filtered_1percent.csv",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_细菌_filtered_1percent.csv",
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_真菌_filtered_1percent.csv",
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_病毒(新)_filtered_1percent.csv"
+  fungi    = "E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/species_level_data/心梗组_fungi_species_level.csv",
+  archaea = "E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/species_level_data/心梗组_archaea_species_level.csv",
+  bacteria = "E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/species_level_data/心梗组_bacteria_species_level.csv",
+  virus    = "E:/Python/MI_Analysis/metagenome/Absolute_abundance_analysis/filtered_data_1percent/species_level_data/心梗组_virus_species_level.csv"
 )
 
 # ----------------------------

@@ -1,0 +1,359 @@
+2025-10-21 17:57:30.103921 INFO::Writing function arguments to log file
+2025-10-21 17:57:30.10795 DEBUG::Function arguments
+2025-10-21 17:57:30.109128 DEBUG::Input data file: E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus_temp.tsv
+2025-10-21 17:57:30.110386 DEBUG::Input metadata file: E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//metadata_temp.tsv
+2025-10-21 17:57:30.111469 DEBUG::Output folder: E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus
+2025-10-21 17:57:30.112622 DEBUG::Min Abundance: 0.000000
+2025-10-21 17:57:30.113888 DEBUG::Min Prevalence: 0.100000
+2025-10-21 17:57:30.115438 DEBUG::Normalization: TSS
+2025-10-21 17:57:30.116619 DEBUG::Transform: LOG
+2025-10-21 17:57:30.117929 DEBUG::Analysis method: LM
+2025-10-21 17:57:30.119092 DEBUG::Max significance: 0.050000
+2025-10-21 17:57:30.120369 DEBUG::Random effects:
+2025-10-21 17:57:30.121494 DEBUG::Fixed effects: Group
+2025-10-21 17:57:30.122649 DEBUG::Correction method: BH
+2025-10-21 17:57:30.123771 DEBUG::Standardize: TRUE
+2025-10-21 17:57:30.125082 DEBUG::Cores: 1
+2025-10-21 17:57:30.12633 INFO::Verifying options selected are valid
+2025-10-21 17:57:30.128558 INFO::Determining format of input files
+2025-10-21 17:57:30.130579 INFO::Input format is data samples as columns and metadata samples as rows
+2025-10-21 17:57:30.135017 DEBUG::Transformed data so samples are rows
+2025-10-21 17:57:30.137345 DEBUG::A total of 84 samples were found in both the data and metadata
+2025-10-21 17:57:30.138396 DEBUG::Reordering data/metadata to use same sample ordering
+2025-10-21 17:57:30.142749 INFO::Formula for fixed effects: expr ~  Group
+2025-10-21 17:57:30.14514 INFO::Filter data based on min abundance and min prevalence
+2025-10-21 17:57:30.147157 INFO::Total samples in data: 84
+2025-10-21 17:57:30.149157 INFO::Min samples required with min abundance for a feature not to be filtered: 8.400000
+2025-10-21 17:57:30.156677 INFO::Total filtered features: 32
+2025-10-21 17:57:30.159252 INFO::Filtered feature names from abundance and prevalence filtering: CON16__9635, CON25__11246, CON25__3385, CON26__41232, CON32__71748, CON37__39916, CON4__14781, CON4__43256, CON6__26991, CON6__31658, CON6__47390, HF11__39768, HF18__72032, HF22__60398, HF22__66566, HF22__68673, HF27__44871, HF29__29947, HF39__93194, MI11__52677, MI13__5926, MI17__44895, MI17__47195, MI18__28313, MI25__26915, MI25__37719, MI2__105980, MI2__23657, MI2__96112, MI5__92145, MI8__172939, MI8__99812
+2025-10-21 17:57:30.167605 INFO::Total filtered features with variance filtering: 0
+2025-10-21 17:57:30.170041 INFO::Filtered feature names from variance filtering:
+2025-10-21 17:57:30.17278 INFO::Running selected normalization method: TSS
+2025-10-21 17:57:30.180398 INFO::Applying z-score to standardize continuous metadata
+2025-10-21 17:57:30.18934 INFO::Running selected transform method: LOG
+2025-10-21 17:57:30.199626 INFO::Running selected analysis method: LM
+2025-10-21 17:57:30.203332 INFO::Fitting model to feature number 1, CON10__92125
+2025-10-21 17:57:30.209247 INFO::Fitting model to feature number 2, CON13__106090
+2025-10-21 17:57:30.213921 INFO::Fitting model to feature number 3, CON13__125096
+2025-10-21 17:57:30.219979 INFO::Fitting model to feature number 4, CON13__134529
+2025-10-21 17:57:30.225027 INFO::Fitting model to feature number 5, CON13__23397
+2025-10-21 17:57:30.229704 INFO::Fitting model to feature number 6, CON13__38366
+2025-10-21 17:57:30.234885 INFO::Fitting model to feature number 7, CON13__42474
+2025-10-21 17:57:30.240597 INFO::Fitting model to feature number 8, CON13__4329
+2025-10-21 17:57:30.24557 INFO::Fitting model to feature number 9, CON13__49865
+2025-10-21 17:57:30.251157 INFO::Fitting model to feature number 10, CON13__68260
+2025-10-21 17:57:30.256184 INFO::Fitting model to feature number 11, CON13__83545
+2025-10-21 17:57:30.261462 INFO::Fitting model to feature number 12, CON13__96551
+2025-10-21 17:57:30.267451 INFO::Fitting model to feature number 13, CON13__97539
+2025-10-21 17:57:30.271888 INFO::Fitting model to feature number 14, CON16__2712
+2025-10-21 17:57:30.276447 INFO::Fitting model to feature number 15, CON16__54857
+2025-10-21 17:57:30.283452 INFO::Fitting model to feature number 16, CON17__51038
+2025-10-21 17:57:30.288473 INFO::Fitting model to feature number 17, CON18__42913
+2025-10-21 17:57:30.293195 INFO::Fitting model to feature number 18, CON19__13253
+2025-10-21 17:57:30.298516 INFO::Fitting model to feature number 19, CON19__28358
+2025-10-21 17:57:30.303528 INFO::Fitting model to feature number 20, CON19__37443
+2025-10-21 17:57:30.308823 INFO::Fitting model to feature number 21, CON20__1276
+2025-10-21 17:57:30.314036 INFO::Fitting model to feature number 22, CON20__40587
+2025-10-21 17:57:30.31898 INFO::Fitting model to feature number 23, CON20__43638
+2025-10-21 17:57:30.323887 INFO::Fitting model to feature number 24, CON21__106170
+2025-10-21 17:57:30.32929 INFO::Fitting model to feature number 25, CON21__111618
+2025-10-21 17:57:30.334418 INFO::Fitting model to feature number 26, CON22__29078
+2025-10-21 17:57:30.339828 INFO::Fitting model to feature number 27, CON23__39618
+2025-10-21 17:57:30.345146 INFO::Fitting model to feature number 28, CON24__104082
+2025-10-21 17:57:30.349841 INFO::Fitting model to feature number 29, CON24__35132
+2025-10-21 17:57:30.354752 INFO::Fitting model to feature number 30, CON24__49185
+2025-10-21 17:57:30.360357 INFO::Fitting model to feature number 31, CON25__12111
+2025-10-21 17:57:30.365041 INFO::Fitting model to feature number 32, CON26__23139
+2025-10-21 17:57:30.369271 INFO::Fitting model to feature number 33, CON26__2739
+2025-10-21 17:57:30.374008 INFO::Fitting model to feature number 34, CON26__34383
+2025-10-21 17:57:30.378822 INFO::Fitting model to feature number 35, CON26__44076
+2025-10-21 17:57:30.38352 INFO::Fitting model to feature number 36, CON27__11287
+2025-10-21 17:57:30.389035 INFO::Fitting model to feature number 37, CON2__56254
+2025-10-21 17:57:30.393994 INFO::Fitting model to feature number 38, CON30__101066
+2025-10-21 17:57:30.399003 INFO::Fitting model to feature number 39, CON30__106370
+2025-10-21 17:57:30.404542 INFO::Fitting model to feature number 40, CON30__106949
+2025-10-21 17:57:30.409463 INFO::Fitting model to feature number 41, CON30__115695
+2025-10-21 17:57:30.414719 INFO::Fitting model to feature number 42, CON30__21220
+2025-10-21 17:57:30.420301 INFO::Fitting model to feature number 43, CON30__57661
+2025-10-21 17:57:30.42512 INFO::Fitting model to feature number 44, CON30__78830
+2025-10-21 17:57:30.429769 INFO::Fitting model to feature number 45, CON30__78872
+2025-10-21 17:57:30.435245 INFO::Fitting model to feature number 46, CON30__86319
+2025-10-21 17:57:30.441244 INFO::Fitting model to feature number 47, CON30__87665
+2025-10-21 17:57:30.446302 INFO::Fitting model to feature number 48, CON31__48385
+2025-10-21 17:57:30.451577 INFO::Fitting model to feature number 49, CON31__53650
+2025-10-21 17:57:30.456134 INFO::Fitting model to feature number 50, CON31__67138
+2025-10-21 17:57:30.460822 INFO::Fitting model to feature number 51, CON32__13019
+2025-10-21 17:57:30.46586 INFO::Fitting model to feature number 52, CON32__14322
+2025-10-21 17:57:30.470575 INFO::Fitting model to feature number 53, CON32__19720
+2025-10-21 17:57:30.474937 INFO::Fitting model to feature number 54, CON32__22342
+2025-10-21 17:57:30.479754 INFO::Fitting model to feature number 55, CON32__25400
+2025-10-21 17:57:30.484536 INFO::Fitting model to feature number 56, CON32__30458
+2025-10-21 17:57:30.489381 INFO::Fitting model to feature number 57, CON32__35763
+2025-10-21 17:57:30.494367 INFO::Fitting model to feature number 58, CON32__56105
+2025-10-21 17:57:30.499181 INFO::Fitting model to feature number 59, CON32__56929
+2025-10-21 17:57:30.504384 INFO::Fitting model to feature number 60, CON32__62268
+2025-10-21 17:57:30.510089 INFO::Fitting model to feature number 61, CON32__67931
+2025-10-21 17:57:30.514931 INFO::Fitting model to feature number 62, CON32__69345
+2025-10-21 17:57:30.519761 INFO::Fitting model to feature number 63, CON32__75016
+2025-10-21 17:57:30.525193 INFO::Fitting model to feature number 64, CON32__82194
+2025-10-21 17:57:30.530826 INFO::Fitting model to feature number 65, CON32__84218
+2025-10-21 17:57:30.557131 INFO::Fitting model to feature number 66, CON32__8800
+2025-10-21 17:57:30.562543 INFO::Fitting model to feature number 67, CON34__10987
+2025-10-21 17:57:30.567593 INFO::Fitting model to feature number 68, CON34__2332
+2025-10-21 17:57:30.571971 INFO::Fitting model to feature number 69, CON34__3956
+2025-10-21 17:57:30.576953 INFO::Fitting model to feature number 70, CON34__40685
+2025-10-21 17:57:30.581939 INFO::Fitting model to feature number 71, CON34__473
+2025-10-21 17:57:30.586904 INFO::Fitting model to feature number 72, CON34__8025
+2025-10-21 17:57:30.591818 INFO::Fitting model to feature number 73, CON35__38542
+2025-10-21 17:57:30.597076 INFO::Fitting model to feature number 74, CON35__7412
+2025-10-21 17:57:30.60219 INFO::Fitting model to feature number 75, CON36__20695
+2025-10-21 17:57:30.607566 INFO::Fitting model to feature number 76, CON36__86234
+2025-10-21 17:57:30.612083 INFO::Fitting model to feature number 77, CON36__87622
+2025-10-21 17:57:30.616766 INFO::Fitting model to feature number 78, CON37__18567
+2025-10-21 17:57:30.622262 INFO::Fitting model to feature number 79, CON37__93791
+2025-10-21 17:57:30.62665 INFO::Fitting model to feature number 80, CON38__16154
+2025-10-21 17:57:30.631073 INFO::Fitting model to feature number 81, CON38__26147
+2025-10-21 17:57:30.636398 INFO::Fitting model to feature number 82, CON41__27547
+2025-10-21 17:57:30.641292 INFO::Fitting model to feature number 83, CON42__60554
+2025-10-21 17:57:30.645922 INFO::Fitting model to feature number 84, CON43__13370
+2025-10-21 17:57:30.651382 INFO::Fitting model to feature number 85, CON43__25730
+2025-10-21 17:57:30.656203 INFO::Fitting model to feature number 86, CON43__49036
+2025-10-21 17:57:30.661193 INFO::Fitting model to feature number 87, CON43__71541
+2025-10-21 17:57:30.667231 INFO::Fitting model to feature number 88, CON43__88736
+2025-10-21 17:57:30.672923 INFO::Fitting model to feature number 89, CON44__29119
+2025-10-21 17:57:30.678166 INFO::Fitting model to feature number 90, CON44__73004
+2025-10-21 17:57:30.683962 INFO::Fitting model to feature number 91, CON44__73208
+2025-10-21 17:57:30.688586 INFO::Fitting model to feature number 92, CON44__73331
+2025-10-21 17:57:30.69307 INFO::Fitting model to feature number 93, CON46__60239
+2025-10-21 17:57:30.697986 INFO::Fitting model to feature number 94, CON46__87773
+2025-10-21 17:57:30.706151 INFO::Fitting model to feature number 95, CON47__18512
+2025-10-21 17:57:30.7169 INFO::Fitting model to feature number 96, CON47__55906
+2025-10-21 17:57:30.725251 INFO::Fitting model to feature number 97, CON47__68241
+2025-10-21 17:57:30.732387 INFO::Fitting model to feature number 98, CON47__69180
+2025-10-21 17:57:30.737534 INFO::Fitting model to feature number 99, CON47__72923
+2025-10-21 17:57:30.745056 INFO::Fitting model to feature number 100, CON47__75632
+2025-10-21 17:57:30.751397 INFO::Fitting model to feature number 101, CON47__7973
+2025-10-21 17:57:30.756697 INFO::Fitting model to feature number 102, CON4__10543
+2025-10-21 17:57:30.76244 INFO::Fitting model to feature number 103, CON4__16143
+2025-10-21 17:57:30.767411 INFO::Fitting model to feature number 104, CON4__55923
+2025-10-21 17:57:30.772106 INFO::Fitting model to feature number 105, CON4__8492
+2025-10-21 17:57:30.777327 INFO::Fitting model to feature number 106, CON4__94670
+2025-10-21 17:57:30.782409 INFO::Fitting model to feature number 107, CON5__103695
+2025-10-21 17:57:30.787814 INFO::Fitting model to feature number 108, CON6__19195
+2025-10-21 17:57:30.793525 INFO::Fitting model to feature number 109, HF10__3047
+2025-10-21 17:57:30.798452 INFO::Fitting model to feature number 110, HF10__69385
+2025-10-21 17:57:30.803479 INFO::Fitting model to feature number 111, HF11__101063
+2025-10-21 17:57:30.808309 INFO::Fitting model to feature number 112, HF11__113757
+2025-10-21 17:57:30.812622 INFO::Fitting model to feature number 113, HF11__37751
+2025-10-21 17:57:30.817279 INFO::Fitting model to feature number 114, HF11__38182
+2025-10-21 17:57:30.823699 INFO::Fitting model to feature number 115, HF11__53881
+2025-10-21 17:57:30.82857 INFO::Fitting model to feature number 116, HF11__7762
+2025-10-21 17:57:30.833222 INFO::Fitting model to feature number 117, HF12__46308
+2025-10-21 17:57:30.838876 INFO::Fitting model to feature number 118, HF13__130702
+2025-10-21 17:57:30.843154 INFO::Fitting model to feature number 119, HF13__56270
+2025-10-21 17:57:30.847744 INFO::Fitting model to feature number 120, HF14__72355
+2025-10-21 17:57:30.853086 INFO::Fitting model to feature number 121, HF15__23649
+2025-10-21 17:57:30.858069 INFO::Fitting model to feature number 122, HF15__70868
+2025-10-21 17:57:30.863597 INFO::Fitting model to feature number 123, HF16__6620
+2025-10-21 17:57:30.868843 INFO::Fitting model to feature number 124, HF17__64840
+2025-10-21 17:57:30.874235 INFO::Fitting model to feature number 125, HF17__69944
+2025-10-21 17:57:30.879464 INFO::Fitting model to feature number 126, HF18__23394
+2025-10-21 17:57:30.886189 INFO::Fitting model to feature number 127, HF18__52113
+2025-10-21 17:57:30.891166 INFO::Fitting model to feature number 128, HF1__43792
+2025-10-21 17:57:30.895625 INFO::Fitting model to feature number 129, HF21__86021
+2025-10-21 17:57:30.900538 INFO::Fitting model to feature number 130, HF22__4444
+2025-10-21 17:57:30.905445 INFO::Fitting model to feature number 131, HF26__86591
+2025-10-21 17:57:30.910761 INFO::Fitting model to feature number 132, HF27__110837
+2025-10-21 17:57:30.916643 INFO::Fitting model to feature number 133, HF27__126317
+2025-10-21 17:57:30.921226 INFO::Fitting model to feature number 134, HF27__129645
+2025-10-21 17:57:30.926842 INFO::Fitting model to feature number 135, HF27__135661
+2025-10-21 17:57:30.931894 INFO::Fitting model to feature number 136, HF27__43896
+2025-10-21 17:57:30.936651 INFO::Fitting model to feature number 137, HF27__66055
+2025-10-21 17:57:30.941659 INFO::Fitting model to feature number 138, HF27__66822
+2025-10-21 17:57:30.946711 INFO::Fitting model to feature number 139, HF27__6829
+2025-10-21 17:57:30.951209 INFO::Fitting model to feature number 140, HF27__73342
+2025-10-21 17:57:30.955652 INFO::Fitting model to feature number 141, HF27__93109
+2025-10-21 17:57:30.960616 INFO::Fitting model to feature number 142, HF27__96853
+2025-10-21 17:57:30.965036 INFO::Fitting model to feature number 143, HF28__108909
+2025-10-21 17:57:30.969898 INFO::Fitting model to feature number 144, HF28__18937
+2025-10-21 17:57:30.975675 INFO::Fitting model to feature number 145, HF28__68916
+2025-10-21 17:57:30.980348 INFO::Fitting model to feature number 146, HF29__26223
+2025-10-21 17:57:30.984884 INFO::Fitting model to feature number 147, HF29__30629
+2025-10-21 17:57:30.990093 INFO::Fitting model to feature number 148, HF29__36428
+2025-10-21 17:57:30.994604 INFO::Fitting model to feature number 149, HF2__25841
+2025-10-21 17:57:30.999358 INFO::Fitting model to feature number 150, HF30__18734
+2025-10-21 17:57:31.00455 INFO::Fitting model to feature number 151, HF31__6557
+2025-10-21 17:57:31.009401 INFO::Fitting model to feature number 152, HF31__71275
+2025-10-21 17:57:31.014452 INFO::Fitting model to feature number 153, HF32__25045
+2025-10-21 17:57:31.020439 INFO::Fitting model to feature number 154, HF32__28561
+2025-10-21 17:57:31.02514 INFO::Fitting model to feature number 155, HF32__28961
+2025-10-21 17:57:31.029922 INFO::Fitting model to feature number 156, HF32__38809
+2025-10-21 17:57:31.034831 INFO::Fitting model to feature number 157, HF32__40475
+2025-10-21 17:57:31.040161 INFO::Fitting model to feature number 158, HF32__41880
+2025-10-21 17:57:31.04533 INFO::Fitting model to feature number 159, HF32__8300
+2025-10-21 17:57:31.05097 INFO::Fitting model to feature number 160, HF34__111609
+2025-10-21 17:57:31.055588 INFO::Fitting model to feature number 161, HF35__45179
+2025-10-21 17:57:31.060754 INFO::Fitting model to feature number 162, HF36__13316
+2025-10-21 17:57:31.066075 INFO::Fitting model to feature number 163, HF37__10748
+2025-10-21 17:57:31.070346 INFO::Fitting model to feature number 164, HF37__19724
+2025-10-21 17:57:31.074661 INFO::Fitting model to feature number 165, HF37__20036
+2025-10-21 17:57:31.07968 INFO::Fitting model to feature number 166, HF37__21884
+2025-10-21 17:57:31.083999 INFO::Fitting model to feature number 167, HF37__26086
+2025-10-21 17:57:31.088567 INFO::Fitting model to feature number 168, HF37__32760
+2025-10-21 17:57:31.092827 INFO::Fitting model to feature number 169, HF37__37838
+2025-10-21 17:57:31.096622 INFO::Fitting model to feature number 170, HF37__48934
+2025-10-21 17:57:31.102421 INFO::Fitting model to feature number 171, HF37__53203
+2025-10-21 17:57:31.108615 INFO::Fitting model to feature number 172, HF37__8889
+2025-10-21 17:57:31.112936 INFO::Fitting model to feature number 173, HF38__1166
+2025-10-21 17:57:31.117377 INFO::Fitting model to feature number 174, HF38__2035
+2025-10-21 17:57:31.122623 INFO::Fitting model to feature number 175, HF38__3530
+2025-10-21 17:57:31.127131 INFO::Fitting model to feature number 176, HF39__74434
+2025-10-21 17:57:31.131787 INFO::Fitting model to feature number 177, HF3__84953
+2025-10-21 17:57:31.136402 INFO::Fitting model to feature number 178, HF3__87587
+2025-10-21 17:57:31.141318 INFO::Fitting model to feature number 179, HF40__21762
+2025-10-21 17:57:31.14606 INFO::Fitting model to feature number 180, HF47__17258
+2025-10-21 17:57:31.151201 INFO::Fitting model to feature number 181, HF48__31437
+2025-10-21 17:57:31.155924 INFO::Fitting model to feature number 182, HF5__20927
+2025-10-21 17:57:31.160888 INFO::Fitting model to feature number 183, HF5__86068
+2025-10-21 17:57:31.166132 INFO::Fitting model to feature number 184, HF5__87494
+2025-10-21 17:57:31.170384 INFO::Fitting model to feature number 185, HF6__8951
+2025-10-21 17:57:31.17429 INFO::Fitting model to feature number 186, HF7__1727
+2025-10-21 17:57:31.178702 INFO::Fitting model to feature number 187, HF7__46258
+2025-10-21 17:57:31.183118 INFO::Fitting model to feature number 188, HF7__53524
+2025-10-21 17:57:31.187309 INFO::Fitting model to feature number 189, HF7__74558
+2025-10-21 17:57:31.191783 INFO::Fitting model to feature number 190, HF9__167
+2025-10-21 17:57:31.196027 INFO::Fitting model to feature number 191, HF9__35736
+2025-10-21 17:57:31.200334 INFO::Fitting model to feature number 192, HF9__8746
+2025-10-21 17:57:31.205078 INFO::Fitting model to feature number 193, MI10__1204
+2025-10-21 17:57:31.209374 INFO::Fitting model to feature number 194, MI10__12940
+2025-10-21 17:57:31.213468 INFO::Fitting model to feature number 195, MI10__13245
+2025-10-21 17:57:31.217959 INFO::Fitting model to feature number 196, MI10__14267
+2025-10-21 17:57:31.222075 INFO::Fitting model to feature number 197, MI10__17656
+2025-10-21 17:57:31.227614 INFO::Fitting model to feature number 198, MI10__22036
+2025-10-21 17:57:31.23234 INFO::Fitting model to feature number 199, MI10__40910
+2025-10-21 17:57:31.236575 INFO::Fitting model to feature number 200, MI10__42279
+2025-10-21 17:57:31.240908 INFO::Fitting model to feature number 201, MI10__42612
+2025-10-21 17:57:31.245527 INFO::Fitting model to feature number 202, MI11__142314
+2025-10-21 17:57:31.249566 INFO::Fitting model to feature number 203, MI11__71200
+2025-10-21 17:57:31.253684 INFO::Fitting model to feature number 204, MI12__102609
+2025-10-21 17:57:31.258067 INFO::Fitting model to feature number 205, MI12__37923
+2025-10-21 17:57:31.262249 INFO::Fitting model to feature number 206, MI12__69509
+2025-10-21 17:57:31.26896 INFO::Fitting model to feature number 207, MI12__94881
+2025-10-21 17:57:31.279433 INFO::Fitting model to feature number 208, MI13__75706
+2025-10-21 17:57:31.287495 INFO::Fitting model to feature number 209, MI14__131753
+2025-10-21 17:57:31.2946 INFO::Fitting model to feature number 210, MI14__13390
+2025-10-21 17:57:31.300956 INFO::Fitting model to feature number 211, MI14__143396
+2025-10-21 17:57:31.307326 INFO::Fitting model to feature number 212, MI15__11953
+2025-10-21 17:57:31.313245 INFO::Fitting model to feature number 213, MI18__91498
+2025-10-21 17:57:31.318636 INFO::Fitting model to feature number 214, MI19__1736
+2025-10-21 17:57:31.323397 INFO::Fitting model to feature number 215, MI19__21527
+2025-10-21 17:57:31.328533 INFO::Fitting model to feature number 216, MI19__30717
+2025-10-21 17:57:31.333675 INFO::Fitting model to feature number 217, MI19__35958
+2025-10-21 17:57:31.338201 INFO::Fitting model to feature number 218, MI19__40101
+2025-10-21 17:57:31.342603 INFO::Fitting model to feature number 219, MI19__40237
+2025-10-21 17:57:31.347304 INFO::Fitting model to feature number 220, MI19__49351
+2025-10-21 17:57:31.352011 INFO::Fitting model to feature number 221, MI19__60591
+2025-10-21 17:57:31.356564 INFO::Fitting model to feature number 222, MI19__6784
+2025-10-21 17:57:31.361445 INFO::Fitting model to feature number 223, MI19__68227
+2025-10-21 17:57:31.366313 INFO::Fitting model to feature number 224, MI20__21221
+2025-10-21 17:57:31.370877 INFO::Fitting model to feature number 225, MI23__20757
+2025-10-21 17:57:31.375942 INFO::Fitting model to feature number 226, MI25__10356
+2025-10-21 17:57:31.38064 INFO::Fitting model to feature number 227, MI25__15313
+2025-10-21 17:57:31.385272 INFO::Fitting model to feature number 228, MI25__21430
+2025-10-21 17:57:31.389935 INFO::Fitting model to feature number 229, MI25__24902
+2025-10-21 17:57:31.394961 INFO::Fitting model to feature number 230, MI26__53721
+2025-10-21 17:57:31.399715 INFO::Fitting model to feature number 231, MI26__61551
+2025-10-21 17:57:31.404313 INFO::Fitting model to feature number 232, MI28__42321
+2025-10-21 17:57:31.408548 INFO::Fitting model to feature number 233, MI29__59128
+2025-10-21 17:57:31.412894 INFO::Fitting model to feature number 234, MI2__129799
+2025-10-21 17:57:31.436294 INFO::Fitting model to feature number 235, MI2__95203
+2025-10-21 17:57:31.441074 INFO::Fitting model to feature number 236, MI30__2851
+2025-10-21 17:57:31.446276 INFO::Fitting model to feature number 237, MI31__18917
+2025-10-21 17:57:31.451648 INFO::Fitting model to feature number 238, MI31__34956
+2025-10-21 17:57:31.456459 INFO::Fitting model to feature number 239, MI31__52331
+2025-10-21 17:57:31.461459 INFO::Fitting model to feature number 240, MI31__9495
+2025-10-21 17:57:31.466538 INFO::Fitting model to feature number 241, MI32__26776
+2025-10-21 17:57:31.471434 INFO::Fitting model to feature number 242, MI32__28772
+2025-10-21 17:57:31.47661 INFO::Fitting model to feature number 243, MI32__65040
+2025-10-21 17:57:31.481745 INFO::Fitting model to feature number 244, MI33__6501
+2025-10-21 17:57:31.486437 INFO::Fitting model to feature number 245, MI33__79775
+2025-10-21 17:57:31.491309 INFO::Fitting model to feature number 246, MI34__39124
+2025-10-21 17:57:31.496301 INFO::Fitting model to feature number 247, MI34__47956
+2025-10-21 17:57:31.501284 INFO::Fitting model to feature number 248, MI35__1404
+2025-10-21 17:57:31.506219 INFO::Fitting model to feature number 249, MI35__20089
+2025-10-21 17:57:31.51124 INFO::Fitting model to feature number 250, MI35__2454
+2025-10-21 17:57:31.516126 INFO::Fitting model to feature number 251, MI35__29590
+2025-10-21 17:57:31.521375 INFO::Fitting model to feature number 252, MI35__81629
+2025-10-21 17:57:31.526934 INFO::Fitting model to feature number 253, MI35__84518
+2025-10-21 17:57:31.532286 INFO::Fitting model to feature number 254, MI35__84728
+2025-10-21 17:57:31.537478 INFO::Fitting model to feature number 255, MI35__88712
+2025-10-21 17:57:31.54285 INFO::Fitting model to feature number 256, MI36__18817
+2025-10-21 17:57:31.547825 INFO::Fitting model to feature number 257, MI36__20020
+2025-10-21 17:57:31.553626 INFO::Fitting model to feature number 258, MI36__21069
+2025-10-21 17:57:31.559408 INFO::Fitting model to feature number 259, MI36__44395
+2025-10-21 17:57:31.564814 INFO::Fitting model to feature number 260, MI36__45559
+2025-10-21 17:57:31.570235 INFO::Fitting model to feature number 261, MI36__46985
+2025-10-21 17:57:31.576169 INFO::Fitting model to feature number 262, MI36__51170
+2025-10-21 17:57:31.582531 INFO::Fitting model to feature number 263, MI36__6042
+2025-10-21 17:57:31.588139 INFO::Fitting model to feature number 264, MI37__50209
+2025-10-21 17:57:31.594224 INFO::Fitting model to feature number 265, MI37__9456
+2025-10-21 17:57:31.599591 INFO::Fitting model to feature number 266, MI38__37503
+2025-10-21 17:57:31.604899 INFO::Fitting model to feature number 267, MI38__49259
+2025-10-21 17:57:31.612112 INFO::Fitting model to feature number 268, MI38__496
+2025-10-21 17:57:31.624647 INFO::Fitting model to feature number 269, MI38__55378
+2025-10-21 17:57:31.635546 INFO::Fitting model to feature number 270, MI38__60402
+2025-10-21 17:57:31.642962 INFO::Fitting model to feature number 271, MI38__73232
+2025-10-21 17:57:31.648964 INFO::Fitting model to feature number 272, MI3__4232
+2025-10-21 17:57:31.655228 INFO::Fitting model to feature number 273, MI4__55228
+2025-10-21 17:57:31.661659 INFO::Fitting model to feature number 274, MI4__58394
+2025-10-21 17:57:31.667284 INFO::Fitting model to feature number 275, MI5__13031
+2025-10-21 17:57:31.672763 INFO::Fitting model to feature number 276, MI5__160719
+2025-10-21 17:57:31.678301 INFO::Fitting model to feature number 277, MI5__178863
+2025-10-21 17:57:31.683371 INFO::Fitting model to feature number 278, MI5__200021
+2025-10-21 17:57:31.688497 INFO::Fitting model to feature number 279, MI5__210119
+2025-10-21 17:57:31.694106 INFO::Fitting model to feature number 280, MI6__14551
+2025-10-21 17:57:31.699035 INFO::Fitting model to feature number 281, MI8__102292
+2025-10-21 17:57:31.70442 INFO::Fitting model to feature number 282, MI8__75762
+2025-10-21 17:57:31.709989 INFO::Fitting model to feature number 283, MI8__85262
+2025-10-21 17:57:31.714873 INFO::Fitting model to feature number 284, MI9__51614
+2025-10-21 17:57:31.720389 INFO::Fitting model to feature number 285, MI9__68769
+2025-10-21 17:57:31.725002 INFO::Fitting model to feature number 286, MI9__7017
+2025-10-21 17:57:31.763244 INFO::Counting total values for each feature
+2025-10-21 17:57:31.778056 INFO::Writing filtered data to file E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/features/filtered_data.tsv
+2025-10-21 17:57:31.808145 INFO::Writing filtered, normalized data to file E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/features/filtered_data_norm.tsv
+2025-10-21 17:57:31.865443 INFO::Writing filtered, normalized, transformed data to file E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/features/filtered_data_norm_transformed.tsv
+2025-10-21 17:57:31.931594 WARNING::Deleting existing residuals file: E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/fits/residuals.rds
+2025-10-21 17:57:31.936535 INFO::Writing residuals to file E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/fits/residuals.rds
+2025-10-21 17:57:31.94641 WARNING::Deleting existing fitted file: E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/fits/fitted.rds
+2025-10-21 17:57:31.949698 INFO::Writing fitted values to file E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/fits/fitted.rds
+2025-10-21 17:57:31.95495 INFO::Writing all results to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/all_results.tsv
+2025-10-21 17:57:31.963128 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/significant_results.tsv
+2025-10-21 17:57:31.96682 INFO::Writing heatmap of significant results to file: E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus/heatmap.pdf
+2025-10-21 17:57:31.970638 INFO::Writing association plots (one for each significant association) to output folder: E:/Python/MI_Analysis/metagenome/data_figures/g/MaAsLin2_OTU//virus
+2025-10-21 17:57:31.976388 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-10-21 17:57:31.978656 INFO::Plotting data for metadata number 1, Group
+2025-10-21 17:57:31.98309 INFO::Creating boxplot for categorical data, Group vs CON43__13370
+2025-10-21 17:57:32.33623 INFO::Creating boxplot for categorical data, Group vs CON34__10987
+2025-10-21 17:57:32.631563 INFO::Creating boxplot for categorical data, Group vs CON34__8025
+2025-10-21 17:57:33.946085 INFO::Creating boxplot for categorical data, Group vs HF7__1727
+2025-10-21 17:57:34.195009 INFO::Creating boxplot for categorical data, Group vs CON13__42474
+2025-10-21 17:57:34.469449 INFO::Creating boxplot for categorical data, Group vs CON19__13253
+2025-10-21 17:57:34.706444 INFO::Creating boxplot for categorical data, Group vs CON25__12111
+2025-10-21 17:57:34.961763 INFO::Creating boxplot for categorical data, Group vs CON31__67138
+2025-10-21 17:57:35.198945 INFO::Creating boxplot for categorical data, Group vs CON44__73331
+2025-10-21 17:57:35.453752 INFO::Creating boxplot for categorical data, Group vs CON47__55906
+2025-10-21 17:57:35.690473 INFO::Creating boxplot for categorical data, Group vs HF10__3047
+2025-10-21 17:57:35.940349 INFO::Creating boxplot for categorical data, Group vs MI19__1736
+2025-10-21 17:57:36.177926 INFO::Creating boxplot for categorical data, Group vs MI36__51170
+2025-10-21 17:57:36.423571 INFO::Creating boxplot for categorical data, Group vs CON13__4329
+2025-10-21 17:57:36.665377 INFO::Creating boxplot for categorical data, Group vs CON31__53650
+2025-10-21 17:57:36.937931 INFO::Creating boxplot for categorical data, Group vs CON35__38542
+2025-10-21 17:57:37.176792 INFO::Creating boxplot for categorical data, Group vs MI10__17656
+2025-10-21 17:57:37.426146 INFO::Creating boxplot for categorical data, Group vs CON18__42913
+2025-10-21 17:57:37.661304 INFO::Creating boxplot for categorical data, Group vs HF32__8300
+2025-10-21 17:57:37.904695 INFO::Creating boxplot for categorical data, Group vs HF18__52113
+2025-10-21 17:57:38.143469 INFO::Creating boxplot for categorical data, Group vs CON13__125096
+2025-10-21 17:57:38.391815 INFO::Creating boxplot for categorical data, Group vs CON22__29078
+2025-10-21 17:57:38.625625 INFO::Creating boxplot for categorical data, Group vs CON30__115695
+2025-10-21 17:57:38.873168 INFO::Creating boxplot for categorical data, Group vs CON43__25730
+2025-10-21 17:57:39.103868 INFO::Creating boxplot for categorical data, Group vs HF30__18734

@@ -1,0 +1,43 @@
+===============================================
+       微生物多样性分析统计结果
+===============================================
+
+α多样性分析 - Wilcoxon检验P值:
+-----------------------------------------------
+ Microorganism     Metric     P_value
+      Bacteria   Observed 0.721842272
+      Bacteria      Chao1 0.721842272
+      Bacteria        ACE          NA
+      Bacteria    Shannon 0.339540040
+      Bacteria    Simpson 0.312909758
+      Bacteria InvSimpson 0.312909758
+       Archaea   Observed 0.114785092
+       Archaea      Chao1 0.114785092
+       Archaea        ACE 0.114785092
+       Archaea    Shannon 0.012251444
+       Archaea    Simpson 0.008514409
+       Archaea InvSimpson 0.008514409
+         Fungi   Observed 0.007697152
+         Fungi      Chao1 0.007697152
+         Fungi        ACE          NA
+         Fungi    Shannon 0.165270759
+         Fungi    Simpson 0.828798123
+         Fungi InvSimpson 0.828798123
+         Virus   Observed 0.903169561
+         Virus      Chao1 0.903169561
+         Virus        ACE          NA
+         Virus    Shannon 0.387053553
+         Virus    Simpson 0.353384717
+         Virus InvSimpson 0.353384717
+
+
+β多样性分析 - PERMANOVA结果:
+-----------------------------------------------
+ Microorganism R_squared P_value
+      Bacteria     0.020   0.025
+       Archaea     0.023   0.014
+         Fungi     0.025   0.039
+         Virus     0.044   0.001
+
+
+文件生成时间: 2025-10-21 01:46:22 

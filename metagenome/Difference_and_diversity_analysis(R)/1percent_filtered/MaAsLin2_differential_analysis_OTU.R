@@ -23,13 +23,13 @@ library(dplyr)
 # 2. 文件路径
 # ----------------------------
 files <- list(
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_病毒(新)_filtered_1percent.csv",
-  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_古菌_filtered_1percent.csv",
-  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_细菌_filtered_1percent.csv",
-  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/心梗组_真菌_filtered_1percent.csv"
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_病毒_filtered_1percent.csv",
+  archaea  = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_古菌_filtered_1percent.csv",
+  bacteria = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_细菌_filtered_1percent.csv",
+  fungi    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/心梗组_真菌_filtered_1percent.csv"
 )
-metadata_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/sample_metadata.xlsx"
-outdir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change/MaAsLin2_OTU/"
+metadata_file <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/sample_metadata.xlsx"
+outdir <- "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent/MaAsLin2_OTU/"
 if (!dir.exists(outdir)) dir.create(outdir, recursive = TRUE)
 
 # ----------------------------

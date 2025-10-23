@@ -1,1 +1,12 @@
 feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae.g__Microsporum	Group	MI	1.28838440982367	0.315193444452705	84	68	0.000101102152623853	0.0195127154564036
+k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Aspergillaceae.g__Aspergillus.s__Aspergillus_luchuensis	Group	MI	1.04739616725578	0.286140327148021	84	74	0.000444331833131818	0.0285853479314803
+k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces	Group	MI	1.23850956739957	0.33529367128673	84	67	0.000397191409528533	0.0285853479314803
+k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales	Group	MI	1.06110718380204	0.312859741506199	84	76	0.00107137978833297	0.0296469698162484
+k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Onygenales.f__Arthrodermataceae	Group	MI	1.06110718380204	0.312859741506199	84	76	0.00107137978833297	0.0296469698162484
+k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Ophiostomatales.f__Ophiostomataceae.g__Sporothrix.s__Sporothrix_schenckii	Group	MI	1.17129466563253	0.33202839223186	84	71	0.000689794164689956	0.0296469698162484
+k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae	Group	MI	0.903540715261994	0.272868149376645	84	69	0.00138250118314112	0.0296469698162484
+k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora	Group	MI	0.903540715261994	0.272868149376645	84	69	0.00138250118314112	0.0296469698162484
+k__Fungi.p__Ascomycota.c__Sordariomycetes.o__Sordariales.f__Sordariaceae.g__Neurospora.s__Neurospora_crassa	Group	MI	0.903540715261994	0.272868149376645	84	69	0.00138250118314112	0.0296469698162484
+k__Fungi.p__Ascomycota.c__Saccharomycetes.o__Saccharomycetales.f__Saccharomycetaceae.g__Kluyveromyces.s__Kluyveromyces_lactis	Group	MI	0.992708783116506	0.304416737616154	84	64	0.00161823317523572	0.0312319002820494
+k__Fungi.p__Basidiomycota	Group	MI	0.481126602123878	0.155316707763946	84	83	0.00267041905623647	0.0468537161685126

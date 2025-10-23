@@ -1,0 +1,232 @@
+Family Level Diversity Analysis Statistical Results
+==================================================
+
+Analysis Date: 2025-10-19 14:54:13 
+
+Diversity Indices: Observed, Richness, Number, Shannon, Simpson, InvSimpson, Chao1, ACE
+Note: Chao1 and ACE based on converted data - interpret with caution
+
+
+ === FUNGI (Family Level) === 
+Analysis time: 2025-10-19 14:54:14 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Observed: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.004
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.004
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.004
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Shannon: p = 0.218 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.218
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.823 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.823
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.823 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.823
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p < 0.01 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.004
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.206000
+R-squared: 0.016163
+Result: PERMANOVA: p = 0.206, R² = 0.016
+Samples: Control (n=47), MI (n=37)
+
+
+ === VIRUS (Family Level) === 
+Analysis time: 2025-10-19 14:54:19 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Observed: p = 0.504 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.504
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p = 0.504 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.504
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p = 0.504 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.504
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Shannon: p = 0.399 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.399
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.530 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.530
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.530 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.530
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p = 0.504 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.504
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.005000
+R-squared: 0.040471
+Result: PERMANOVA: p < 0.01, R² = 0.040
+Samples: Control (n=47), MI (n=37)
+
+
+ === ARCHAEA (Family Level) === 
+Analysis time: 2025-10-19 14:54:23 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Observed: p = 0.023 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.023
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p = 0.023 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.023
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p = 0.023 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.023
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Shannon: p = 0.030 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.030
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.038 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.038
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.038 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.038
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p = 0.023 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.023
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.016000
+R-squared: 0.036450
+Result: PERMANOVA: p = 0.016, R² = 0.036
+Samples: Control (n=47), MI (n=37)
+
+
+ === BACTERIA (Family Level) === 
+Analysis time: 2025-10-19 14:54:29 
+
+ALPHA DIVERSITY RESULTS:
+------------------------
+Observed: p = 0.745 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.745
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Richness: p = 0.745 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.745
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Number: p = 0.745 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.745
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Shannon: p = 0.328 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.328
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Simpson: p = 0.302 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.302
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+InvSimpson: p = 0.302 (Wilcoxon rank sum test) [Tied values present] [Based on original data - high reliability]
+  P-value: 0.302
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+Chao1: p = 0.745 (Wilcoxon rank sum test) [Tied values present] [Based on converted data - interpret with caution]
+  P-value: 0.745
+  Method: Wilcoxon rank sum test
+  Note: Tied values present
+  Samples: Control (n=47), MI (n=37)
+
+BETA DIVERSITY RESULTS:
+-----------------------
+Method: PERMANOVA (Bray-Curtis distance)
+P-value: 0.031000
+R-squared: 0.024498
+Result: PERMANOVA: p = 0.031, R² = 0.024
+Samples: Control (n=47), MI (n=37)
+
