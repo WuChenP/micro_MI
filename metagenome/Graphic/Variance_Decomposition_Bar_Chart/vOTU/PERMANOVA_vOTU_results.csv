@@ -1,0 +1,13 @@
+"Level","Variable","Model","R2","Pvalue"
+"vOTU","MI","No covariates",0.0177371946300809,0.078
+"vOTU","MI","With covariates",0.0507551089966568,0.314
+"vOTU","Age","No covariates",0.0123727522352399,0.363
+"vOTU","Age","With covariates",0.0507551089966568,0.314
+"vOTU","Gender","No covariates",0.00913008879457015,0.826
+"vOTU","Gender","With covariates",0.0507551089966568,0.347
+"vOTU","BMI","No covariates",0.010063681354186,0.693
+"vOTU","BMI","With covariates",0.0507551089966568,0.327
+"vOTU","Smoking","No covariates",0.0171868647914342,0.077
+"vOTU","Smoking","With covariates",0.0576164727194882,0.1
+"vOTU","Drinking","No covariates",0.00978649528243856,0.741
+"vOTU","Drinking","With covariates",0.0489628454196444,0.384
