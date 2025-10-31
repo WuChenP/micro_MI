@@ -76,12 +76,12 @@ pheatmap(cor_matrix,
          legend = TRUE)
 dev.off()
 
-# 8. 保存相关性结果
+# 8. 保存相关性结果 - 修正数据对应关系
 cor_results <- data.frame(
   Alpha_Diversity = rep(alpha_diversity, each = length(host_factors)),
   Host_Factor = rep(c("MI", "Gender", "Age", "BMI", "Smoking", "Drinking"), times = length(alpha_diversity)),
-  Correlation = as.vector(cor_matrix),
-  P_value = as.vector(pval_matrix)
+  Correlation = as.vector(t(cor_matrix)),  # 转置后再向量化，确保按行顺序
+  P_value = as.vector(t(pval_matrix))      # 同上
 )
 
 cor_results$Significance <- ""
@@ -97,3 +97,4 @@ cat("分析完成！生成Lancet风格热图：\n")
 cat("文件: AlphaDiversity_Correlation_LancetStyle.pdf\n")
 cat("风格: Lancet风格（深蓝-白-深红）\n")
 cat("\n总样本:", nrow(data), "(CON:", sum(data$分组=="CON"), "MI:", sum(data$分组=="MI"), ")\n")
+cat("数据对应关系已修正，CSV文件与热图显示完全一致\n")
