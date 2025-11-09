@@ -53,34 +53,74 @@ required_meta <- meta_data %>%
   filter(complete.cases(.)) %>%  # 移除有缺失值的行
   column_to_rownames("SampleID")
 
+# 数据验证
+cat("=== Data Validation ===\n")
+cat("vOTU data dimensions:", dim(votu_matrix), "\n")
+cat("Family level data dimensions:", dim(family_matrix), "\n")
+cat("Metadata dimensions:", dim(required_meta), "\n")
+
+# 检查变量分布
+cat("\n=== Variable Distribution Check ===\n")
+cat("MI distribution:\n")
+print(table(required_meta$MI))
+cat("Gender distribution:\n")
+print(table(required_meta$Gender))
+cat("Smoking distribution:\n")
+print(table(required_meta$Smoking))
+cat("Drinking distribution:\n")
+print(table(required_meta$Drinking))
+
+# 样本匹配检查函数
+check_sample_overlap <- function(community_data, metadata, data_name) {
+  comm_samples <- rownames(community_data)
+  meta_samples <- rownames(metadata)
+  common_samples <- intersect(comm_samples, meta_samples)
+  
+  cat(paste("\n=== ", data_name, "Sample Matching Check ===\n"))
+  cat("Community data samples:", length(comm_samples), "\n")
+  cat("Metadata samples:", length(meta_samples), "\n")
+  cat("Common samples:", length(common_samples), "\n")
+  
+  return(common_samples)
+}
+
 # 数据预处理函数
 preprocess_data <- function(data_matrix) {
   # 移除全为零的行
   data_clean <- data_matrix[rowSums(data_matrix, na.rm = TRUE) > 0, ]
   # 移除全为零的列
   data_clean <- data_clean[, colSums(data_clean, na.rm = TRUE) > 0]
+  
+  # 检查数据是否有效
+  if (nrow(data_clean) == 0 | ncol(data_clean) == 0) {
+    stop("No valid data after preprocessing")
+  }
+  
+  cat("Data dimensions after preprocessing:", dim(data_clean), "\n")
+  
   # Hellinger转换
   data_hellinger <- decostand(data_clean, "hellinger")
   return(data_hellinger)
 }
 
-# PERMANOVA分析函数
-run_permanova_analysis <- function(community_data, metadata, level_name) {
+# 正确的PERMANOVA分析函数 - 使用边际检验
+run_permanova_corrected <- function(community_data, metadata, level_name) {
   
-  # 预处理数据
-  comm_processed <- preprocess_data(community_data)
+  cat(paste("\n=== Starting", level_name, "Level Analysis ===\n"))
   
-  # 计算Bray-Curtis距离
-  dist_matrix <- vegdist(comm_processed, method = "bray")
+  # 检查样本重叠
+  common_samples <- check_sample_overlap(community_data, metadata, level_name)
   
-  # 确保样本顺序一致
-  common_samples <- intersect(rownames(comm_processed), rownames(metadata))
   if (length(common_samples) == 0) {
     stop(paste("No common samples found between", level_name, "data and metadata"))
   }
   
-  dist_matrix <- as.dist(as.matrix(dist_matrix)[common_samples, common_samples])
-  metadata_common <- metadata[common_samples, ]
+  # 预处理数据
+  comm_processed <- preprocess_data(community_data[common_samples, ])
+  meta_common <- metadata[common_samples, ]
+  
+  # 计算距离矩阵
+  dist_matrix <- vegdist(comm_processed, method = "bray")
   
   # 存储结果
   results <- data.frame()
@@ -88,17 +128,40 @@ run_permanova_analysis <- function(community_data, metadata, level_name) {
   # 定义要分析的变量
   variables <- c("MI", "Age", "Gender", "BMI", "Smoking", "Drinking")
   
-  for (var in variables) {
+  # 运行完整模型的边际检验
+  formula_full <- as.formula(paste("dist_matrix ~", paste(variables, collapse = " + ")))
+  cat("Running full model with marginal contributions...\n")
+  permanova_marginal <- adonis2(formula_full, data = meta_common, permutations = 999, by = "margin")
+  
+  cat("Marginal contributions from full model:\n")
+  print(permanova_marginal)
+  
+  for (i in 1:length(variables)) {
+    var <- variables[i]
+    
+    cat(paste("  Processing variable:", var, "\n"))
+    
     tryCatch({
-      # 无协变量模型
+      # 1. 无协变量模型：仅包含目标变量
       formula_simple <- as.formula(paste("dist_matrix ~", var))
-      permanova_simple <- adonis2(formula_simple, data = metadata_common, permutations = 999)
+      permanova_simple <- adonis2(formula_simple, data = meta_common, permutations = 999)
       
-      # 有协变量模型
-      other_vars <- setdiff(variables, var)
-      covariates <- paste(other_vars[1:3], collapse = " + ")  # 取前3个作为协变量
-      formula_covar <- as.formula(paste("dist_matrix ~", var, "+", covariates))
-      permanova_covar <- adonis2(formula_covar, data = metadata_common, permutations = 999)
+      # 2. 有协变量模型：从边际检验中获取
+      # 边际检验给出每个变量在调整了其他所有变量后的独立贡献
+      if (i <= nrow(permanova_marginal)) {
+        marginal_R2 <- permanova_marginal$R2[i]
+        marginal_p <- permanova_marginal$`Pr(>F)`[i]
+        marginal_F <- permanova_marginal$F[i]
+      } else {
+        marginal_R2 <- NA
+        marginal_p <- NA
+        marginal_F <- NA
+      }
+      
+      cat(paste("    - No covariates: R2 =", round(permanova_simple$R2[1], 4), 
+                "P =", round(permanova_simple$`Pr(>F)`[1], 4), "\n"))
+      cat(paste("    - With covariates (marginal): R2 =", round(marginal_R2, 4), 
+                "P =", round(marginal_p, 4), "\n"))
       
       # 提取结果
       simple_result <- data.frame(
@@ -106,20 +169,34 @@ run_permanova_analysis <- function(community_data, metadata, level_name) {
         Variable = var,
         Model = "No covariates",
         R2 = permanova_simple$R2[1],
-        Pvalue = permanova_simple$`Pr(>F)`[1]
+        Pvalue = permanova_simple$`Pr(>F)`[1],
+        F_value = permanova_simple$F[1]
       )
       
       covar_result <- data.frame(
         Level = level_name,
         Variable = var,
         Model = "With covariates",
-        R2 = permanova_covar$R2[1],
-        Pvalue = permanova_covar$`Pr(>F)`[1]
+        R2 = marginal_R2,
+        Pvalue = marginal_p,
+        F_value = marginal_F
       )
       
       results <- rbind(results, simple_result, covar_result)
+      
     }, error = function(e) {
       message(paste("Error analyzing variable", var, "in", level_name, ":", e$message))
+      
+      # 即使出错也添加空结果以保持数据结构
+      error_result <- data.frame(
+        Level = level_name,
+        Variable = var,
+        Model = rep(c("No covariates", "With covariates"), each = 1),
+        R2 = NA,
+        Pvalue = NA,
+        F_value = NA
+      )
+      results <- rbind(results, error_result)
     })
   }
   
@@ -127,16 +204,14 @@ run_permanova_analysis <- function(community_data, metadata, level_name) {
 }
 
 # 执行分析
-cat("开始vOTU水平分析...\n")
-votu_results <- run_permanova_analysis(votu_matrix, required_meta, "vOTU")
-
-cat("开始科水平分析...\n")
-family_results <- run_permanova_analysis(family_matrix, required_meta, "Family")
+cat("\nStarting PERMANOVA analysis with marginal contributions...\n")
+votu_results <- run_permanova_corrected(votu_matrix, required_meta, "vOTU")
+family_results <- run_permanova_corrected(family_matrix, required_meta, "Family")
 
 # 合并结果
 all_results <- rbind(votu_results, family_results)
 
-# 创建顶刊风格的可视化函数（解决字体错误）
+# 创建顶刊风格的可视化函数
 create_journal_style_plot <- function(results_data, level_name) {
   
   # 定义宿主因素颜色方案
@@ -154,113 +229,100 @@ create_journal_style_plot <- function(results_data, level_name) {
   
   # 处理数据
   plot_data <- results_data %>%
-    filter(Level == level_name) %>%
+    filter(Level == level_name & !is.na(R2)) %>%
     mutate(
       Significance = case_when(
-        Pvalue < 0.001 ~ "***",
-        Pvalue < 0.01 ~ "**",
-        Pvalue < 0.05 ~ "*",
+        Pvalue <= 0.001 ~ "***",
+        Pvalue <= 0.01 ~ "**", 
+        Pvalue <= 0.05 ~ "*",
         TRUE ~ ""
       ),
       Variable = factor(Variable, levels = c("MI", "Age", "Gender", "BMI", "Smoking", "Drinking")),
-      R2_percent = R2 * 100,
-      label_x = R2_percent + 0.5
-    )
+      R2_percent = R2 * 100
+    ) %>%
+    group_by(Variable) %>%
+    mutate(
+      max_r2 = max(R2_percent, na.rm = TRUE),
+      label_x = R2_percent + max_r2 * 0.05
+    ) %>%
+    ungroup()
   
-  # 计算横坐标范围，确保包含所有刻度
+  # 计算横坐标范围
   max_r2 <- max(plot_data$R2_percent, na.rm = TRUE)
-  x_breaks <- seq(0, ceiling(max_r2), by = 1)  # 每1%一个刻度
+  x_max <- max_r2 * 1.2
   
   # 创建图形
-  p <- ggplot(plot_data, aes(x = R2_percent, y = Variable, 
-                             shape = Model, fill = Variable)) +
-    geom_point(size = 4, stroke = 0.8, position = position_dodge(width = 0.7)) +
-    geom_text(aes(label = Significance, x = label_x), 
-              position = position_dodge(width = 0.7),
+  p <- ggplot(plot_data, aes(x = R2_percent, y = Variable)) +
+    geom_point(aes(shape = Model, fill = Variable), 
+               size = 4, stroke = 0.8, 
+               position = position_dodge(width = 0.6)) +
+    geom_text(aes(label = Significance, x = label_x, group = Model), 
+              position = position_dodge(width = 0.6),
               vjust = 0.7, size = 4, fontface = "bold") +
     scale_fill_manual(values = factor_colors, guide = "none") +
-    scale_shape_manual(values = shape_values,
-                       labels = c("No covariates" = "No covariates", 
-                                  "With covariates" = "With covariates")) +
+    scale_shape_manual(values = shape_values) +
     scale_x_continuous(
-      breaks = x_breaks,  # 设置详细的刻度
-      limits = c(0, max(x_breaks)),
+      limits = c(0, x_max),
       expand = expansion(mult = c(0, 0.05))
     ) +
     labs(
       x = "Explained variance (%)",
       y = NULL,
-      shape = "Model"
+      shape = "Model",
+      title = paste("PERMANOVA -", level_name, "Level")
     ) +
     theme_classic(base_size = 12) +
     theme(
-      # 使用默认字体避免错误
-      text = element_text(family = "", color = "black"),
+      text = element_text(color = "black"),
       axis.text = element_text(size = 11, color = "black"),
       axis.title = element_text(size = 12, face = "bold"),
       axis.line = element_line(color = "black", linewidth = 0.5),
       axis.ticks = element_line(color = "black", linewidth = 0.5),
       legend.position = "top",
-      legend.justification = "left",
-      legend.title = element_text(face = "bold", size = 11),
-      legend.text = element_text(size = 10),
-      legend.key = element_rect(fill = "white"),
-      legend.background = element_rect(fill = "white", color = NA),
+      legend.title = element_text(face = "bold"),
       panel.grid.major.x = element_line(color = "grey90", linewidth = 0.2),
-      panel.grid.minor.x = element_blank(),
-      panel.background = element_rect(fill = "white"),
-      plot.background = element_rect(fill = "white")
-    ) +
-    coord_cartesian(clip = "off")
+      plot.title = element_text(hjust = 0.5, face = "bold")
+    )
   
   return(p)
 }
 
 # 生成并保存图形和结果
-cat("生成可视化图形和保存结果...\n")
+cat("\n=== Generating Visualizations and Saving Results ===\n")
 
 # vOTU水平结果保存
-votu_plot <- create_journal_style_plot(all_results, "vOTU")
-# 保存PNG文件（不使用特殊字体）
-ggsave(file.path(votu_save_path, "PERMANOVA_vOTU_level.png"), 
-       votu_plot, width = 8, height = 5, dpi = 300, bg = "white")
-# 保存PDF文件（使用cairo_pdf避免字体问题）
-ggsave(file.path(votu_save_path, "PERMANOVA_vOTU_level.pdf"), 
-       votu_plot, width = 8, height = 5, bg = "white", device = cairo_pdf)
+if (nrow(votu_results) > 0 && sum(!is.na(votu_results$R2)) > 0) {
+  votu_plot <- create_journal_style_plot(all_results, "vOTU")
+  ggsave(file.path(votu_save_path, "PERMANOVA_vOTU_level.png"), 
+         votu_plot, width = 8, height = 5, dpi = 300, bg = "white")
+  ggsave(file.path(votu_save_path, "PERMANOVA_vOTU_level.pdf"), 
+         votu_plot, width = 8, height = 5, bg = "white", device = cairo_pdf)
+  cat("vOTU level plots saved\n")
+}
 
 # 科水平结果保存
-family_plot <- create_journal_style_plot(all_results, "Family")
-ggsave(file.path(family_save_path, "PERMANOVA_Family_level.png"), 
-       family_plot, width = 8, height = 5, dpi = 300, bg = "white")
-ggsave(file.path(family_save_path, "PERMANOVA_Family_level.pdf"), 
-       family_plot, width = 8, height = 5, bg = "white", device = cairo_pdf)
+if (nrow(family_results) > 0 && sum(!is.na(family_results$R2)) > 0) {
+  family_plot <- create_journal_style_plot(all_results, "Family")
+  ggsave(file.path(family_save_path, "PERMANOVA_Family_level.png"), 
+         family_plot, width = 8, height = 5, dpi = 300, bg = "white")
+  ggsave(file.path(family_save_path, "PERMANOVA_Family_level.pdf"), 
+         family_plot, width = 8, height = 5, bg = "white", device = cairo_pdf)
+  cat("Family level plots saved\n")
+}
 
 # 保存详细结果
 write.csv(votu_results, file.path(votu_save_path, "PERMANOVA_vOTU_results.csv"), row.names = FALSE)
 write.csv(family_results, file.path(family_save_path, "PERMANOVA_Family_results.csv"), row.names = FALSE)
 write.csv(all_results, file.path(dirname(votu_save_path), "PERMANOVA_All_Results.csv"), row.names = FALSE)
-
-# 显示图形
-print(votu_plot)
-print(family_plot)
+cat("Result files saved\n")
 
 # 显示主要结果摘要
-cat("\n=== 分析结果摘要 ===\n")
-cat("vOTU水平结果:\n")
-print(votu_results)
-cat("\n科水平结果:\n")
-print(family_results)
+cat("\n=== Analysis Results Summary ===\n")
+cat("vOTU level results:\n")
+print(votu_results %>% select(Level, Variable, Model, R2, Pvalue) %>% 
+        mutate(R2 = round(R2, 4), Pvalue = round(Pvalue, 4)))
+cat("\nFamily level results:\n")
+print(family_results %>% select(Level, Variable, Model, R2, Pvalue) %>% 
+        mutate(R2 = round(R2, 4), Pvalue = round(Pvalue, 4)))
 
-# 样本信息统计
-cat("\n=== 样本信息 ===\n")
-cat("vOTU数据样本数:", nrow(votu_matrix), "\n")
-cat("科水平数据样本数:", nrow(family_matrix), "\n")
-cat("宿主因素数据样本数:", nrow(required_meta), "\n")
-
-# 检查共同样本
-common_votu <- intersect(rownames(votu_matrix), rownames(required_meta))
-common_family <- intersect(rownames(family_matrix), rownames(required_meta))
-cat("vOTU与元数据共同样本数:", length(common_votu), "\n")
-cat("科水平与元数据共同样本数:", length(common_family), "\n")
-
-cat("\n分析完成！所有结果已保存到指定目录。\n")
+cat("\nAnalysis completed! All results saved to specified directories.\n")
