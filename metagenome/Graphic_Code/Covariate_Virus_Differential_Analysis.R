@@ -11,13 +11,13 @@ library(dplyr)
 # 1. 文件路径
 # ----------------------------
 otu_files <- list(
-  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change_virus/心梗组_病毒_filtered_1percent.csv"
+  virus    = "D:/PythonProject/micro_MI/metagenome/data_figures/filtered_data_1percent_change_virus/心梗组_病毒_filtered_1percent.csv"
 )
 
-metadata_file = "E:/Python/MI_Analysis/origin_data/样本协变量数据.xlsx"
+metadata_file = "D:/PythonProject/micro_MI/origin_data/样本协变量数据.xlsx"
 
 # 输出文件夹
-output_dir <- "E:/Python/MI_Analysis/metagenome/Graphic/Covariate_Virus_Differential_Analysis/"
+output_dir <- "D:/PythonProject/micro_MI/metagenome/Graphic/Covariate_Virus_Differential_Analysis/"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # ----------------------------
@@ -35,8 +35,6 @@ rownames(metadata) <- metadata$分析名称
 # 将分类变量转换为因子
 metadata$Group <- factor(metadata$Group, levels = c("CON", "MI"))  # CON作为参考组
 metadata$Gender <- factor(metadata$Gender, levels = c(1, 2), labels = c("Male", "Female"))  # 1=男, 2=女
-metadata$Smoking <- factor(metadata$Smoking, levels = c(0, 1), labels = c("No", "Yes"))
-metadata$Drinking <- factor(metadata$Drinking, levels = c(0, 1), labels = c("No", "Yes"))
 
 # 查看元数据结构
 cat("元数据变量:\n")
@@ -45,10 +43,6 @@ cat("\n分组分布:\n")
 print(table(metadata$Group))
 cat("\n性别分布:\n") 
 print(table(metadata$Gender))
-cat("\n吸烟分布:\n")
-print(table(metadata$Smoking))
-cat("\n饮酒分布:\n")
-print(table(metadata$Drinking))
 
 # ----------------------------
 # 循环分析四类微生物
@@ -91,15 +85,15 @@ for (microbe in names(otu_files)) {
   original_abundance_data <- feature_data_common
   
   # ----------------------------
-  # 运行 ANCOM-BC2 - 包含所有协变量
+  # 运行 ANCOM-BC2 - 包含协变量（已删除Smoking和Drinking）
   # ----------------------------
-  cat("运行ANCOM-BC2，校正协变量: Group + Age + Gender + BMI + Smoking + Drinking\n")
+  cat("运行ANCOM-BC2，校正协变量: Group + Age + Gender + BMI\n")
   
   ancombc_res <- tryCatch({
     ancombc2(
       data = ps_obj,
-      # 关键修改：包含所有协变量
-      fix_formula = "Group + Age + Gender + BMI + Smoking + Drinking",
+      # 关键修改：删除了Smoking和Drinking协变量
+      fix_formula = "Group + Age + Gender + BMI",
       p_adj_method = "fdr",
       lib_cut = 0,
       group = "Group",  # 主要分组变量
