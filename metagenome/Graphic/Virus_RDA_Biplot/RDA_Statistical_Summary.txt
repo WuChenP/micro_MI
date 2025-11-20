@@ -1,62 +1,62 @@
 === RDA ANALYSIS STATISTICAL SUMMARY ===
-Analysis date: Thu Oct 30 21:52:51 2025 
+Analysis date: Mon Nov 17 09:02:35 2025 
 
 Number of samples: 84 
 Total variance: 0.4838 
-Constrained variance: 0.0388 
-Unconstrained variance: 0.445 
-Proportion of variance explained: 8.02 %
+Constrained variance: 0.0257 
+Unconstrained variance: 0.4581 
+Proportion of variance explained: 5.31 %
 
 === RDA AXIS VARIANCE EXPLANATION ===
 Importance of components:
-                         RDA1    RDA2     RDA3     RDA4     RDA5     RDA6     PC1
-Eigenvalue            0.01149 0.00723 0.006861 0.005122 0.004254 0.003824 0.05155
-Proportion Explained  0.02374 0.01495 0.014182 0.010588 0.008793 0.007905 0.10656
-Cumulative Proportion 0.02374 0.03869 0.052867 0.063456 0.072249 0.080154 0.18672
-                          PC2     PC3     PC4     PC5     PC6     PC7     PC8     PC9
-Eigenvalue            0.03431 0.02696 0.01889 0.01776 0.01453 0.01325 0.01266 0.01154
-Proportion Explained  0.07091 0.05573 0.03904 0.03671 0.03003 0.02739 0.02617 0.02385
-Cumulative Proportion 0.25763 0.31336 0.35239 0.38910 0.41913 0.44652 0.47269 0.49654
-                         PC10    PC11    PC12     PC13     PC14     PC15     PC16
-Eigenvalue            0.01113 0.01060 0.00959 0.008969 0.008284 0.007921 0.006929
-Proportion Explained  0.02301 0.02191 0.01982 0.018539 0.017124 0.016373 0.014323
-Cumulative Proportion 0.51954 0.54145 0.56127 0.579813 0.596937 0.613310 0.627632
-                          PC17     PC18     PC19     PC20     PC21     PC22     PC23
-Eigenvalue            0.006853 0.006455 0.005993 0.005709 0.005377 0.005179 0.005109
-Proportion Explained  0.014164 0.013342 0.012388 0.011801 0.011115 0.010706 0.010560
-Cumulative Proportion 0.641797 0.655139 0.667526 0.679327 0.690442 0.701148 0.711708
-                          PC24     PC25     PC26     PC27     PC28    PC29     PC30
-Eigenvalue            0.004763 0.004546 0.004337 0.004244 0.004129 0.00404 0.003967
-Proportion Explained  0.009846 0.009398 0.008964 0.008772 0.008534 0.00835 0.008200
-Cumulative Proportion 0.721554 0.730952 0.739916 0.748688 0.757222 0.76557 0.773773
-                          PC31     PC32     PC33     PC34     PC35     PC36     PC37
-Eigenvalue            0.003879 0.003689 0.003637 0.003569 0.003481 0.003386 0.003282
-Proportion Explained  0.008017 0.007626 0.007518 0.007378 0.007196 0.007000 0.006785
-Cumulative Proportion 0.781790 0.789416 0.796934 0.804312 0.811508 0.818507 0.825292
-                          PC38     PC39     PC40     PC41     PC42     PC43     PC44
-Eigenvalue            0.003109 0.003095 0.003026 0.002963 0.002919 0.002815 0.002729
-Proportion Explained  0.006426 0.006397 0.006255 0.006125 0.006034 0.005818 0.005640
-Cumulative Proportion 0.831718 0.838114 0.844370 0.850495 0.856529 0.862346 0.867986
-                          PC45     PC46     PC47     PC48     PC49     PC50     PC51
-Eigenvalue            0.002642 0.002620 0.002593 0.002478 0.002470 0.002350 0.002308
-Proportion Explained  0.005462 0.005417 0.005360 0.005121 0.005105 0.004857 0.004771
-Cumulative Proportion 0.873448 0.878865 0.884225 0.889346 0.894452 0.899308 0.904079
-                          PC52     PC53     PC54     PC55     PC56     PC57     PC58
-Eigenvalue            0.002299 0.002249 0.002185 0.002148 0.002136 0.002080 0.002053
-Proportion Explained  0.004753 0.004649 0.004517 0.004440 0.004415 0.004299 0.004243
-Cumulative Proportion 0.908833 0.913481 0.917998 0.922438 0.926853 0.931151 0.935394
-                          PC59     PC60     PC61     PC62     PC63    PC64     PC65
-Eigenvalue            0.001999 0.001988 0.001884 0.001857 0.001839 0.00179 0.001769
-Proportion Explained  0.004132 0.004110 0.003893 0.003838 0.003802 0.00370 0.003657
-Cumulative Proportion 0.939527 0.943637 0.947530 0.951369 0.955171 0.95887 0.962528
-                          PC66     PC67     PC68    PC69     PC70     PC71     PC72
-Eigenvalue            0.001707 0.001678 0.001645 0.00164 0.001591 0.001534 0.001517
-Proportion Explained  0.003528 0.003468 0.003400 0.00339 0.003289 0.003171 0.003135
-Cumulative Proportion 0.966056 0.969524 0.972924 0.97631 0.979603 0.982774 0.985909
-                          PC73     PC74     PC75     PC76     PC77
-Eigenvalue            0.001473 0.001422 0.001341 0.001308 0.001273
-Proportion Explained  0.003045 0.002940 0.002771 0.002704 0.002631
-Cumulative Proportion 0.988954 0.991894 0.994665 0.997369 1.000000
+                         RDA1     RDA2     RDA3     RDA4     PC1     PC2     PC3
+Eigenvalue            0.01005 0.006735 0.004876 0.004042 0.05226 0.03666 0.02699
+Proportion Explained  0.02077 0.013921 0.010079 0.008354 0.10803 0.07578 0.05578
+Cumulative Proportion 0.02077 0.034686 0.044765 0.053119 0.16115 0.23694 0.29272
+                          PC4     PC5     PC6     PC7     PC8     PC9    PC10    PC11
+Eigenvalue            0.01891 0.01828 0.01474 0.01360 0.01314 0.01255 0.01128 0.01075
+Proportion Explained  0.03908 0.03779 0.03047 0.02811 0.02716 0.02593 0.02331 0.02223
+Cumulative Proportion 0.33180 0.36959 0.40007 0.42818 0.45533 0.48126 0.50457 0.52680
+                          PC12    PC13     PC14     PC15     PC16     PC17    PC18
+Eigenvalue            0.009621 0.00915 0.008344 0.008091 0.006975 0.006864 0.00660
+Proportion Explained  0.019887 0.01891 0.017247 0.016724 0.014417 0.014188 0.01364
+Cumulative Proportion 0.546684 0.56560 0.582843 0.599567 0.613983 0.628171 0.64181
+                         PC19     PC20     PC21     PC22     PC23     PC24     PC25
+Eigenvalue            0.00608 0.005854 0.005651 0.005351 0.005113 0.004894 0.004709
+Proportion Explained  0.01257 0.012100 0.011681 0.011061 0.010570 0.010115 0.009733
+Cumulative Proportion 0.65438 0.666482 0.678163 0.689224 0.699794 0.709909 0.719642
+                          PC26     PC27     PC28     PC29     PC30     PC31     PC32
+Eigenvalue            0.004488 0.004345 0.004234 0.004126 0.003973 0.003900 0.003842
+Proportion Explained  0.009278 0.008982 0.008751 0.008529 0.008211 0.008062 0.007941
+Cumulative Proportion 0.728920 0.737901 0.746652 0.755182 0.763393 0.771455 0.779396
+                          PC33     PC34     PC35     PC36     PC37     PC38     PC39
+Eigenvalue            0.003662 0.003619 0.003540 0.003479 0.003313 0.003245 0.003110
+Proportion Explained  0.007570 0.007482 0.007316 0.007192 0.006847 0.006708 0.006429
+Cumulative Proportion 0.786966 0.794447 0.801764 0.808956 0.815803 0.822510 0.828940
+                          PC40     PC41     PC42     PC43     PC44     PC45     PC46
+Eigenvalue            0.003048 0.002998 0.002919 0.002827 0.002768 0.002737 0.002627
+Proportion Explained  0.006300 0.006196 0.006034 0.005843 0.005721 0.005657 0.005430
+Cumulative Proportion 0.835240 0.841436 0.847470 0.853314 0.859035 0.864692 0.870122
+                          PC47     PC48     PC49     PC50     PC51     PC52     PC53
+Eigenvalue            0.002602 0.002558 0.002476 0.002435 0.002406 0.002330 0.002302
+Proportion Explained  0.005379 0.005287 0.005118 0.005034 0.004974 0.004816 0.004758
+Cumulative Proportion 0.875501 0.880788 0.885905 0.890939 0.895913 0.900729 0.905487
+                          PC54     PC55     PC56     PC57     PC58     PC59     PC60
+Eigenvalue            0.002293 0.002224 0.002141 0.002114 0.002086 0.002059 0.001999
+Proportion Explained  0.004739 0.004597 0.004425 0.004370 0.004312 0.004255 0.004133
+Cumulative Proportion 0.910225 0.914823 0.919248 0.923618 0.927930 0.932185 0.936317
+                          PC61     PC62     PC63     PC64     PC65     PC66     PC67
+Eigenvalue            0.001981 0.001937 0.001864 0.001838 0.001793 0.001771 0.001734
+Proportion Explained  0.004095 0.004003 0.003852 0.003798 0.003706 0.003660 0.003585
+Cumulative Proportion 0.940412 0.944416 0.948268 0.952066 0.955772 0.959433 0.963018
+                          PC68     PC69     PC70     PC71     PC72     PC73     PC74
+Eigenvalue            0.001683 0.001657 0.001633 0.001616 0.001531 0.001521 0.001482
+Proportion Explained  0.003479 0.003425 0.003375 0.003341 0.003164 0.003143 0.003064
+Cumulative Proportion 0.966497 0.969922 0.973297 0.976638 0.979802 0.982946 0.986010
+                          PC75     PC76     PC77     PC78     PC79
+Eigenvalue            0.001472 0.001422 0.001336 0.001283 0.001255
+Proportion Explained  0.003043 0.002940 0.002761 0.002653 0.002594
+Cumulative Proportion 0.989053 0.991993 0.994754 0.997406 1.000000
 
 === ANOVA RESULTS (Permutation test) ===
 Permutation test for rda under reduced model
@@ -64,42 +64,27 @@ Terms added sequentially (first to last)
 Permutation: free
 Number of permutations: 999
 
-Model: rda(formula = abundance_hell ~ Group + Age + Gender + BMI + Smoking + Drinking, data = env_filtered)
+Model: rda(formula = abundance_hell ~ Group + Age + Gender + BMI, data = env_filtered)
          Df Variance      F Pr(>F)  
-Group     1  0.00833 1.4421  0.038 *
-Age       1  0.00720 1.2453  0.112  
-Gender    1  0.00462 0.7990  0.867  
-BMI       1  0.00555 0.9602  0.499  
-Smoking   1  0.00764 1.3227  0.066 .
-Drinking  1  0.00543 0.9404  0.560  
-Residual 77  0.44501                
+Group     1  0.00833 1.4373  0.042 *
+Age       1  0.00720 1.2412  0.119  
+Gender    1  0.00462 0.7964  0.842  
+BMI       1  0.00555 0.9570  0.522  
+Residual 79  0.45809                
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 === ENVIRONMENTAL VARIABLE COEFFICIENTS ===
-                        RDA1         RDA2         RDA3          RDA4         RDA5
-GroupCON         0.144650348  0.074380801  0.141880992 -0.0238187840 -0.081024460
-Age             -0.002593709 -0.008202828  0.006012876  0.0004716594 -0.003176538
-GenderMale       0.052044943 -0.039896615  0.076405122  0.0758639830  0.052313571
-BMI              0.010212976 -0.011198437  0.010181567  0.0185804550  0.007692081
-SmokingSmoker   -0.153070167  0.167860449  0.133517172  0.0181912789 -0.003163240
-DrinkingDrinker  0.061771235 -0.034760190 -0.138750044  0.1180535913 -0.202368088
-                         RDA6
-GroupCON         0.0026667764
-Age              0.0003854661
-GenderMale       0.2361147750
-BMI             -0.0176076069
-SmokingSmoker   -0.0633923541
-DrinkingDrinker -0.0034980039
+                   RDA1         RDA2         RDA3          RDA4
+GroupMI    -0.198426763  0.077955167 -0.075074310 -0.0363069631
+Age        -0.004026263 -0.009995657  0.001921214  0.0004932056
+GenderMale  0.031032692 -0.073752467 -0.092618032  0.2258629292
+BMI         0.008374128 -0.018009077 -0.018201882 -0.0177829430
 
 === VARIABLE LABELS EXPLANATION ===
 MI: Myocardial Infarction group
 CON: Control group
 Male: Male (reference: Female)
 Female: Female
-Smoke_Y: Smoker (reference: Non-smoker)
-Smoke_N: Non-smoker
-Drink_Y: Drinker (reference: Non-drinker)
-Drink_N: Non-drinker
 Age: Age (continuous)
 BMI: Body Mass Index (continuous)

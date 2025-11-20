@@ -11,13 +11,13 @@ library(dplyr)
 # 1. 文件路径
 # ----------------------------
 otu_files <- list(
-  virus    = "D:/PythonProject/micro_MI/metagenome/data_figures/filtered_data_1percent_change_virus/心梗组_病毒_filtered_1percent.csv"
+  virus    = "E:/Python/MI_Analysis/metagenome/data_figures/filtered_data_1percent_change_virus/心梗组_病毒_filtered_1percent.csv"
 )
 
-metadata_file = "D:/PythonProject/micro_MI/origin_data/样本协变量数据.xlsx"
+metadata_file = "E:/Python/MI_Analysis/origin_data/样本协变量数据.xlsx"
 
 # 输出文件夹
-output_dir <- "D:/PythonProject/micro_MI/metagenome/Graphic/Covariate_Virus_Differential_Analysis/"
+output_dir <- "E:/Python/MI_Analysis/metagenome/Graphic/Covariate_Virus_Differential_Analysis/"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # ----------------------------
